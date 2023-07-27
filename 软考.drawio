@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T09:48:04.567Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="kxW-zsk_c-a4XlYiMMB1" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T09:51:18.144Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="AQN3tolJTWATPAlEAMhN" version="21.6.5" type="github">
   <diagram name="第 1 页" id="edIoZuRB3zaZxlKi64ll">
     <mxGraphModel dx="1194" dy="810" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1400" math="0" shadow="0">
       <root>
@@ -7,16 +7,16 @@
         <mxCell id="qfht6-_884fc5smqtkyN-204" value="调度管理前端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="250" y="162" width="120" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="qfht6-_884fc5smqtkyN-206" value="调度管理前端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="qfht6-_884fc5smqtkyN-206" value="门禁识别前端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="252" y="317.5" width="120" height="37" as="geometry" />
         </mxCell>
         <mxCell id="qfht6-_884fc5smqtkyN-208" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="476" y="193" width="149" height="182" as="geometry" />
         </mxCell>
-        <mxCell id="qfht6-_884fc5smqtkyN-209" value="调度管理前端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="qfht6-_884fc5smqtkyN-209" value="小程序前端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="250" y="456.5" width="120" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="qfht6-_884fc5smqtkyN-210" value="调度管理前端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="qfht6-_884fc5smqtkyN-210" value="智能边缘工具" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="490" y="237" width="120" height="37" as="geometry" />
         </mxCell>
         <mxCell id="qfht6-_884fc5smqtkyN-211" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -31,19 +31,19 @@
         <mxCell id="qfht6-_884fc5smqtkyN-214" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="703" y="164" width="148" height="192" as="geometry" />
         </mxCell>
-        <mxCell id="qfht6-_884fc5smqtkyN-215" value="调度管理前端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="qfht6-_884fc5smqtkyN-215" value="（8）模块" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="716" y="372" width="120" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="qfht6-_884fc5smqtkyN-216" value="调度管理前端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="qfht6-_884fc5smqtkyN-216" value="边缘应用管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="716" y="255" width="120" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="qfht6-_884fc5smqtkyN-217" value="调度管理前端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="qfht6-_884fc5smqtkyN-217" value="边缘设备管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="716" y="203" width="120" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="qfht6-_884fc5smqtkyN-218" value="调度管理前端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="qfht6-_884fc5smqtkyN-218" value="消息上报" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="716" y="311" width="120" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="qfht6-_884fc5smqtkyN-220" value="调度管理前端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="qfht6-_884fc5smqtkyN-220" value="（10）模块" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="716" y="453" width="120" height="44" as="geometry" />
         </mxCell>
         <mxCell id="qfht6-_884fc5smqtkyN-221" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.012;entryY=0.094;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qfht6-_884fc5smqtkyN-204" target="qfht6-_884fc5smqtkyN-214">
@@ -127,6 +127,21 @@
         </mxCell>
         <mxCell id="qfht6-_884fc5smqtkyN-236" value="(1)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="528.0031807260896" y="166.00424231371687" as="geometry" />
+        </mxCell>
+        <mxCell id="qfht6-_884fc5smqtkyN-238" value="图 5-1 基于边缘计算的智能门禁系统" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="386" y="524" width="327" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qfht6-_884fc5smqtkyN-239" value="（9）模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="729" y="170" width="86" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="qfht6-_884fc5smqtkyN-240" value="应用容器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="510" y="284" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="qfht6-_884fc5smqtkyN-241" value="边缘设备" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="476" y="196" width="75" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="qfht6-_884fc5smqtkyN-242" value="云平台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="686" y="124" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
