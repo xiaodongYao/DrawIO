@@ -1,9 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2023-09-04T12:46:33.678Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" version="21.6.6" etag="bn6caGMdS4GeksKBRVNF" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-04T12:48:46.531Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" etag="A26WvFDRVcmCKEpJjSkl" version="21.6.6" type="github">
   <diagram name="第 1 页" id="v0tBh7eM75tGoSStdjJV">
-    <mxGraphModel>
+    <mxGraphModel dx="2026" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="100000" pageHeight="10000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="S2ZQcKk1eDtn3FuGJNjF-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S2ZQcKk1eDtn3FuGJNjF-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S2ZQcKk1eDtn3FuGJNjF-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S2ZQcKk1eDtn3FuGJNjF-5" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="640" y="880" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="S2ZQcKk1eDtn3FuGJNjF-6" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="890" y="620" width="80" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="S2ZQcKk1eDtn3FuGJNjF-7" value="云Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="835" width="90" height="200" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
