@@ -1,41 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2023-09-16T09:31:37.315Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.81" etag="XH_gbcPiEPHSJ-IDpPPI" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-16T09:42:47.882Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.81" etag="ER6xLyaFROu8250frzIL" version="21.7.5" type="github">
   <diagram name="第 1 页" id="edIoZuRB3zaZxlKi64ll">
     <mxGraphModel dx="1187" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="UY6UssRv_SOol4y7VN9k-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="UY6UssRv_SOol4y7VN9k-8" target="UY6UssRv_SOol4y7VN9k-9">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="UY6UssRv_SOol4y7VN9k-19" value="Java语言代码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="249" y="145" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UY6UssRv_SOol4y7VN9k-8" value="主函数" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="272" y="276" width="83" height="34" as="geometry" />
+        <mxCell id="UY6UssRv_SOol4y7VN9k-20" value="字节码文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="249" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UY6UssRv_SOol4y7VN9k-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=16;" edge="1" parent="1" source="UY6UssRv_SOol4y7VN9k-9" target="UY6UssRv_SOol4y7VN9k-8">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="UY6UssRv_SOol4y7VN9k-22" value="JAVA虚拟机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="249" y="395" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UY6UssRv_SOol4y7VN9k-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="UY6UssRv_SOol4y7VN9k-9" target="UY6UssRv_SOol4y7VN9k-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="UY6UssRv_SOol4y7VN9k-9" value="事件管理器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="401" y="185" width="111" height="37" as="geometry" />
-        </mxCell>
-        <mxCell id="UY6UssRv_SOol4y7VN9k-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;fontSize=16;" edge="1" parent="1" source="UY6UssRv_SOol4y7VN9k-10" target="UY6UssRv_SOol4y7VN9k-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="UY6UssRv_SOol4y7VN9k-10" value="子函数" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="559" y="276" width="76" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="UY6UssRv_SOol4y7VN9k-15" value="触发事件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="308" y="211" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="UY6UssRv_SOol4y7VN9k-16" value="返回执行结构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="412" y="278.5" width="97.5" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="UY6UssRv_SOol4y7VN9k-17" value="通知执行" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="564" y="211" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="UY6UssRv_SOol4y7VN9k-18" value="独立构件风格" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="279" y="163" width="111" height="27" as="geometry" />
+        <mxCell id="UY6UssRv_SOol4y7VN9k-23" value="操作系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="249" y="520" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
