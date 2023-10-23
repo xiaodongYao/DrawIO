@@ -1,64 +1,167 @@
-<mxfile host="app.diagrams.net" modified="2023-09-16T12:48:12.247Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.81" etag="njjz8rO-WO7CdisgXRq7" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-23T13:11:41.372Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="duL9gQYObzpZ2imEcAmc" version="21.7.5" type="github">
   <diagram name="第 1 页" id="edIoZuRB3zaZxlKi64ll">
-    <mxGraphModel dx="1187" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="952" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="UY6UssRv_SOol4y7VN9k-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=16;strokeColor=#e81111;" edge="1" parent="1" source="UY6UssRv_SOol4y7VN9k-37" target="UY6UssRv_SOol4y7VN9k-40">
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-1" value="论软件建模系统方法及其应用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="510" y="42" width="226" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="OHOCKgPiXyrj8ZHRfish-2" target="OHOCKgPiXyrj8ZHRfish-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UY6UssRv_SOol4y7VN9k-45" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="UY6UssRv_SOol4y7VN9k-37" target="UY6UssRv_SOol4y7VN9k-38">
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-2" value="面向对象建模方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="417" y="161" width="137" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="OHOCKgPiXyrj8ZHRfish-5" target="OHOCKgPiXyrj8ZHRfish-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UY6UssRv_SOol4y7VN9k-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=16;strokeColor=#e70d0d;" edge="1" parent="1" source="UY6UssRv_SOol4y7VN9k-37" target="UY6UssRv_SOol4y7VN9k-39">
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OHOCKgPiXyrj8ZHRfish-5" target="OHOCKgPiXyrj8ZHRfish-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UY6UssRv_SOol4y7VN9k-37" value="View" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="328" y="361" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="UY6UssRv_SOol4y7VN9k-46" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="UY6UssRv_SOol4y7VN9k-38" target="UY6UssRv_SOol4y7VN9k-39">
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OHOCKgPiXyrj8ZHRfish-5" target="OHOCKgPiXyrj8ZHRfish-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UY6UssRv_SOol4y7VN9k-55" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.768;entryY=0.098;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UY6UssRv_SOol4y7VN9k-38" target="UY6UssRv_SOol4y7VN9k-37">
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-5" value="基于UML中的4+1视图" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="632" y="148.75" width="169" height="59.25" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OHOCKgPiXyrj8ZHRfish-7" target="OHOCKgPiXyrj8ZHRfish-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UY6UssRv_SOol4y7VN9k-38" value="Controlker" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="489" y="206" width="120" height="80" as="geometry" />
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OHOCKgPiXyrj8ZHRfish-7" target="OHOCKgPiXyrj8ZHRfish-54">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UY6UssRv_SOol4y7VN9k-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;fontSize=16;strokeColor=#E70D0D;" edge="1" parent="1" source="UY6UssRv_SOol4y7VN9k-39" target="UY6UssRv_SOol4y7VN9k-37">
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-7" value="逻辑视图" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="868" y="160" width="76" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OHOCKgPiXyrj8ZHRfish-9" target="OHOCKgPiXyrj8ZHRfish-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-9" value="场景视图&lt;br style=&quot;font-size: 16px;&quot;&gt;" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="866" y="86" width="77" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OHOCKgPiXyrj8ZHRfish-10" target="OHOCKgPiXyrj8ZHRfish-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-10" value="物理视图" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="868" y="224" width="72" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-13" value="以用例图分析主要用户角色与用例" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1023" y="86" width="377" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-15" value="通过包图对系统的前端Web服务、平台保障服务、业务功能建模" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1025" y="154" width="377" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-16" value="使用部署图描述微服务在硬件环境的具体部署方法" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1027" y="222.5" width="377" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OHOCKgPiXyrj8ZHRfish-19" target="OHOCKgPiXyrj8ZHRfish-28">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="614" y="429" />
-              <mxPoint x="614" y="429" />
-            </Array>
+            <mxPoint x="619" y="326" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UY6UssRv_SOol4y7VN9k-39" value="Model" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="658" y="361" width="120" height="80" as="geometry" />
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-19" value="题库模块" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="421" y="342" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UY6UssRv_SOol4y7VN9k-41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.327;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" edge="1" parent="1" source="UY6UssRv_SOol4y7VN9k-40" target="UY6UssRv_SOol4y7VN9k-37">
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OHOCKgPiXyrj8ZHRfish-20" target="OHOCKgPiXyrj8ZHRfish-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UY6UssRv_SOol4y7VN9k-40" value="User" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="68" y="371" width="120" height="60" as="geometry" />
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-20" value="实验作业模块" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="419" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UY6UssRv_SOol4y7VN9k-49" value="6.渲染变化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="213" y="431" width="94" height="40" as="geometry" />
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OHOCKgPiXyrj8ZHRfish-21" target="OHOCKgPiXyrj8ZHRfish-33">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UY6UssRv_SOol4y7VN9k-50" value="5.发送变化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="501" y="431" width="94" height="40" as="geometry" />
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-21" value="评测机模块" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="419" y="426" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UY6UssRv_SOol4y7VN9k-51" value="4.请求改变" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="498" y="333" width="97" height="40" as="geometry" />
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OHOCKgPiXyrj8ZHRfish-22" target="OHOCKgPiXyrj8ZHRfish-39">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UY6UssRv_SOol4y7VN9k-52" value="2.通知操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="352" y="275" width="94" height="40" as="geometry" />
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OHOCKgPiXyrj8ZHRfish-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="332" y="644" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="UY6UssRv_SOol4y7VN9k-53" value="3.更新模型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="679" y="275" width="94" height="40" as="geometry" />
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-22" value="考试模块" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="419" y="614" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UY6UssRv_SOol4y7VN9k-54" value="1.触发操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="223" y="331" width="94" height="40" as="geometry" />
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OHOCKgPiXyrj8ZHRfish-23" target="OHOCKgPiXyrj8ZHRfish-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-23" value="用户管理模块" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="417" y="891" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OHOCKgPiXyrj8ZHRfish-24" target="OHOCKgPiXyrj8ZHRfish-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-24" value="比赛模块" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="421" y="705" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OHOCKgPiXyrj8ZHRfish-25" target="OHOCKgPiXyrj8ZHRfish-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-25" value="抄袭判定模块" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="419" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-28" value="负责试题和测试用例的管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="644" y="351" width="222" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="OHOCKgPiXyrj8ZHRfish-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="327" y="428.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-29" value="测试用例" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="255" y="408" width="75" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OHOCKgPiXyrj8ZHRfish-30" target="OHOCKgPiXyrj8ZHRfish-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-30" value="程序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="266" y="471" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OHOCKgPiXyrj8ZHRfish-33" target="OHOCKgPiXyrj8ZHRfish-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-33" value="自动编译、执行、判分" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="621" y="439" width="222" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-35" value="结果发送给其他相关模块进行统计" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="913" y="439" width="253" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-37" value="用于在线作业布置，从题库选取试题，设置截止日期等要求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="629" y="521" width="467" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-39" value="用于学生在线考试，按照教师预先设置的参数自动从题库中随机抽题生成试卷" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="629" y="627" width="554" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-41" value="教务平台" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="213" y="605" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-43" value="上传成绩" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="346" y="608" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-44" value="主要用于ACM竞赛的培训" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="644" y="718" width="222" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-46" value="用于鉴定代码和其他代码的雷同率" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="638" y="814" width="248" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-48" value="负责用户信息的管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="631" y="908" width="248" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-51" value="系统以程序代码在线提交自动评测功能为核心" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="406" y="299" width="331" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-52" value="在这个项目中，我担任了系统架构师的职务，主要负责系统的架构设计相关工作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="343" y="977" width="587" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-54" value="最终系统顺利上线获得用户的一致好评" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="855" y="277" width="254" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-57" value="场景视图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1686" y="342" width="86" height="37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
