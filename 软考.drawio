@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-23T13:11:41.372Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="duL9gQYObzpZ2imEcAmc" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-23T14:07:00.642Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="dJkRWTNiNzbhon6hSoc5" version="21.7.5" type="github">
   <diagram name="第 1 页" id="edIoZuRB3zaZxlKi64ll">
-    <mxGraphModel dx="1509" dy="952" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
+    <mxGraphModel dx="1677" dy="952" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,9 +26,6 @@
           <mxGeometry x="632" y="148.75" width="169" height="59.25" as="geometry" />
         </mxCell>
         <mxCell id="OHOCKgPiXyrj8ZHRfish-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OHOCKgPiXyrj8ZHRfish-7" target="OHOCKgPiXyrj8ZHRfish-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OHOCKgPiXyrj8ZHRfish-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OHOCKgPiXyrj8ZHRfish-7" target="OHOCKgPiXyrj8ZHRfish-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OHOCKgPiXyrj8ZHRfish-7" value="逻辑视图" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
@@ -161,7 +158,109 @@
           <mxGeometry x="855" y="277" width="254" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OHOCKgPiXyrj8ZHRfish-57" value="场景视图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1686" y="342" width="86" height="37" as="geometry" />
+          <mxGeometry x="1687" y="402" width="86" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-58" value="面向高校学生程序设计语言的在线学习、考试、比赛，经过分析，结合用户需求，在系统中划定了四类用户角色" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1847" y="307" width="826" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-59" value="在校学生、任课老师、系统管理员、校外人员" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1847" y="345.5" width="344" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-60" value="在校学生" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1851" y="385" width="76" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-61" value="任课老师" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1853" y="418" width="74" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-62" value="系统管理员" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1846" y="451" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-63" value="校外人员" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1844" y="483" width="83" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-64" value="主要使用者，学生涉及的主要用例：登录系统，提交代码，自由练习，参加考试，提交实业作业、参加比赛、信息维护、查看系统帮助、交流讨论等" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1971" y="385" width="1051" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-65" value="OJ系统的管理者，教师涉及的主要用例有：登录系统、信息维护、班级管理、助教管理、学生管理、考试管理、题库管理、实业作业管理、比赛管理、代码查重、论坛管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1962" y="418" width="1231" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-66" value="拥有OJ系统的最高权限，在具备学生和教师所有用例的基础上，增加教师管理，评测机管理、系统管理、服务器管理等" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1962" y="451" width="901" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-67" value="主要面向社会以及其他高校的编程学习爱好者，仅具备登录系统，提交代码，自由练习，参加比赛，擦好看系统帮助五种用例" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1966" y="483" width="921" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-68" value="逻辑视图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1674" y="661" width="86" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-69" value="经过分析决定，采用微服务架构风格，将系统分为前端Web服务、平台保障服务，业务服务三部分" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1781" y="547" width="723" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-70" value="前端Web服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1840.5" y="591" width="113" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-71" value="业务服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1840.5" y="691" width="113" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-72" value="平台保障服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1847" y="641" width="113" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-73" value="由负载均衡与服务器集群相结合，解决前台界面并发问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1944" y="591" width="436" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-74" value="平台保障服务分为API网关、服务注册中心、监控平台，用以实现基础服务框架，" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="641" width="626" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-75" value="业务服务分为多个微服务，实现具体的业务功能，解决协同问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="691" width="556" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-76" value="当用户通过网路访问系统时，首先会访问前置的负载均衡服务器，负载均衡服务器会将请求转发到前端网站的集群，前端网站发起http请求来和后端交互" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1812" y="743" width="1103" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-77" value="API网关收到前端请求，会从服务注册中心根据当前请求，来获取对应的配置，随后通过服务配置再调用已注册的服务。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1812" y="773" width="954" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-78" value="当后端微服务存在多个实例时，将采用负载均衡的方式调用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1832" y="805" width="523" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-79" value="后端微服务通过同步消息、异步消息、工作流三种方式协同工作，完成具体业务功能。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1840.5" y="837" width="650.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-80" value="服务监控平台注册到服务注册中心，获取后端业务服务的运行状态信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1835" y="874" width="556" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-82" value="物理视图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1674" y="1029" width="86" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-83" value="系统微服务采用分布式的部署方法，每个微服务单独编译、打包、部署，基于Docker容器连同运行环境一起封装，根据实际情况可在同一台物理机或多台物理机器上同时部署多个实例来提高系统的性能" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="971" width="1418" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-84" value="服务启动后将自身信息注册到已部署好的分布式服务注册中心，所有客户端请求一律进入路由网关，路由网关根据请求通过服务注册中心来进行服务发现，然后通过反向代理的方式调用具体服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1785" y="1007" width="1378" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-85" value="在分布式部署多个服务的基础上，前端服务器集群通过Nginx负载均衡服务器做统一代理访问，部署为路由模式，系统内部网络与外部网络分属不同的逻辑网络，以实现系统内部与外部的隔离" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1785" y="1052" width="1354" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-86" value="在负载均衡算法的选择上，使用了最小连接法，每当客户的请求来临时，任务分发单元将任务平滑分配给最小连接数的微服务节点，这样的部署方法以廉价且透明的方式扩展了服务器和网络的带宽，可以大大提升系统的并发量，同时保证系统整体稳定性和可靠性" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1781" y="1091" width="1295" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-87" value="总结" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="3657" y="316" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-88" value="通过4+1视图的场景视图、逻辑视图和物理视图等建模方式，对系统进行了详细的分析，为系统的设计和接下来的项目开发提供了有力的支持" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="3636" y="342" width="1083" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-90" value="系统从2019年10月正式上线已经一年有余，在学校的日常教学考试和竞赛培训中投入使用，截止目前已经有3000名以上的学生用户、评测了70000份以上的程序代码，获得了单位同事领导和学校教师们的一致好评" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="3675" y="386.5" width="1085" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-91" value="不可避免的，我们在设计过程中，也存在一些问题和不足，不少开发人员在实现过程中有时还是习惯原有的结构化设计方法，对4+1视图使用有些抵触。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="3662" y="443" width="961" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-93" value="而且，这些视图在应用过程中，往往不是单独使用，需要多个视图综合运用。这方便我们还缺少相关的经验" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="3621" y="485" width="961" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OHOCKgPiXyrj8ZHRfish-94" value="实践证明，OJ系统能够顺利上线，并且稳定运行，与系统采用了合适的软件系统建模方法密不可分。经过这次4+1视图的建模方法和实施的效果后，我也看到了自己身上的不足之处，在未来还会不断更新知识，完善本系统在各方面的设计，使整个系统能够更加好用，更加有效地服务于高校师生" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="3579" y="565" width="1218" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
