@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-25T10:51:10.725Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="IiWzgmL-qE00qiuwqEUg" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-25T11:02:12.646Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="_IUl81vQFotXdAiB0mhQ" version="22.0.8" type="github">
   <diagram name="第 1 页" id="NLoXYbT1jdfY4DKMpZzK">
     <mxGraphModel dx="1233" dy="975" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -29,7 +29,49 @@
           <mxGeometry x="103" y="698" width="106" height="33" as="geometry" />
         </mxCell>
         <mxCell id="Ui8WLxv8zB1vM958ZW1R-11" value="业务服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="111" y="767" width="106" height="33" as="geometry" />
+          <mxGeometry x="105" y="767" width="77" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui8WLxv8zB1vM958ZW1R-12" value="总结" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="119.5" y="1144" width="48" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui8WLxv8zB1vM958ZW1R-13" value="1.业务服务是按模块划分，每个模块对应一个服务、外加一个MQ队列服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="145" y="802" width="536" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui8WLxv8zB1vM958ZW1R-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ui8WLxv8zB1vM958ZW1R-14" target="Ui8WLxv8zB1vM958ZW1R-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui8WLxv8zB1vM958ZW1R-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ui8WLxv8zB1vM958ZW1R-14" target="Ui8WLxv8zB1vM958ZW1R-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="217" y="902" />
+              <mxPoint x="323" y="902" />
+              <mxPoint x="323" y="899" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ui8WLxv8zB1vM958ZW1R-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ui8WLxv8zB1vM958ZW1R-14" target="Ui8WLxv8zB1vM958ZW1R-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui8WLxv8zB1vM958ZW1R-14" value="2.打包+部署+注册" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="151" y="850" width="132" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui8WLxv8zB1vM958ZW1R-15" value="各服务单独打包，基于Docker容器，运行环境也是一起封装的" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="363" y="836" width="438" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui8WLxv8zB1vM958ZW1R-17" value="根据实际情况部署在一台或多台物理机上部署多个实例" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="363" y="884" width="438" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui8WLxv8zB1vM958ZW1R-23" value="服务启动将自身信息注册到服务注册中心" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="363" y="938" width="438" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui8WLxv8zB1vM958ZW1R-25" value="3.服务的发现+动态调用+部分压力较大服务部署多实例集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="143" y="981" width="371" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui8WLxv8zB1vM958ZW1R-27" value="4.考试服务举例" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="141" y="1044" width="121" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui8WLxv8zB1vM958ZW1R-30" value="评测机，抄袭判定" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="525" y="983.5" width="144" height="27" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
