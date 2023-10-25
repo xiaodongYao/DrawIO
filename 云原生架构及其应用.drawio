@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-25T10:47:02.715Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="XPl_Ci_i9pm1pt5nWlUb" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-25T10:51:10.725Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="IiWzgmL-qE00qiuwqEUg" version="22.0.8" type="github">
   <diagram name="第 1 页" id="NLoXYbT1jdfY4DKMpZzK">
     <mxGraphModel dx="1233" dy="975" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -16,11 +16,20 @@
         <mxCell id="Ui8WLxv8zB1vM958ZW1R-4" value="项目功能模块具体分析" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="103" y="497" width="166" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="Ui8WLxv8zB1vM958ZW1R-5" value="介绍云原生" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="103" y="540" width="83" height="33" as="geometry" />
+        <mxCell id="Ui8WLxv8zB1vM958ZW1R-5" value="介绍云原生、回答问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="103" y="540" width="169" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="Ui8WLxv8zB1vM958ZW1R-8" value="OJ系统采用微服务框架" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="106" y="586" width="632" height="33" as="geometry" />
+        <mxCell id="Ui8WLxv8zB1vM958ZW1R-8" value="OJ系统基于Spring Cloud微服务框架开发，将平台服务划分为三类，前端Web服务、平台保障服务、业务服务。接下来针对这三类服务展开具体说明" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="98" y="586" width="1052" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui8WLxv8zB1vM958ZW1R-9" value="前端Web服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="103" y="629" width="106" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui8WLxv8zB1vM958ZW1R-10" value="平台保障服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="103" y="698" width="106" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui8WLxv8zB1vM958ZW1R-11" value="业务服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="111" y="767" width="106" height="33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
