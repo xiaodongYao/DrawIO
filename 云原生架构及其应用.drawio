@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T12:20:38.887Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="2GYQ1YI3v3nM8wUIGVLb" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-26T12:35:20.943Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="qFdv5iMcleUQszoYswC3" version="22.0.8" type="github">
   <diagram name="第 1 页" id="NLoXYbT1jdfY4DKMpZzK">
     <mxGraphModel dx="1597" dy="972" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -363,7 +363,7 @@
         <mxCell id="1Fn_G9KVaygR7puTWX5g-59" value="应用被分解为多个服务，可以分别选择不同的技术，单个服务模块很容易开发、理解和维护，无需协调其他服务对本服务的影响" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="316" y="637.5" width="668" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="1Fn_G9KVaygR7puTWX5g-62" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-62" value="微服务可以分布式运化部署，负载均衡管理请求的分发，避免单机失败对整体服务的影响，以及弹性调整资源容量" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="315" y="695" width="668" height="43" as="geometry" />
         </mxCell>
         <mxCell id="1Fn_G9KVaygR7puTWX5g-63" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
