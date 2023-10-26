@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T10:56:52.447Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="tKTOh97dzWT1SfXgTr2g" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-26T11:04:21.649Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="Y9oQ_FJ1f9cuZbebwlAb" version="22.0.8" type="github">
   <diagram name="第 1 页" id="NLoXYbT1jdfY4DKMpZzK">
     <mxGraphModel dx="1597" dy="972" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -273,8 +273,29 @@
         <mxCell id="1Fn_G9KVaygR7puTWX5g-30" value="作用是已起到将用户请求进行分流 的作用。当前端网站集群中的部分服务发生故障，系统仍可对外提供服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1593" y="947" width="366" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="1Fn_G9KVaygR7puTWX5g-32" value="&lt;span style=&quot;color: rgb(77, 77, 77); font-family: -apple-system, &amp;quot;SF UI Text&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: no-common-ligatures; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;2.前端网站Nginx集群&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1419" y="1024" width="165" height="41" as="geometry" />
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-32" value="&lt;span style=&quot;color: rgb(77, 77, 77); font-family: -apple-system, &amp;quot;SF UI Text&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: no-common-ligatures; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;4.负载均衡实现方式+部署+网络+负载均衡算法及好处&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1419" y="1024" width="399" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-34" value="使用软件反向代理方式老师先负载均衡" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1439" y="1069" width="302" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-35" value="部署为路由模式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="1102" width="116" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-36" value="系统内部网络和外部网络分属于不同的逻辑网络，以实现内部与外部网络的隔离" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1452" y="1139" width="573" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-37" value="负载均衡算法上采用最小连接法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1456" y="1168" width="230" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-38" value="每当用户请求来临，任务分发单元将任务平滑分配给最小连接数的前端网络结点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1456" y="1198" width="580" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-39" value="&lt;font face=&quot;-apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif&quot; color=&quot;#4d4d4d&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-variant-ligatures: no-common-ligatures; background-color: rgb(255, 255, 255); font-size: 16px;&quot;&gt;5.架构好处&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1416" y="1239" width="101" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-40" value="这样的架构方式以廉价透明的方式扩展了服务器和网络的带宽，大大提升系统的的并发量，同时保证网站前端整体的稳定性和可靠性" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="1278" width="957" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
