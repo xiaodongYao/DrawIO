@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T12:18:53.416Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="M0sfYjanjEkcQ86zZcRc" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-26T12:19:28.399Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="M2RDpIVNGn2ubg59gQcw" version="22.0.8" type="github">
   <diagram name="第 1 页" id="NLoXYbT1jdfY4DKMpZzK">
     <mxGraphModel dx="1597" dy="972" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -333,26 +333,26 @@
         <mxCell id="1Fn_G9KVaygR7puTWX5g-53" value="Spring Boot Cors" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="512.5" y="20" width="141" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1Fn_G9KVaygR7puTWX5g-54" value="云原生以微服务和容器化为代表，有服务化、强韧性、可观测性、自动化四类设计原则" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="117" y="594" width="478" height="30" as="geometry" />
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-54" value="云原生以微服务和容器化为代表，有服务化、强韧性、可观测性、自动化四类设计原则" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="117" y="594" width="684" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1Fn_G9KVaygR7puTWX5g-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1Fn_G9KVaygR7puTWX5g-55" target="1Fn_G9KVaygR7puTWX5g-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1Fn_G9KVaygR7puTWX5g-55" value="通过服务化设计原则" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="130" y="644" width="112" height="30" as="geometry" />
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-55" value="通过服务化设计原则" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="87" y="644" width="155" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1Fn_G9KVaygR7puTWX5g-56" value="通过强韧性设计原则" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="130" y="691" width="112" height="30" as="geometry" />
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-56" value="通过强韧性设计原则" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="89" y="691" width="153" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1Fn_G9KVaygR7puTWX5g-57" value="通过可观测性设计原则" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="128" y="742" width="128" height="30" as="geometry" />
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-57" value="通过可观测性设计原则" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="89" y="742" width="167" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1Fn_G9KVaygR7puTWX5g-58" value="通过自动化设计原则" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="128" y="803" width="112" height="30" as="geometry" />
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-58" value="通过自动化设计原则" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="94" y="803" width="146" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1Fn_G9KVaygR7puTWX5g-59" value="应用被分解为多个服务，可以分别选择不同的技术，单个服务模块很容易开发、理解和维护，无需协调其他服务对本服务的影响" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="316" y="637.5" width="629" height="43" as="geometry" />
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-59" value="应用被分解为多个服务，可以分别选择不同的技术，单个服务模块很容易开发、理解和维护，无需协调其他服务对本服务的影响" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="316" y="637.5" width="668" height="43" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
