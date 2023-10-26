@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T11:27:56.331Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="-Pck-M8EGSltJfnnxDdT" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-26T11:33:16.939Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="Qs-Hx-KFsMt79pfX-g7r" version="22.0.8" type="github">
   <diagram name="第 1 页" id="NLoXYbT1jdfY4DKMpZzK">
     <mxGraphModel dx="1597" dy="972" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -335,6 +335,24 @@
         </mxCell>
         <mxCell id="1Fn_G9KVaygR7puTWX5g-54" value="云原生以微服务和容器化为代表，有服务化、强韧性、可观测性、自动化四类设计原则" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="117" y="594" width="478" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1Fn_G9KVaygR7puTWX5g-55" target="1Fn_G9KVaygR7puTWX5g-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-55" value="通过服务化设计原则" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="644" width="112" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-56" value="通过强韧性设计原则" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="691" width="112" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-57" value="通过可观测性设计原则" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="128" y="742" width="128" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-58" value="通过自动化设计原则" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="128" y="803" width="112" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-59" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="316" y="637.5" width="92" height="43" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
