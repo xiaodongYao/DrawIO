@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T11:34:14.944Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="fT9U4i0W6ITLTh3SL6E8" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-26T12:18:53.416Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="M0sfYjanjEkcQ86zZcRc" version="22.0.8" type="github">
   <diagram name="第 1 页" id="NLoXYbT1jdfY4DKMpZzK">
     <mxGraphModel dx="1597" dy="972" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -351,8 +351,8 @@
         <mxCell id="1Fn_G9KVaygR7puTWX5g-58" value="通过自动化设计原则" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="128" y="803" width="112" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1Fn_G9KVaygR7puTWX5g-59" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="316" y="637.5" width="92" height="43" as="geometry" />
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-59" value="应用被分解为多个服务，可以分别选择不同的技术，单个服务模块很容易开发、理解和维护，无需协调其他服务对本服务的影响" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="316" y="637.5" width="629" height="43" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
