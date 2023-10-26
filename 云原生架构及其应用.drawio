@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T11:07:43.031Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="epnBME_IZVVXN-4TD0Ho" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-26T11:12:52.855Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="0A_XWFoZ9sk_gVVKiv-O" version="22.0.8" type="github">
   <diagram name="第 1 页" id="NLoXYbT1jdfY4DKMpZzK">
     <mxGraphModel dx="1597" dy="972" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -296,6 +296,21 @@
         </mxCell>
         <mxCell id="1Fn_G9KVaygR7puTWX5g-40" value="这样的架构方式以廉价透明的方式扩展了服务器和网络的带宽，大大提升系统的的并发量，同时保证网站前端整体的稳定性和可靠性" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1450" y="1278" width="957" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-41" value="2019年3月，我单位联合某高校研发了《程序在线评测比赛考试系统》，该系统以程序代码在线提交自动评测功能为核心，分为题库模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="94.5" y="93" width="1400.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-42" value="本文以该系统为例，主要论述了云原生架构在项目中的具体应用。系统基于Spring Cloud微服务框架开发，分为前端Web服务、平台保障服务、业务服务三部分" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="81.5" y="222" width="1147.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-43" value="前端web服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="93" y="262" width="169" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-44" value="平台保障服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="125.5" y="302" width="103" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-45" value="业务服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="125.5" y="345" width="82" height="27" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
