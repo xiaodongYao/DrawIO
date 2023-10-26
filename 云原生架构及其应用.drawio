@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T12:19:28.399Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="M2RDpIVNGn2ubg59gQcw" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-26T12:20:33.695Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="q4P9tsL6BPNBBRTDZOFx" version="22.0.8" type="github">
   <diagram name="第 1 页" id="NLoXYbT1jdfY4DKMpZzK">
     <mxGraphModel dx="1597" dy="972" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -342,17 +342,35 @@
         <mxCell id="1Fn_G9KVaygR7puTWX5g-55" value="通过服务化设计原则" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="87" y="644" width="155" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1Fn_G9KVaygR7puTWX5g-56" target="1Fn_G9KVaygR7puTWX5g-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1Fn_G9KVaygR7puTWX5g-56" value="通过强韧性设计原则" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="89" y="691" width="153" height="30" as="geometry" />
+          <mxGeometry x="89" y="702" width="153" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1Fn_G9KVaygR7puTWX5g-57" target="1Fn_G9KVaygR7puTWX5g-63">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1Fn_G9KVaygR7puTWX5g-57" value="通过可观测性设计原则" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="89" y="742" width="167" height="30" as="geometry" />
+          <mxGeometry x="89" y="769" width="167" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1Fn_G9KVaygR7puTWX5g-58" target="1Fn_G9KVaygR7puTWX5g-64">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1Fn_G9KVaygR7puTWX5g-58" value="通过自动化设计原则" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="94" y="803" width="146" height="30" as="geometry" />
+          <mxGeometry x="96" y="824.5" width="146" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1Fn_G9KVaygR7puTWX5g-59" value="应用被分解为多个服务，可以分别选择不同的技术，单个服务模块很容易开发、理解和维护，无需协调其他服务对本服务的影响" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="316" y="637.5" width="668" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-62" value="应用被分解为多个服务，可以分别选择不同的技术，单个服务模块很容易开发、理解和维护，无需协调其他服务对本服务的影响" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="315" y="695" width="668" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-63" value="应用被分解为多个服务，可以分别选择不同的技术，单个服务模块很容易开发、理解和维护，无需协调其他服务对本服务的影响" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="319" y="762.5" width="668" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fn_G9KVaygR7puTWX5g-64" value="应用被分解为多个服务，可以分别选择不同的技术，单个服务模块很容易开发、理解和维护，无需协调其他服务对本服务的影响" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="316" y="818" width="668" height="43" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
