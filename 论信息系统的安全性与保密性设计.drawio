@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T12:22:55.746Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="b4s7eLTnSEzIs1mZFnYe" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T12:23:15.904Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="kN8OqKEBMseCGVb7vxOa" version="22.0.8" type="github">
   <diagram name="第 1 页" id="5gmoauhwWc8AIGV2I_Qd">
     <mxGraphModel dx="2012" dy="1139" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -191,13 +191,13 @@
           <mxGeometry x="1462" y="1150" width="959" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-76" value="数据存储" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1369" y="1082" width="60" height="30" as="geometry" />
+          <mxGeometry x="1370" y="1080" width="72" height="32" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-77" value="数据访问" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1369" y="1159" width="60" height="30" as="geometry" />
+          <mxGeometry x="1368.5" y="1161" width="75" height="29" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-78" value="数据容灾" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1371.75" y="1241" width="60" height="30" as="geometry" />
+          <mxGeometry x="1370" y="1238" width="67.25" height="33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
