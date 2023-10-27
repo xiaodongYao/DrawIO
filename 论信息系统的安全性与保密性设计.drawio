@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T03:47:20.783Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="8hFAHRCCLHMMHtJOK4Jn" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T03:49:25.796Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="H4XWdcCVf4LAL5FzcJ0P" version="22.0.8" type="github">
   <diagram name="第 1 页" id="5gmoauhwWc8AIGV2I_Qd">
     <mxGraphModel dx="2012" dy="1139" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -62,7 +62,7 @@
           <mxGeometry x="1379" y="351" width="822" height="39" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-26" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;DMZ&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1377" y="522" width="58" height="31" as="geometry" />
+          <mxGeometry x="1372" y="645" width="58" height="31" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CfzCiIxsDfycaTIxzi9i-28" target="CfzCiIxsDfycaTIxzi9i-30">
           <mxGeometry relative="1" as="geometry" />
@@ -73,6 +73,9 @@
         <mxCell id="CfzCiIxsDfycaTIxzi9i-29" value="内部网络" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1853" y="402.5" width="160" height="118" as="geometry" />
         </mxCell>
+        <mxCell id="CfzCiIxsDfycaTIxzi9i-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="390" width="265" height="144" as="geometry" />
+        </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CfzCiIxsDfycaTIxzi9i-30" target="CfzCiIxsDfycaTIxzi9i-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -81,6 +84,12 @@
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-35" value="硬件防毒墙" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1674" y="432" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfzCiIxsDfycaTIxzi9i-37" value="防火墙是为了防止外部的恶意攻击" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1544" y="539" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CfzCiIxsDfycaTIxzi9i-38" value="加强病毒、木马入侵的防范效果，设置了硬件的防毒墙，实时查杀最新特征的病毒、木马" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1508" y="577" width="305" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
