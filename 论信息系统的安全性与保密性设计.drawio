@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T02:38:33.625Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="uyjwN5VbV2KarvvUQjx5" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T02:40:15.303Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="v0ztSFiwNF3icaHqbm-f" version="22.0.8" type="github">
   <diagram name="第 1 页" id="5gmoauhwWc8AIGV2I_Qd">
     <mxGraphModel dx="1597" dy="972" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -13,14 +13,23 @@
         <mxCell id="CfzCiIxsDfycaTIxzi9i-3" value="本文已该系统为例，从网络硬件层、数据层、应用层三个方面，论述了信息系统安全性和保密性设计的问题，以及所采用的技术手段和解决方案" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="103" y="171" width="1022" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CfzCiIxsDfycaTIxzi9i-4" value="网络硬件层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="112" y="213" width="69" height="30" as="geometry" />
+        <mxCell id="CfzCiIxsDfycaTIxzi9i-4" value="网络硬件层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="112" y="213" width="82" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CfzCiIxsDfycaTIxzi9i-5" value="数据层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="112" y="266" width="69" height="30" as="geometry" />
+        <mxCell id="CfzCiIxsDfycaTIxzi9i-5" value="数据层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="112" y="274.5" width="69" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CfzCiIxsDfycaTIxzi9i-7" value="应用层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="112" y="325" width="69" height="30" as="geometry" />
+        <mxCell id="CfzCiIxsDfycaTIxzi9i-7" value="应用层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="116" y="336" width="69" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CfzCiIxsDfycaTIxzi9i-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="239" y="201" width="152" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="CfzCiIxsDfycaTIxzi9i-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="239" y="264" width="152" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="CfzCiIxsDfycaTIxzi9i-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="239" y="325.5" width="152" height="51" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
