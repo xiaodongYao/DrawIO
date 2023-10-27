@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T03:30:03.461Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="P6_FTzBS3ea-_tIZD_TD" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T03:31:17.758Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="ufcUQDJRsN289m-tAwVd" version="22.0.8" type="github">
   <diagram name="第 1 页" id="5gmoauhwWc8AIGV2I_Qd">
     <mxGraphModel dx="1597" dy="972" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -42,6 +42,9 @@
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-15" value="结合系统分析安全性和保密性设计说明" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="112" y="518" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CfzCiIxsDfycaTIxzi9i-16" value="OJ系统中存储着学生成绩、学生选课数据、试题数据等大量重要信息，确保系统的安全性与保密性显得尤为重要。系统在安全性与保密性方面主要面临以下问题：网络安全隐患，包括病毒木马、外部攻击等，缺乏主动的网络安全防御机制。数据库安全隐患，例如数据库访问控制不严、敏感数据以明文存储、未制定容灾备份计划等，容易造成系统数据泄露、丢失、篡改。应用安全隐患，包括权限管理混乱、权限设置不够合理等，容易出现人为操作导致数据错误或丢失，威胁到系统的信息安全。&#xa;  如果敏感数据不经加密传输，入侵者可通过网络嗅探工具获得用户的账号和口令。在业务逻辑中对用户提交数据的合法性没有判断或过滤不严，攻击者可在事先定义好的查询语句的结尾上注入额外的SQL语句，在管理员不知情的情况下实现非法操作，欺骗服务器执行非授权的任意查询。&#xa;" style="text;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="112" y="573" width="1075" height="136" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
