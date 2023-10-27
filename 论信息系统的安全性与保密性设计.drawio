@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T03:42:20.790Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="cQwapGzPAgsAZAjV90u5" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T03:46:20.196Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="XzJDI95M8DUfFfIHPOL9" version="22.0.8" type="github">
   <diagram name="第 1 页" id="5gmoauhwWc8AIGV2I_Qd">
     <mxGraphModel dx="2012" dy="1139" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -55,20 +55,23 @@
         <mxCell id="CfzCiIxsDfycaTIxzi9i-20" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1. 网络硬件层安全方案&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;  在外部网络和内部网络之间设置了硬件防火墙，主要是防止外部的恶意攻击。在防火墙之后，为加强对病毒、木马入侵的防范效果，又设置了硬件的防毒墙，实时保证能够拦截与查杀符合最新特征库的病毒、木马。为防止校外访问者通过DNS服务器直接访问到应用服务器的目标地址，在校内网络中又增加了反向代理服务器，对外只暴露代理服务器的虚拟IP，更好地减小了应用服务器被攻击的可能性。应用服务器与数据库服务器做了物理隔离，内部人员也无法通过IP直接访问，只能通过堡垒机由服务器管理员进行操作，阻断了外界通过内部客户端代理的访问对服务器造成攻击。对于一些核心的FTP服务器、DNS服务器、Web服务器都规划到DMZ中。&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1351" y="171" width="1311" height="141" as="geometry" />
         </mxCell>
-        <mxCell id="CfzCiIxsDfycaTIxzi9i-21" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;网络和硬件是整个系统运行的基础，也是很多外部攻击的主要途径，所以OJ系统在这一方面需要进行严密合理的规划。&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1377" y="321" width="841" height="30" as="geometry" />
+        <mxCell id="CfzCiIxsDfycaTIxzi9i-21" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;介绍：网络和硬件是整个系统运行的基础，也是很多外部攻击的主要途径，所以OJ系统在这一方面需要进行严密合理的规划。&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1377" y="321" width="908" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CfzCiIxsDfycaTIxzi9i-22" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;为解决病毒木马与外部攻击的隐患，我们对网络拓扑结构划分为外部网络、内部网络与DMZ三个部分。&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CfzCiIxsDfycaTIxzi9i-22" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;实施方法：为解决病毒木马与外部攻击的隐患，我们对网络拓扑结构划分为外部网络、内部网络与DMZ三个部分。&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1379" y="351" width="822" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="CfzCiIxsDfycaTIxzi9i-24" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;外部网络&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1373" y="399" width="81.5" height="31" as="geometry" />
-        </mxCell>
-        <mxCell id="CfzCiIxsDfycaTIxzi9i-25" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;内部网络&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1373" y="438" width="81.5" height="31" as="geometry" />
-        </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-26" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;DMZ&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1377" y="476" width="58" height="31" as="geometry" />
+          <mxGeometry x="1377" y="522" width="58" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="CfzCiIxsDfycaTIxzi9i-28" value="外部网络" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1377" y="406" width="77" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CfzCiIxsDfycaTIxzi9i-29" value="内部网络" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1729" y="383" width="160" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="CfzCiIxsDfycaTIxzi9i-30" value="防火墙" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1528" y="407" width="75" height="47" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
