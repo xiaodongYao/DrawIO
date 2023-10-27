@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T03:58:30.608Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="Y7YIquEziJzNYCHZUb1c" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T04:00:20.051Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="IkdxRoENGNmUs-M64LKU" version="22.0.8" type="github">
   <diagram name="第 1 页" id="5gmoauhwWc8AIGV2I_Qd">
     <mxGraphModel dx="2012" dy="1139" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -62,94 +62,115 @@
           <mxGeometry x="1358" y="304.5" width="822" height="39" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-26" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;DMZ&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1524" y="987" width="58" height="31" as="geometry" />
+          <mxGeometry x="1602" y="984.5" width="58" height="31" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CfzCiIxsDfycaTIxzi9i-28" target="CfzCiIxsDfycaTIxzi9i-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-28" value="外部网络" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1358" y="390.5" width="77" height="49" as="geometry" />
+          <mxGeometry x="1436" y="388" width="77" height="49" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-29" value="内部网络" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1832" y="356" width="160" height="118" as="geometry" />
+          <mxGeometry x="1910" y="353.5" width="160" height="118" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1509" y="343.5" width="265" height="144" as="geometry" />
+          <mxGeometry x="1587" y="341" width="265" height="144" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CfzCiIxsDfycaTIxzi9i-30" target="CfzCiIxsDfycaTIxzi9i-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-30" value="防火墙" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1509" y="391.5" width="75" height="47" as="geometry" />
+          <mxGeometry x="1587" y="389" width="75" height="47" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-35" value="硬件防毒墙" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1653" y="385.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1731" y="383" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-37" value="防火墙是为了防止外部的恶意攻击" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1523" y="492.5" width="250" height="30" as="geometry" />
+          <mxGeometry x="1601" y="490" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-38" value="加强病毒、木马入侵的防范效果，设置了硬件的防毒墙，实时查杀最新特征的病毒、木马" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1487" y="530.5" width="308" height="51" as="geometry" />
+          <mxGeometry x="1565" y="528" width="308" height="51" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CfzCiIxsDfycaTIxzi9i-39" target="CfzCiIxsDfycaTIxzi9i-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-39" value="校外访问者" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1356" y="642" width="92" height="49" as="geometry" />
+          <mxGeometry x="1434" y="639.5" width="92" height="49" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CfzCiIxsDfycaTIxzi9i-40" target="CfzCiIxsDfycaTIxzi9i-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-40" value="DNS服务器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1520" y="642" width="92" height="49" as="geometry" />
+          <mxGeometry x="1598" y="639.5" width="92" height="49" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-41" value="应用服务器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1899" y="606" width="173" height="121" as="geometry" />
+          <mxGeometry x="1977" y="603.5" width="173" height="121" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CfzCiIxsDfycaTIxzi9i-43" target="CfzCiIxsDfycaTIxzi9i-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-43" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1700" y="621" width="93" height="91" as="geometry" />
+          <mxGeometry x="1778" y="618.5" width="93" height="91" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-42" value="反向代理服务器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1701" y="642" width="92" height="49" as="geometry" />
+          <mxGeometry x="1779" y="639.5" width="92" height="49" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-47" value="对外只暴露代理服务器虚拟IP，缩小应用服务器被攻击的可能性" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1638" y="732" width="204" height="46" as="geometry" />
+          <mxGeometry x="1716" y="729.5" width="204" height="46" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-48" value="数据库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="2345" y="606" width="173" height="121" as="geometry" />
+          <mxGeometry x="2423" y="603.5" width="173" height="121" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CfzCiIxsDfycaTIxzi9i-49" target="CfzCiIxsDfycaTIxzi9i-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-49" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2091.01" y="642" width="38" height="36" as="geometry" />
+          <mxGeometry x="2169.01" y="639.5" width="38" height="36" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-51" value="应用服务器和数据库服务器做了物理隔离，内部人员无法直接通过IP访问" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1977.88" y="752" width="264.25" height="88" as="geometry" />
+          <mxGeometry x="2055.88" y="749.5" width="264.25" height="88" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CfzCiIxsDfycaTIxzi9i-53" target="CfzCiIxsDfycaTIxzi9i-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-53" value="FTP服务器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1356" y="833" width="92" height="49" as="geometry" />
+          <mxGeometry x="1434" y="830.5" width="92" height="49" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CfzCiIxsDfycaTIxzi9i-54" target="CfzCiIxsDfycaTIxzi9i-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-54" value="DNS服务器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1503" y="833" width="100" height="52" as="geometry" />
+          <mxGeometry x="1581" y="830.5" width="100" height="52" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CfzCiIxsDfycaTIxzi9i-55" target="CfzCiIxsDfycaTIxzi9i-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-55" value="Web服务器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1653" y="836" width="92" height="49" as="geometry" />
+          <mxGeometry x="1731" y="833.5" width="92" height="49" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-57" value="核心" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1458" y="800" width="60" height="30" as="geometry" />
+          <mxGeometry x="1536" y="797.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CfzCiIxsDfycaTIxzi9i-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CfzCiIxsDfycaTIxzi9i-62" target="CfzCiIxsDfycaTIxzi9i-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CfzCiIxsDfycaTIxzi9i-62" value="服务器管理员" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2238" y="487.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfzCiIxsDfycaTIxzi9i-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CfzCiIxsDfycaTIxzi9i-63" target="CfzCiIxsDfycaTIxzi9i-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CfzCiIxsDfycaTIxzi9i-63" value="堡垒机" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2254" y="641" width="88" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="CfzCiIxsDfycaTIxzi9i-66" value="阻断外接通过客户端代理的方式对武器造成攻击" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2415" y="528" width="353" height="38.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CfzCiIxsDfycaTIxzi9i-67" value="网络上" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1322" y="392" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CfzCiIxsDfycaTIxzi9i-68" value="服务器访问" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1305" y="649" width="85.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
