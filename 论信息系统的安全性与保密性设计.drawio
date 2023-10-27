@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T03:17:51.068Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="GVpY6QzqYCfmSiHQPU4z" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T03:17:58.762Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="rIJXc8edkxNnZH6-k37N" version="22.0.8" type="github">
   <diagram name="第 1 页" id="5gmoauhwWc8AIGV2I_Qd">
     <mxGraphModel dx="1597" dy="972" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
           <mxGeometry x="239" y="264" width="307" height="51" as="geometry" />
         </mxCell>
         <mxCell id="CfzCiIxsDfycaTIxzi9i-11" value="统一采用RBAC授权机制等方案，解决越权操作的隐患，提高了整个系统的抗风险和安全保密能力" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="239" y="325.5" width="511" height="51" as="geometry" />
+          <mxGeometry x="239" y="325.5" width="527" height="51" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
