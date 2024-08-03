@@ -1,9 +1,84 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.6">
   <diagram name="第 1 页" id="Cb-HU8XGxjKheJXvvHQa">
-    <mxGraphModel>
+    <mxGraphModel dx="1524" dy="1008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="R-BNN12gmbgC8iXWr4fD-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="320" width="530" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="R-BNN12gmbgC8iXWr4fD-3" value="Computer" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="130" y="330" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R-BNN12gmbgC8iXWr4fD-4" value="系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="320" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="R-BNN12gmbgC8iXWr4fD-5" value="硬件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="400" width="120" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="R-BNN12gmbgC8iXWr4fD-6" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="680" as="sourcePoint" />
+            <mxPoint x="130" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-BNN12gmbgC8iXWr4fD-7" value="C，C++，汇编其他" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="890" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R-BNN12gmbgC8iXWr4fD-8" value="程序A，C语言" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R-BNN12gmbgC8iXWr4fD-9" value="Virtual machine(JDK)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R-BNN12gmbgC8iXWr4fD-10" value="java程序" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R-BNN12gmbgC8iXWr4fD-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="450" as="sourcePoint" />
+            <mxPoint x="390" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-BNN12gmbgC8iXWr4fD-12" value="C语言，C++，其他" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R-BNN12gmbgC8iXWr4fD-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="R-BNN12gmbgC8iXWr4fD-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="550" as="sourcePoint" />
+            <mxPoint x="390" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-BNN12gmbgC8iXWr4fD-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.333;entryY=0.677;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="500" as="sourcePoint" />
+            <mxPoint x="259.8900000000001" y="549.8699999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-BNN12gmbgC8iXWr4fD-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.333;entryY=0.677;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320.11" y="500" as="sourcePoint" />
+            <mxPoint x="270.0000000000001" y="539.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-BNN12gmbgC8iXWr4fD-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.484;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="R-BNN12gmbgC8iXWr4fD-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="550" as="sourcePoint" />
+            <mxPoint x="490" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-BNN12gmbgC8iXWr4fD-18" value="驱动" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=default;" vertex="1" parent="1">
+          <mxGeometry x="450" y="440" width="20" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="R-BNN12gmbgC8iXWr4fD-19" value="程序C，C++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R-BNN12gmbgC8iXWr4fD-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="600" as="sourcePoint" />
+            <mxPoint x="280" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
