@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.2.13">
   <diagram name="第 1 页" id="cu7FL5aJr_y2CsQ8u70n">
-    <mxGraphModel dx="572" dy="318" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1421" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,6 +23,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wpeiW6pVm9_-qQoVgWK0-113" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wpeiW6pVm9_-qQoVgWK0-7" target="wpeiW6pVm9_-qQoVgWK0-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wpeiW6pVm9_-qQoVgWK0-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wpeiW6pVm9_-qQoVgWK0-7" target="wpeiW6pVm9_-qQoVgWK0-181">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wpeiW6pVm9_-qQoVgWK0-7" value="Dev" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -202,7 +205,7 @@
           <mxGeometry x="270" y="375" width="57" height="20" as="geometry" />
         </mxCell>
         <mxCell id="wpeiW6pVm9_-qQoVgWK0-49" value="packages" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="645" y="204" width="56" height="20" as="geometry" />
+          <mxGeometry x="551" y="204" width="56" height="20" as="geometry" />
         </mxCell>
         <mxCell id="wpeiW6pVm9_-qQoVgWK0-50" value="publish.sh" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#ff0000, #ededed);" vertex="1" parent="1">
           <mxGeometry x="401.5" y="155" width="59" height="20" as="geometry" />
@@ -439,6 +442,9 @@
               <mxPoint x="164" y="613" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="wpeiW6pVm9_-qQoVgWK0-181" value="Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="637" y="204" width="56" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
