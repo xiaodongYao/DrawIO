@@ -248,8 +248,21 @@
         <mxCell id="wpeiW6pVm9_-qQoVgWK0-94" value="EdenLog" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="341" y="793" width="56" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="wpeiW6pVm9_-qQoVgWK0-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="wpeiW6pVm9_-qQoVgWK0-20" target="wpeiW6pVm9_-qQoVgWK0-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="133" y="315" />
+              <mxPoint x="133" y="289" />
+              <mxPoint x="269" y="289" />
+              <mxPoint x="269" y="308" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="wpeiW6pVm9_-qQoVgWK0-95" value="GPKLog" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="341" y="745" width="48" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wpeiW6pVm9_-qQoVgWK0-119" value="CP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="207" y="286" width="19" height="19" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
