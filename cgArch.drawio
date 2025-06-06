@@ -110,13 +110,10 @@
           <mxGeometry x="332" y="204" width="52" height="20" as="geometry" />
         </mxCell>
         <mxCell id="wpeiW6pVm9_-qQoVgWK0-13" value="AutoRelease" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1458" y="140.5" width="81" height="20.5" as="geometry" />
+          <mxGeometry x="1997" y="140.5" width="81" height="20.5" as="geometry" />
         </mxCell>
-        <mxCell id="wpeiW6pVm9_-qQoVgWK0-14" value="branchCN" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1662.5" y="140" width="81" height="20.5" as="geometry" />
-        </mxCell>
-        <mxCell id="wpeiW6pVm9_-qQoVgWK0-15" value="branchTW" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1841.5" y="140.25" width="81" height="20.5" as="geometry" />
+        <mxCell id="wpeiW6pVm9_-qQoVgWK0-14" value="branch" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1716" y="139.75" width="60" height="20.5" as="geometry" />
         </mxCell>
         <mxCell id="wpeiW6pVm9_-qQoVgWK0-16" value="deploy.sh" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#ff0000, #ededed);" parent="1" vertex="1">
           <mxGeometry x="629.5" y="204" width="52" height="20" as="geometry" />
@@ -336,6 +333,21 @@
         </mxCell>
         <mxCell id="-FhaGslmpo5QJLYHg8Cj-48" value="MasterPackage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1027" y="140.5" width="93" height="20.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-FhaGslmpo5QJLYHg8Cj-49" value="Code(master)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="857" y="204" width="82" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-FhaGslmpo5QJLYHg8Cj-50" value="Config" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1005" y="204" width="62" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-FhaGslmpo5QJLYHg8Cj-51" value="Config" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="204" width="62" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-FhaGslmpo5QJLYHg8Cj-52" value="Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1239" y="204" width="62" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-FhaGslmpo5QJLYHg8Cj-53" value="packages" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1353" y="204" width="62" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
