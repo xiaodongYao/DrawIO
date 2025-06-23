@@ -19,7 +19,7 @@
         <mxCell id="Thgo0oSLKI5nVbTJPh4o-9" value="Commit" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;" vertex="1" parent="1">
           <mxGeometry x="998" y="444" width="500" height="174" as="geometry" />
         </mxCell>
-        <mxCell id="Thgo0oSLKI5nVbTJPh4o-13" value="" style="endArrow=classic;html=1;rounded=1;entryX=0;entryY=1;entryDx=0;entryDy=0;curved=0;jumpStyle=arc;strokeWidth=3;exitX=0.585;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Thgo0oSLKI5nVbTJPh4o-1">
+        <mxCell id="Thgo0oSLKI5nVbTJPh4o-13" value="" style="endArrow=classic;html=1;rounded=1;entryX=0;entryY=1;entryDx=0;entryDy=0;curved=0;jumpStyle=arc;strokeWidth=2;exitX=0.585;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Thgo0oSLKI5nVbTJPh4o-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1010" y="683" as="sourcePoint" />
             <mxPoint x="1010" y="618" as="targetPoint" />
@@ -30,7 +30,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Thgo0oSLKI5nVbTJPh4o-14" value="" style="endArrow=classic;html=1;rounded=1;entryX=0;entryY=1;entryDx=0;entryDy=0;curved=0;jumpStyle=arc;strokeWidth=3;exitX=0.585;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="Thgo0oSLKI5nVbTJPh4o-14" value="" style="endArrow=classic;html=1;rounded=1;entryX=0;entryY=1;entryDx=0;entryDy=0;curved=0;jumpStyle=arc;strokeWidth=2;exitX=0.585;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="676" y="618" as="sourcePoint" />
             <mxPoint x="676" y="735" as="targetPoint" />
@@ -44,7 +44,7 @@
         <mxCell id="Thgo0oSLKI5nVbTJPh4o-17" value="git status" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="885" y="929" width="133" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="Thgo0oSLKI5nVbTJPh4o-18" value="" style="endArrow=classic;html=1;rounded=1;entryX=0;entryY=1;entryDx=0;entryDy=0;curved=0;jumpStyle=arc;strokeWidth=3;exitX=0.585;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="Thgo0oSLKI5nVbTJPh4o-18" value="" style="endArrow=classic;html=1;rounded=1;entryX=0;entryY=1;entryDx=0;entryDy=0;curved=0;jumpStyle=arc;strokeWidth=2;exitX=0.585;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="802" y="733" as="sourcePoint" />
             <mxPoint x="802" y="616" as="targetPoint" />
@@ -52,6 +52,17 @@
         </mxCell>
         <mxCell id="Thgo0oSLKI5nVbTJPh4o-19" value="git add file/." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;" vertex="1" connectable="0" parent="Thgo0oSLKI5nVbTJPh4o-18">
           <mxGeometry x="-0.0258" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Thgo0oSLKI5nVbTJPh4o-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="821" y="469" as="sourcePoint" />
+            <mxPoint x="998" y="469" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Thgo0oSLKI5nVbTJPh4o-25" value="git commit -m &quot;&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="Thgo0oSLKI5nVbTJPh4o-23">
+          <mxGeometry x="-0.0169" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
