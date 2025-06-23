@@ -39,6 +39,17 @@
         <mxCell id="Thgo0oSLKI5nVbTJPh4o-17" value="git status" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="1054" y="929" width="331" height="64" as="geometry" />
         </mxCell>
+        <mxCell id="Thgo0oSLKI5nVbTJPh4o-18" value="" style="endArrow=classic;html=1;rounded=1;entryX=0;entryY=1;entryDx=0;entryDy=0;curved=0;jumpStyle=arc;strokeWidth=3;exitX=0.585;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="802" y="733" as="sourcePoint" />
+            <mxPoint x="802" y="616" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Thgo0oSLKI5nVbTJPh4o-19" value="git add file" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;" vertex="1" connectable="0" parent="Thgo0oSLKI5nVbTJPh4o-18">
+          <mxGeometry x="-0.0258" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
