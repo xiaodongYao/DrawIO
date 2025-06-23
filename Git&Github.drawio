@@ -103,6 +103,9 @@
         <mxCell id="Thgo0oSLKI5nVbTJPh4o-32" value="git rm file" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="102" y="654" width="95" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Thgo0oSLKI5nVbTJPh4o-33" value="git log&lt;div&gt;git log --oneline&lt;/div&gt;&lt;div&gt;git commit -m &quot;Changed file name to new name&quot; --amend&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1042" y="925" width="456" height="69" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
