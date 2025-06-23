@@ -10,6 +10,15 @@
         <mxCell id="Thgo0oSLKI5nVbTJPh4o-5" value="git config --global user.name &quot; &quot;&lt;div&gt;git config --global user.email &quot; &quot;&lt;/div&gt;&lt;div&gt;git config --global init.default branch main&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="321" y="929" width="331" height="64" as="geometry" />
         </mxCell>
+        <mxCell id="Thgo0oSLKI5nVbTJPh4o-7" value="git help log/config" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="682" y="929" width="331" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="Thgo0oSLKI5nVbTJPh4o-8" value="Staging" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="321" y="518" width="500" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="Thgo0oSLKI5nVbTJPh4o-9" value="Commit" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="998" y="518" width="500" height="174" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
