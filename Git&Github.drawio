@@ -11,7 +11,7 @@
           <mxGeometry x="321" y="929" width="331" height="64" as="geometry" />
         </mxCell>
         <mxCell id="Thgo0oSLKI5nVbTJPh4o-7" value="git help log/config" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="682" y="929" width="331" height="64" as="geometry" />
+          <mxGeometry x="682" y="929" width="173" height="64" as="geometry" />
         </mxCell>
         <mxCell id="Thgo0oSLKI5nVbTJPh4o-8" value="Staging" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;" vertex="1" parent="1">
           <mxGeometry x="321" y="444" width="500" height="174" as="geometry" />
@@ -32,12 +32,17 @@
         </mxCell>
         <mxCell id="Thgo0oSLKI5nVbTJPh4o-14" value="" style="endArrow=classic;html=1;rounded=1;entryX=0;entryY=1;entryDx=0;entryDy=0;curved=0;jumpStyle=arc;strokeWidth=3;exitX=0.585;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1104" y="735" as="sourcePoint" />
-            <mxPoint x="1104" y="618" as="targetPoint" />
+            <mxPoint x="676" y="618" as="sourcePoint" />
+            <mxPoint x="676" y="735" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Thgo0oSLKI5nVbTJPh4o-22" value="git rm --cached file" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;" vertex="1" connectable="0" parent="Thgo0oSLKI5nVbTJPh4o-14">
+          <mxGeometry x="-0.1966" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Thgo0oSLKI5nVbTJPh4o-17" value="git status" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="1054" y="929" width="331" height="64" as="geometry" />
+          <mxGeometry x="885" y="929" width="133" height="64" as="geometry" />
         </mxCell>
         <mxCell id="Thgo0oSLKI5nVbTJPh4o-18" value="" style="endArrow=classic;html=1;rounded=1;entryX=0;entryY=1;entryDx=0;entryDy=0;curved=0;jumpStyle=arc;strokeWidth=3;exitX=0.585;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -45,7 +50,7 @@
             <mxPoint x="802" y="616" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Thgo0oSLKI5nVbTJPh4o-19" value="git add file" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;" vertex="1" connectable="0" parent="Thgo0oSLKI5nVbTJPh4o-18">
+        <mxCell id="Thgo0oSLKI5nVbTJPh4o-19" value="git add file/." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;" vertex="1" connectable="0" parent="Thgo0oSLKI5nVbTJPh4o-18">
           <mxGeometry x="-0.0258" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
