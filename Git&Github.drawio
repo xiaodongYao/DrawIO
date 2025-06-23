@@ -19,6 +19,9 @@
         <mxCell id="Thgo0oSLKI5nVbTJPh4o-9" value="Commit" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;" vertex="1" parent="1">
           <mxGeometry x="998" y="444" width="500" height="174" as="geometry" />
         </mxCell>
+        <mxCell id="Thgo0oSLKI5nVbTJPh4o-12" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="998" y="627" width="81" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
