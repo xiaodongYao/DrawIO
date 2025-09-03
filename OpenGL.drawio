@@ -117,17 +117,17 @@
         <mxCell id="ZiCN_rUI9eIBHDQ1MVYT-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="570" width="280" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="ZiCN_rUI9eIBHDQ1MVYT-12" value="pos" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="250" y="590" width="160" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ZiCN_rUI9eIBHDQ1MVYT-13" value="color&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="250" y="640" width="160" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ZiCN_rUI9eIBHDQ1MVYT-14" value="texcoord" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="250" y="685" width="160" height="50" as="geometry" />
+        <mxCell id="ZiCN_rUI9eIBHDQ1MVYT-14" value="texcoord" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="250" y="670" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZiCN_rUI9eIBHDQ1MVYT-15" value="........." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;fontSize=26;" vertex="1" parent="1">
-          <mxGeometry x="310" y="755" width="60" height="30" as="geometry" />
+          <mxGeometry x="310" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiCN_rUI9eIBHDQ1MVYT-13" value="color" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="250" y="630" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiCN_rUI9eIBHDQ1MVYT-12" value="pos" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="250" y="590" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
