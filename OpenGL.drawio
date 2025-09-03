@@ -135,6 +135,9 @@
         <mxCell id="ZiCN_rUI9eIBHDQ1MVYT-17" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="420" y="603" width="30" height="187" as="geometry" />
         </mxCell>
+        <mxCell id="ZiCN_rUI9eIBHDQ1MVYT-18" value="m_Stride" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="390" y="830" width="90" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
