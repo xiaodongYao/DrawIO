@@ -1,9 +1,18 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.2">
   <diagram name="Page-1" id="VdxvELIbX1E1HRHZ1RaQ">
-    <mxGraphModel>
+    <mxGraphModel dx="1432" dy="1014" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_lgiSeBEzwKayDVqdZCt-5" value="Dog 类的 vtable" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="145" y="200" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_lgiSeBEzwKayDVqdZCt-10" value="&amp;amp;Dog::speak" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="130" y="230" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_lgiSeBEzwKayDVqdZCt-12" value="...其他虚函数..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="130" y="280" width="170" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
