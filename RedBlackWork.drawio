@@ -111,6 +111,9 @@
         <mxCell id="6BaBqDEFsrnQINso-Ywb-33" value="步骤 2: 进行修复 - A.左旋(Left Rotation)" style="text;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="74" y="803" width="436" height="36" as="geometry" />
         </mxCell>
+        <mxCell id="6BaBqDEFsrnQINso-Ywb-34" value="为了解决这个问题，我们需要进行“结构调整”。在这个场景下，我们需要对“祖父节点” &lt;code&gt;10(B)&lt;/code&gt; 进行一次&lt;b&gt;左旋&lt;/b&gt;。" style="text;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="76" y="842" width="747" height="51" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
