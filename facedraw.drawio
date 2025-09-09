@@ -94,6 +94,15 @@
         <mxCell id="V_JLYFwUH7bZy2ddvfUe-31" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="467" y="595" width="45" height="45" as="geometry" />
         </mxCell>
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-32" value="根节点不能是 红色" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="524" y="534.5" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-33" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="534" y="549" as="sourcePoint" />
+            <mxPoint x="467" y="549" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
