@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.1.2">
   <diagram name="Page-1" id="VdxvELIbX1E1HRHZ1RaQ">
-    <mxGraphModel dx="1536" dy="1028" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1536" dy="1067" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,7 +25,7 @@
         <mxCell id="V_JLYFwUH7bZy2ddvfUe-6" value="空(叶子节点)，根据规则永远是黑色" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="145" y="189.5" width="284" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="V_JLYFwUH7bZy2ddvfUe-9" value="规则 1: 每个节点要么是红色，要么是黑色。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-9" value="规则 1: 每个节点要么是红色，要么是黑色。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="44" y="270" width="359" height="30" as="geometry" />
         </mxCell>
         <mxCell id="V_JLYFwUH7bZy2ddvfUe-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;strokeColor=default;fillColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="V_JLYFwUH7bZy2ddvfUe-10" target="V_JLYFwUH7bZy2ddvfUe-11">
@@ -47,7 +47,7 @@
         <mxCell id="V_JLYFwUH7bZy2ddvfUe-12" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="190" y="376" width="45" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="V_JLYFwUH7bZy2ddvfUe-15" value="规则 2: 根节点永远是黑色。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-15" value="规则 2: 根节点永远是黑色。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="44" y="449" width="227" height="30" as="geometry" />
         </mxCell>
         <mxCell id="V_JLYFwUH7bZy2ddvfUe-16" value="正确示例" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
@@ -74,6 +74,25 @@
         </mxCell>
         <mxCell id="V_JLYFwUH7bZy2ddvfUe-22" value="错误示例" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="392" y="491" width="82" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;strokeColor=default;fillColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="V_JLYFwUH7bZy2ddvfUe-29" target="V_JLYFwUH7bZy2ddvfUe-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="406" y="574" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="V_JLYFwUH7bZy2ddvfUe-29" target="V_JLYFwUH7bZy2ddvfUe-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-29" value="R" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;strokeColor=light-dark(#ff0000, #ededed);" vertex="1" parent="1">
+          <mxGeometry x="407" y="527" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-30" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="346" y="595" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-31" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="467" y="595" width="45" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
