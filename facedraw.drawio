@@ -266,6 +266,9 @@
         <mxCell id="V_JLYFwUH7bZy2ddvfUe-106" value="路径1: 20 -&amp;gt; 10 -&amp;gt; 5 -&amp;gt; [NIL]   (经过 20, 10, [NIL])  黑高 = 3&lt;br&gt;路径2: 20 -&amp;gt; 10 -&amp;gt; [NIL]&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (经过 20, 10, [NIL])  黑高 = 3&lt;br&gt;路径3: 20 -&amp;gt; 30 -&amp;gt; [NIL]&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (经过 20, 30, [NIL])  黑高 = 3" style="text;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="866" y="975" width="566" height="99" as="geometry" />
         </mxCell>
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-107" value="所有路径的黑高都是 3，所以这棵树满足规则 5。" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="868" y="1070" width="394" height="36" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
