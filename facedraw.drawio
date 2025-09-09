@@ -239,7 +239,7 @@
         <mxCell id="V_JLYFwUH7bZy2ddvfUe-95" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="V_JLYFwUH7bZy2ddvfUe-96" target="V_JLYFwUH7bZy2ddvfUe-98">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V_JLYFwUH7bZy2ddvfUe-96" value="10 B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;strokeColor=light-dark(#ff0000, #ededed);" vertex="1" parent="1">
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-96" value="10 B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;strokeColor=light-dark(#000000,#EDEDED);" vertex="1" parent="1">
           <mxGeometry x="1037" y="739" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="V_JLYFwUH7bZy2ddvfUe-103" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="V_JLYFwUH7bZy2ddvfUe-97" target="V_JLYFwUH7bZy2ddvfUe-100">
@@ -248,7 +248,7 @@
         <mxCell id="V_JLYFwUH7bZy2ddvfUe-104" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="V_JLYFwUH7bZy2ddvfUe-97" target="V_JLYFwUH7bZy2ddvfUe-102">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V_JLYFwUH7bZy2ddvfUe-97" value="5 R" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;" vertex="1" parent="1">
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-97" value="5 R" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;strokeColor=light-dark(#ff0000, #ededed);" vertex="1" parent="1">
           <mxGeometry x="979" y="816" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="V_JLYFwUH7bZy2ddvfUe-98" value="NIL" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;" vertex="1" parent="1">
