@@ -38,7 +38,7 @@
         <mxCell id="6BaBqDEFsrnQINso-Ywb-8" value="NIL" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;strokeColor=light-dark(#000000,#EDEDED);" vertex="1" parent="1">
           <mxGeometry x="198" y="262" width="45" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="6BaBqDEFsrnQINso-Ywb-11" value="步骤 1: 插入新节点" style="text;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="6BaBqDEFsrnQINso-Ywb-11" value="步骤 1: 插入新节点30" style="text;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="74" y="325" width="244" height="36" as="geometry" />
         </mxCell>
       </root>
