@@ -1,50 +1,17 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.1.2">
   <diagram name="Page-1" id="VdxvELIbX1E1HRHZ1RaQ">
-    <mxGraphModel dx="2058" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1536" dy="1028" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_lgiSeBEzwKayDVqdZCt-5" value="第1步：访问对象,找到vptr" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="100" y="120" width="230" height="30" as="geometry" />
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-1" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="72" y="56" width="45" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="_lgiSeBEzwKayDVqdZCt-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_lgiSeBEzwKayDVqdZCt-10" target="_lgiSeBEzwKayDVqdZCt-13">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-2" value="R" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;strokeColor=light-dark(#ff0000, #ededed);" vertex="1" parent="1">
+          <mxGeometry x="72" y="119" width="45" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="_lgiSeBEzwKayDVqdZCt-10" value="vptr" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="130" y="230" width="170" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="_lgiSeBEzwKayDVqdZCt-12" value="..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="130" y="280" width="170" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="_lgiSeBEzwKayDVqdZCt-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_lgiSeBEzwKayDVqdZCt-13" target="_lgiSeBEzwKayDVqdZCt-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_lgiSeBEzwKayDVqdZCt-13" value="第2步：通过vptr 找到vtable" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="390" y="240" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_lgiSeBEzwKayDVqdZCt-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_lgiSeBEzwKayDVqdZCt-16" target="_lgiSeBEzwKayDVqdZCt-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_lgiSeBEzwKayDVqdZCt-16" value="ptr" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="185" y="150" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_lgiSeBEzwKayDVqdZCt-18" value="(一个Dog对象)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="150" y="330" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_lgiSeBEzwKayDVqdZCt-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_lgiSeBEzwKayDVqdZCt-20" target="_lgiSeBEzwKayDVqdZCt-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_lgiSeBEzwKayDVqdZCt-20" value="&amp;amp;Dog::speak" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="730" y="230" width="170" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="_lgiSeBEzwKayDVqdZCt-21" value="..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="730" y="280" width="170" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="_lgiSeBEzwKayDVqdZCt-22" value="Dog类的 vtable" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="730" y="190" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_lgiSeBEzwKayDVqdZCt-25" value="第3步：找到虚函数地址并调用" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="980" y="240" width="270" height="30" as="geometry" />
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-3" value="NIL" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="72" y="182" width="45" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
