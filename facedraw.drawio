@@ -161,7 +161,7 @@
             <mxPoint x="422" y="915" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="V_JLYFwUH7bZy2ddvfUe-55" value="规则 3: 红色节点的子节点必须是黑色的。（不能有两个连续的红色节点）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-55" value="规则 4: 红色节点的子节点必须是黑色的。（不能有两个连续的红色节点）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="836" y="270" width="580" height="30" as="geometry" />
         </mxCell>
         <mxCell id="V_JLYFwUH7bZy2ddvfUe-56" value="这是红黑树最重要的特性之一，它限制了树的深度。" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
