@@ -224,6 +224,45 @@
         <mxCell id="V_JLYFwUH7bZy2ddvfUe-91" value="这个“黑色节点数量”也称为“&lt;b&gt;黑高 (Black-Height)&lt;/b&gt;”。这条规则是确保树保持平衡的关键。" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="841" y="630" width="656" height="36" as="geometry" />
         </mxCell>
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-92" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;strokeColor=default;fillColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="V_JLYFwUH7bZy2ddvfUe-93" target="V_JLYFwUH7bZy2ddvfUe-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-105" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="V_JLYFwUH7bZy2ddvfUe-93" target="V_JLYFwUH7bZy2ddvfUe-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-93" value="20 B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="671" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-94" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="V_JLYFwUH7bZy2ddvfUe-96" target="V_JLYFwUH7bZy2ddvfUe-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-95" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="V_JLYFwUH7bZy2ddvfUe-96" target="V_JLYFwUH7bZy2ddvfUe-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-96" value="10 B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;strokeColor=light-dark(#ff0000, #ededed);" vertex="1" parent="1">
+          <mxGeometry x="1037" y="739" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-103" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="V_JLYFwUH7bZy2ddvfUe-97" target="V_JLYFwUH7bZy2ddvfUe-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-104" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="V_JLYFwUH7bZy2ddvfUe-97" target="V_JLYFwUH7bZy2ddvfUe-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-97" value="5 R" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="979" y="816" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-98" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="816" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-99" value="30 B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="1153" y="739" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-100" value="NIL" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="922" y="905" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="V_JLYFwUH7bZy2ddvfUe-102" value="NIL" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="1037" y="905" width="45" height="45" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
