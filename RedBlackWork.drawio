@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.0">
   <diagram name="Page-1" id="nHJEmuUAwTtRUE0Qn9wt">
-    <mxGraphModel dx="2058" dy="1146" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1536" dy="1067" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -156,6 +156,9 @@
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-14" value="我们把要旋转的节点 &lt;code&gt;10(B)&lt;/code&gt; 称为 &lt;code&gt;P&lt;/code&gt; (Parent)，它的右子节点 &lt;code&gt;20(R)&lt;/code&gt; 称为 &lt;code&gt;C&lt;/code&gt; (Child)。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="74" y="1121" width="619" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gFN2gHEbL0fVCTJnLRh3-16" value="左旋 &lt;code&gt;P(10)&lt;/code&gt; 的目标，就是让 &lt;code&gt;C(20)&lt;/code&gt; 上位，取代 &lt;code&gt;P(10)&lt;/code&gt; 的位置。为此，我们需要做三件关键的“指针交接”工作：" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="74" y="1147" width="827" height="47" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
