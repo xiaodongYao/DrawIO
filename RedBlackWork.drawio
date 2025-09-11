@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.0">
   <diagram name="Page-1" id="nHJEmuUAwTtRUE0Qn9wt">
-    <mxGraphModel dx="1536" dy="1067" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="2058" dy="1146" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gFN2gHEbL0fVCTJnLRh3-56" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="901" y="669" width="967" height="762" as="geometry" />
+        </mxCell>
         <mxCell id="6BaBqDEFsrnQINso-Ywb-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;strokeColor=default;fillColor=default;endArrow=none;endFill=0;" parent="1" source="6BaBqDEFsrnQINso-Ywb-3" target="6BaBqDEFsrnQINso-Ywb-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -161,73 +164,73 @@
           <mxGeometry x="74" y="1147" width="827" height="47" as="geometry" />
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-18" value="1: 处理“中间”节点 (C 的左孩子)" style="text;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="930" y="51" width="335" height="36" as="geometry" />
+          <mxGeometry x="937" y="686" width="335" height="36" as="geometry" />
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-19" value="旋转后，&lt;code&gt;P(10)&lt;/code&gt; 会成为 &lt;code&gt;C(20)&lt;/code&gt; 的左孩子。那么 &lt;code&gt;C(20)&lt;/code&gt; 原来的左孩子，正好可以“过继”给 &lt;code&gt;P(10)&lt;/code&gt;，做 &lt;code&gt;P(10)&lt;/code&gt; 的&lt;b&gt;新右孩子&lt;/b&gt;。这完全符合二叉搜索树的性质。" style="text;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="930" y="94" width="855" height="51" as="geometry" />
+          <mxGeometry x="937" y="729" width="855" height="51" as="geometry" />
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;strokeColor=default;fillColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="gFN2gHEbL0fVCTJnLRh3-22" target="gFN2gHEbL0fVCTJnLRh3-23">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="996" y="195" />
+              <mxPoint x="1003" y="830" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="gFN2gHEbL0fVCTJnLRh3-22">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1063.5900974233027" y="222.59009742330272" as="targetPoint" />
+            <mxPoint x="1070.5900974233027" y="857.5900974233027" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-22" value="10&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="997" y="148" width="45" height="45" as="geometry" />
+          <mxGeometry x="1004" y="783" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-23" value="NIL" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;strokeColor=light-dark(#000000,#EDEDED);" vertex="1" parent="1">
-          <mxGeometry x="936" y="216" width="45" height="45" as="geometry" />
+          <mxGeometry x="943" y="851" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-29" value="P" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="956" y="158.5" width="39" height="24" as="geometry" />
+          <mxGeometry x="963" y="793.5" width="39" height="24" as="geometry" />
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-30" value="C" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="1375" y="148" width="39" height="24" as="geometry" />
+          <mxGeometry x="1382" y="783" width="39" height="24" as="geometry" />
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="gFN2gHEbL0fVCTJnLRh3-32" target="gFN2gHEbL0fVCTJnLRh3-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-32" value="20" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;strokeColor=light-dark(#ff0000, #ededed);" vertex="1" parent="1">
-          <mxGeometry x="1411" y="136" width="45" height="45" as="geometry" />
+          <mxGeometry x="1418" y="771" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-33" value="30&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;strokeColor=light-dark(#ff0000, #EDEDED);" vertex="1" parent="1">
-          <mxGeometry x="1471" y="210" width="45" height="45" as="geometry" />
+          <mxGeometry x="1478" y="845" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-34" value="NIL&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;strokeColor=light-dark(#000000,#EDEDED);" vertex="1" parent="1">
-          <mxGeometry x="1056" y="216" width="45" height="45" as="geometry" />
+          <mxGeometry x="1063" y="851" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-35" value="&amp;nbsp;P的新右孩子 (来自C的左孩子)" style="text;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="1193" y="220.5" width="243" height="36" as="geometry" />
+          <mxGeometry x="1200" y="855.5" width="243" height="36" as="geometry" />
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-36" value="C暂时与P断开" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1536" y="136" width="105" height="36" as="geometry" />
+          <mxGeometry x="1543" y="771" width="105" height="36" as="geometry" />
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-37" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1527" y="153" as="sourcePoint" />
-            <mxPoint x="1460" y="153" as="targetPoint" />
+            <mxPoint x="1534" y="788" as="sourcePoint" />
+            <mxPoint x="1467" y="788" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-38" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1196" y="239" as="sourcePoint" />
-            <mxPoint x="1129" y="239" as="targetPoint" />
+            <mxPoint x="1203" y="874" as="sourcePoint" />
+            <mxPoint x="1136" y="874" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-40" value="2: 父子关系反转" style="text;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="930" y="299" width="335" height="36" as="geometry" />
+          <mxGeometry x="937" y="934" width="335" height="36" as="geometry" />
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-41" value="让 &lt;code&gt;P(10)&lt;/code&gt; 成为 &lt;code&gt;C(20)&lt;/code&gt; 的&lt;b&gt;新左孩子&lt;/b&gt;。" style="text;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="930" y="341" width="270" height="36" as="geometry" />
+          <mxGeometry x="937" y="976" width="270" height="36" as="geometry" />
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-42" value="C" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="1029" y="391" width="39" height="24" as="geometry" />
+          <mxGeometry x="1036" y="1026" width="39" height="24" as="geometry" />
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-43" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="gFN2gHEbL0fVCTJnLRh3-44" target="gFN2gHEbL0fVCTJnLRh3-45">
           <mxGeometry relative="1" as="geometry" />
@@ -236,46 +239,49 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-44" value="20" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;strokeColor=light-dark(#ff0000, #ededed);" vertex="1" parent="1">
-          <mxGeometry x="1065" y="379" width="45" height="45" as="geometry" />
+          <mxGeometry x="1072" y="1014" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-45" value="30&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;strokeColor=light-dark(#ff0000, #EDEDED);" vertex="1" parent="1">
-          <mxGeometry x="1125" y="453" width="45" height="45" as="geometry" />
+          <mxGeometry x="1132" y="1088" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-46" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;strokeColor=default;fillColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="gFN2gHEbL0fVCTJnLRh3-48" target="gFN2gHEbL0fVCTJnLRh3-49">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1005" y="500" />
+              <mxPoint x="1012" y="1135" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-47" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="gFN2gHEbL0fVCTJnLRh3-48">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1072.5900974233027" y="527.5900974233027" as="targetPoint" />
+            <mxPoint x="1079.5900974233027" y="1162.5900974233027" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-48" value="10&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="1006" y="453" width="45" height="45" as="geometry" />
+          <mxGeometry x="1013" y="1088" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-49" value="NIL" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;strokeColor=light-dark(#000000,#EDEDED);" vertex="1" parent="1">
-          <mxGeometry x="945" y="521" width="45" height="45" as="geometry" />
+          <mxGeometry x="952" y="1156" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-50" value="P" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="965" y="463.5" width="39" height="24" as="geometry" />
+          <mxGeometry x="972" y="1098.5" width="39" height="24" as="geometry" />
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-51" value="NIL&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;strokeColor=light-dark(#000000,#EDEDED);" vertex="1" parent="1">
-          <mxGeometry x="1065" y="521" width="45" height="45" as="geometry" />
+          <mxGeometry x="1072" y="1156" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-53" value="3: 连接到原来的&quot;祖父节点&quot;" style="text;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="936" y="591" width="335" height="36" as="geometry" />
+          <mxGeometry x="943" y="1226" width="335" height="36" as="geometry" />
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-54" value="将 &lt;code&gt;P&lt;/code&gt; 原来的父节点（在这个例子里是“无”，代表根），现在指定给 &lt;code&gt;C&lt;/code&gt;。" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="938" y="634" width="567" height="36" as="geometry" />
+          <mxGeometry x="945" y="1269" width="567" height="36" as="geometry" />
         </mxCell>
         <UserObject label="// 旋转前，树的根是 10&#xa;Tree.root = P(10)&#xa;&#xa;// 旋转后，树的根更新为 20&#xa;Tree.root = C(20)" link="// 旋转前，树的根是 10&#xa;Tree.root = P(10)&#xa;&#xa;// 旋转后，树的根更新为 20&#xa;Tree.root = C(20)" id="gFN2gHEbL0fVCTJnLRh3-55">
           <mxCell style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-            <mxGeometry x="945" y="670" width="324" height="94" as="geometry" />
+            <mxGeometry x="952" y="1305" width="324" height="94" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="gFN2gHEbL0fVCTJnLRh3-57" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="787" y="1039" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
