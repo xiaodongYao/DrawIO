@@ -265,6 +265,9 @@
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-51" value="NIL&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;strokeColor=light-dark(#000000,#EDEDED);" vertex="1" parent="1">
           <mxGeometry x="1065" y="521" width="45" height="45" as="geometry" />
         </mxCell>
+        <mxCell id="gFN2gHEbL0fVCTJnLRh3-53" value="3: 连接到原来的&quot;祖父节点&quot;" style="text;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="936" y="591" width="335" height="36" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
