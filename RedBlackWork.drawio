@@ -268,6 +268,14 @@
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-53" value="3: 连接到原来的&quot;祖父节点&quot;" style="text;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="936" y="591" width="335" height="36" as="geometry" />
         </mxCell>
+        <mxCell id="gFN2gHEbL0fVCTJnLRh3-54" value="将 &lt;code&gt;P&lt;/code&gt; 原来的父节点（在这个例子里是“无”，代表根），现在指定给 &lt;code&gt;C&lt;/code&gt;。" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="938" y="634" width="567" height="36" as="geometry" />
+        </mxCell>
+        <UserObject label="// 旋转前，树的根是 10&#xa;Tree.root = P(10)&#xa;&#xa;// 旋转后，树的根更新为 20&#xa;Tree.root = C(20)" link="// 旋转前，树的根是 10&#xa;Tree.root = P(10)&#xa;&#xa;// 旋转后，树的根更新为 20&#xa;Tree.root = C(20)" id="gFN2gHEbL0fVCTJnLRh3-55">
+          <mxCell style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+            <mxGeometry x="945" y="670" width="324" height="94" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
