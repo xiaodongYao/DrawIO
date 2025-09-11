@@ -164,7 +164,7 @@
           <mxGeometry x="930" y="51" width="335" height="36" as="geometry" />
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-19" value="旋转后，&lt;code&gt;P(10)&lt;/code&gt; 会成为 &lt;code&gt;C(20)&lt;/code&gt; 的左孩子。那么 &lt;code&gt;C(20)&lt;/code&gt; 原来的左孩子，正好可以“过继”给 &lt;code&gt;P(10)&lt;/code&gt;，做 &lt;code&gt;P(10)&lt;/code&gt; 的&lt;b&gt;新右孩子&lt;/b&gt;。这完全符合二叉搜索树的性质。" style="text;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="930" y="97" width="855" height="51" as="geometry" />
+          <mxGeometry x="930" y="94" width="855" height="51" as="geometry" />
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;strokeColor=default;fillColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="gFN2gHEbL0fVCTJnLRh3-22" target="gFN2gHEbL0fVCTJnLRh3-23">
           <mxGeometry relative="1" as="geometry">
