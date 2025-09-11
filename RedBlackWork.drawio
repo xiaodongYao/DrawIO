@@ -285,7 +285,7 @@
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-58" value="步骤 4: 进行修复 - B.颜色变换(Recoloring)" style="text;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="76" y="1209" width="436" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="gFN2gHEbL0fVCTJnLRh3-59" value="旋转后的树虽然结构对了，但颜色还不满足所有规则（比如根节点现在是红色）。所以我们需要进行最后的变色调整。" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="gFN2gHEbL0fVCTJnLRh3-59" value="旋转后的树虽然结构对了，但颜色还不满足所有规则（比如根节点现在是红色）。所以我们需要进行最后的变色调整。" style="text;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="76" y="1254" width="761" height="51" as="geometry" />
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-61" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="gFN2gHEbL0fVCTJnLRh3-63" target="gFN2gHEbL0fVCTJnLRh3-64">
@@ -320,6 +320,9 @@
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-76" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="302" y="1340" width="51" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="gFN2gHEbL0fVCTJnLRh3-77" value="我们将新的根节点 &lt;code&gt;20&lt;/code&gt; 变为&lt;b&gt;黑色&lt;/b&gt;，它的两个子节点 &lt;code&gt;10&lt;/code&gt; 和 &lt;code&gt;30&lt;/code&gt; 变为&lt;b&gt;红色&lt;/b&gt;。" style="text;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="76" y="1438" width="547" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
