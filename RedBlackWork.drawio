@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.0">
   <diagram name="Page-1" id="nHJEmuUAwTtRUE0Qn9wt">
-    <mxGraphModel dx="2058" dy="1146" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1536" dy="1067" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -165,6 +165,42 @@
         </mxCell>
         <mxCell id="gFN2gHEbL0fVCTJnLRh3-19" value="旋转后，&lt;code&gt;P(10)&lt;/code&gt; 会成为 &lt;code&gt;C(20)&lt;/code&gt; 的左孩子。那么 &lt;code&gt;C(20)&lt;/code&gt; 原来的左孩子，正好可以“过继”给 &lt;code&gt;P(10)&lt;/code&gt;，做 &lt;code&gt;P(10)&lt;/code&gt; 的&lt;b&gt;新右孩子&lt;/b&gt;。这完全符合二叉搜索树的性质。" style="text;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="930" y="97" width="855" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="gFN2gHEbL0fVCTJnLRh3-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;strokeColor=default;fillColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="gFN2gHEbL0fVCTJnLRh3-22" target="gFN2gHEbL0fVCTJnLRh3-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="996" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gFN2gHEbL0fVCTJnLRh3-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="gFN2gHEbL0fVCTJnLRh3-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1063.5900974233027" y="222.59009742330272" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gFN2gHEbL0fVCTJnLRh3-22" value="10&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="997" y="148" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="gFN2gHEbL0fVCTJnLRh3-23" value="NIL" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;strokeColor=light-dark(#000000,#EDEDED);" vertex="1" parent="1">
+          <mxGeometry x="936" y="216" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="gFN2gHEbL0fVCTJnLRh3-29" value="P" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="956" y="158.5" width="39" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="gFN2gHEbL0fVCTJnLRh3-30" value="C" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1006" y="232" width="39" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="gFN2gHEbL0fVCTJnLRh3-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="gFN2gHEbL0fVCTJnLRh3-32" target="gFN2gHEbL0fVCTJnLRh3-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gFN2gHEbL0fVCTJnLRh3-32" value="20" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;strokeColor=light-dark(#ff0000, #ededed);" vertex="1" parent="1">
+          <mxGeometry x="1168" y="148" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="gFN2gHEbL0fVCTJnLRh3-33" value="30&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;strokeColor=light-dark(#ff0000, #EDEDED);" vertex="1" parent="1">
+          <mxGeometry x="1228" y="222" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="gFN2gHEbL0fVCTJnLRh3-34" value="NIL&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;strokeColor=light-dark(#000000,#EDEDED);" vertex="1" parent="1">
+          <mxGeometry x="1056" y="216" width="45" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
