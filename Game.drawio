@@ -50,6 +50,24 @@
         <mxCell id="153Gl87On8ET4E9MDmV--16" value="Render" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="-783" y="-187" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="153Gl87On8ET4E9MDmV--28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="153Gl87On8ET4E9MDmV--25" target="153Gl87On8ET4E9MDmV--26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="153Gl87On8ET4E9MDmV--25" value="SpriteSheet" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-369" y="-537" width="128" height="70.5" as="geometry" />
+        </mxCell>
+        <mxCell id="153Gl87On8ET4E9MDmV--27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="153Gl87On8ET4E9MDmV--26" target="153Gl87On8ET4E9MDmV--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="153Gl87On8ET4E9MDmV--26" value="Sprite" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-369" y="-357" width="128" height="70.5" as="geometry" />
+        </mxCell>
+        <mxCell id="153Gl87On8ET4E9MDmV--29" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-316" y="-698" width="22" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="153Gl87On8ET4E9MDmV--30" value="ReadImage" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-294" y="-638" width="119" height="53" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
