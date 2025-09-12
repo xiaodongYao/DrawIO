@@ -1,29 +1,29 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.0">
   <diagram name="Page-1" id="eMzpdcfxDRXU5S7EZunc">
-    <mxGraphModel dx="3366" dy="2406" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="3366" dy="2006" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="153Gl87On8ET4E9MDmV--1" value="Game" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=22;textShadow=0;" vertex="1" parent="1">
-          <mxGeometry x="-1107" y="-447" width="594" height="371" as="geometry" />
+          <mxGeometry x="-939" y="-447" width="426" height="371" as="geometry" />
         </mxCell>
         <mxCell id="153Gl87On8ET4E9MDmV--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="153Gl87On8ET4E9MDmV--4" target="153Gl87On8ET4E9MDmV--16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="153Gl87On8ET4E9MDmV--4" value="Screen" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-384" y="-238" width="351" height="162" as="geometry" />
+        <mxCell id="153Gl87On8ET4E9MDmV--4" value="Screen" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-369" y="-192.25" width="128" height="70.5" as="geometry" />
         </mxCell>
         <mxCell id="153Gl87On8ET4E9MDmV--18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="153Gl87On8ET4E9MDmV--6" target="153Gl87On8ET4E9MDmV--15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="153Gl87On8ET4E9MDmV--6" value="Keyboard" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-898.5" y="-704" width="351" height="162" as="geometry" />
+        <mxCell id="153Gl87On8ET4E9MDmV--6" value="Keyboard" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-822.75" y="-602" width="199.5" height="59" as="geometry" />
         </mxCell>
         <mxCell id="153Gl87On8ET4E9MDmV--12" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-725" y="-877" width="22" height="161" as="geometry" />
+          <mxGeometry x="-733" y="-763" width="22" height="161" as="geometry" />
         </mxCell>
         <mxCell id="153Gl87On8ET4E9MDmV--13" value="Listener" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-716" y="-812" width="119" height="53" as="geometry" />
+          <mxGeometry x="-724" y="-698" width="119" height="53" as="geometry" />
         </mxCell>
         <mxCell id="153Gl87On8ET4E9MDmV--19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="153Gl87On8ET4E9MDmV--15" target="153Gl87On8ET4E9MDmV--16">
           <mxGeometry relative="1" as="geometry" />
