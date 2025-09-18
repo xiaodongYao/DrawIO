@@ -97,6 +97,9 @@
         <mxCell id="rpNOJbMMG7eSDbMSYl1A-4" value="VoidTile" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="-71" y="-377" width="128" height="70.5" as="geometry" />
         </mxCell>
+        <mxCell id="rpNOJbMMG7eSDbMSYl1A-19" value="GrassSprite" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="368" y="-485.5" width="128" height="70.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
