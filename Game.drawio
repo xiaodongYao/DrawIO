@@ -117,11 +117,23 @@
         <mxCell id="AUR_MlIZ9w9ndO3_Ztun-11" value="Player" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="-304" y="-137" width="128" height="70.5" as="geometry" />
         </mxCell>
-        <mxCell id="AUR_MlIZ9w9ndO3_Ztun-26" value="Mob" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="AUR_MlIZ9w9ndO3_Ztun-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AUR_MlIZ9w9ndO3_Ztun-26" target="AUR_MlIZ9w9ndO3_Ztun-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AUR_MlIZ9w9ndO3_Ztun-26" value="Mob" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=20;strokeColor=light-dark(#0000ff, #ededed);" vertex="1" parent="1">
           <mxGeometry x="-42" y="-137" width="128" height="70.5" as="geometry" />
         </mxCell>
-        <mxCell id="AUR_MlIZ9w9ndO3_Ztun-27" value="Entity" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="AUR_MlIZ9w9ndO3_Ztun-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AUR_MlIZ9w9ndO3_Ztun-27" target="AUR_MlIZ9w9ndO3_Ztun-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AUR_MlIZ9w9ndO3_Ztun-27" value="Entity" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=20;strokeColor=light-dark(#0000ff, #ededed);" vertex="1" parent="1">
           <mxGeometry x="234" y="-137" width="128" height="70.5" as="geometry" />
+        </mxCell>
+        <mxCell id="AUR_MlIZ9w9ndO3_Ztun-30" value="Extends" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-156" y="-158" width="95" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="AUR_MlIZ9w9ndO3_Ztun-31" value="Extends" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="114" y="-158" width="95" height="44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
