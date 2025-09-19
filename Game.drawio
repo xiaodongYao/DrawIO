@@ -38,7 +38,7 @@
         <mxCell id="153Gl87On8ET4E9MDmV--15" value="Update" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="-783" y="-389.25" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AUR_MlIZ9w9ndO3_Ztun-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="153Gl87On8ET4E9MDmV--16" target="rpNOJbMMG7eSDbMSYl1A-2">
+        <mxCell id="AUR_MlIZ9w9ndO3_Ztun-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#ff0000, #ededed);" edge="1" parent="1" source="153Gl87On8ET4E9MDmV--16" target="rpNOJbMMG7eSDbMSYl1A-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-465" y="-165" />
