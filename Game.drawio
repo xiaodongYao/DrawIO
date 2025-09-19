@@ -102,7 +102,7 @@
         <mxCell id="rpNOJbMMG7eSDbMSYl1A-4" value="VoidTile" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="23" y="-300.5" width="128" height="70.5" as="geometry" />
         </mxCell>
-        <mxCell id="AUR_MlIZ9w9ndO3_Ztun-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpNOJbMMG7eSDbMSYl1A-27" target="AUR_MlIZ9w9ndO3_Ztun-11">
+        <mxCell id="AUR_MlIZ9w9ndO3_Ztun-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="1" source="rpNOJbMMG7eSDbMSYl1A-27" target="AUR_MlIZ9w9ndO3_Ztun-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rpNOJbMMG7eSDbMSYl1A-27" value="RenderLevel" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;strokeColor=default;dashed=1;" parent="1" vertex="1">
@@ -111,7 +111,7 @@
         <mxCell id="rpNOJbMMG7eSDbMSYl1A-28" value="RenderTile" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;strokeColor=default;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="-238" y="-303" width="113" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AUR_MlIZ9w9ndO3_Ztun-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AUR_MlIZ9w9ndO3_Ztun-11" target="153Gl87On8ET4E9MDmV--4">
+        <mxCell id="AUR_MlIZ9w9ndO3_Ztun-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=light-dark(#ff0000, #ededed);" edge="1" parent="1" source="AUR_MlIZ9w9ndO3_Ztun-11" target="153Gl87On8ET4E9MDmV--4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AUR_MlIZ9w9ndO3_Ztun-11" value="Player" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=20;" vertex="1" parent="1">
