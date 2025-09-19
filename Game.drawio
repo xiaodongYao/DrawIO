@@ -117,6 +117,9 @@
         <mxCell id="AUR_MlIZ9w9ndO3_Ztun-11" value="Player" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="-304" y="-137" width="128" height="70.5" as="geometry" />
         </mxCell>
+        <mxCell id="AUR_MlIZ9w9ndO3_Ztun-26" value="Mob" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-42" y="-137" width="128" height="70.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
