@@ -52,6 +52,12 @@
         <mxCell id="zdfvZn53cnTWOAzw0Ux_-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="|&amp;nbsp; &amp;nbsp;音响播放着：[上一段缓冲声音]~~~~~~~~~~~~~~~~~~|" vertex="1">
           <mxGeometry height="22" width="314" x="478.5" y="603" as="geometry" />
         </mxCell>
+        <mxCell id="zdfvZn53cnTWOAzw0Ux_-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="屏幕开始显示：[当前帧画面]" vertex="1">
+          <mxGeometry height="17" width="160" x="796" y="592" as="geometry" />
+        </mxCell>
+        <mxCell id="zdfvZn53cnTWOAzw0Ux_-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="音响继续播放：[新写入的声音]" vertex="1">
+          <mxGeometry height="17" width="168" x="796" y="605.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
