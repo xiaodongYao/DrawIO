@@ -43,6 +43,9 @@
         <mxCell id="zdfvZn53cnTWOAzw0Ux_-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;--- 交换! (Flip)" vertex="1">
           <mxGeometry height="30" width="101" x="794" y="558" as="geometry" />
         </mxCell>
+        <mxCell id="zdfvZn53cnTWOAzw0Ux_-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="硬件输出状态&lt;div&gt;(Output)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="375" y="592" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
