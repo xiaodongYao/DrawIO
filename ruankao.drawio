@@ -26,10 +26,13 @@
           <mxGeometry height="27" width="317" x="477" y="514" as="geometry" />
         </mxCell>
         <mxCell id="zdfvZn53cnTWOAzw0Ux_-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3.CPU 等待(Wait)" vertex="1">
-          <mxGeometry height="30" width="104" x="373" y="539" as="geometry" />
+          <mxGeometry height="30" width="98" x="375" y="536" as="geometry" />
         </mxCell>
         <mxCell id="zdfvZn53cnTWOAzw0Ux_-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="|&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; [---等待---]|" vertex="1">
-          <mxGeometry height="27" width="317" x="477" y="539" as="geometry" />
+          <mxGeometry height="27" width="317" x="477" y="536" as="geometry" />
+        </mxCell>
+        <mxCell id="zdfvZn53cnTWOAzw0Ux_-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4.提交(Flip)" vertex="1">
+          <mxGeometry height="30" width="65" x="375" y="557" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
