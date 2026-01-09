@@ -7,8 +7,8 @@
         <mxCell id="zdfvZn53cnTWOAzw0Ux_-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="时间轴(Time)" vertex="1">
           <mxGeometry height="30" width="82" x="375" y="467" as="geometry" />
         </mxCell>
-        <mxCell id="zdfvZn53cnTWOAzw0Ux_-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="|" vertex="1">
-          <mxGeometry height="30" width="60" x="477" y="467" as="geometry" />
+        <mxCell id="zdfvZn53cnTWOAzw0Ux_-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="|----------------------------第 1 帧(16.6ms)-------------------------|" vertex="1">
+          <mxGeometry height="27" width="317" x="477" y="467" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
