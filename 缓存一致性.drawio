@@ -4,41 +4,41 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="缓存一致性协议(Cache coherence protocol)&lt;div&gt;&lt;span style=&quot;&quot;&gt;实际交互流程案例&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="31" width="235" x="45" y="22" as="geometry" />
+        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="缓存一致性协议(Cache coherence protocol)&lt;div&gt;&lt;span style=&quot;&quot;&gt;实际交互流程案例:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;假设有两个核心：Core&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;A 和 Core B，它们操作同一变量 x&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="46" width="299" x="45" y="22" as="geometry" />
         </mxCell>
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-5" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
-          <mxGeometry height="80" width="80" x="63" y="131" as="geometry" />
+          <mxGeometry height="80" width="80" x="62" y="124" as="geometry" />
         </mxCell>
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-6" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
-          <mxGeometry height="80" width="80" x="200" y="131" as="geometry" />
+          <mxGeometry height="80" width="80" x="199" y="124" as="geometry" />
         </mxCell>
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="RAM&lt;div&gt;int x&lt;/div&gt;" vertex="1">
           <mxGeometry height="33" width="63" x="139" y="70" as="geometry" />
         </mxCell>
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="L2" vertex="1">
-          <mxGeometry height="17" width="46" x="80" y="136" as="geometry" />
+          <mxGeometry height="17" width="46" x="79" y="129" as="geometry" />
         </mxCell>
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="L1" vertex="1">
-          <mxGeometry height="17" width="46" x="80" y="162.5" as="geometry" />
+          <mxGeometry height="17" width="46" x="79" y="155.5" as="geometry" />
         </mxCell>
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" value="store buffer" vertex="1">
-          <mxGeometry height="17" width="46" x="80" y="189" as="geometry" />
+          <mxGeometry height="17" width="46" x="79" y="182" as="geometry" />
         </mxCell>
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="L2" vertex="1">
-          <mxGeometry height="17" width="46" x="217" y="136" as="geometry" />
+          <mxGeometry height="17" width="46" x="216" y="129" as="geometry" />
         </mxCell>
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="L1" vertex="1">
-          <mxGeometry height="17" width="46" x="217" y="162.5" as="geometry" />
+          <mxGeometry height="17" width="46" x="216" y="155.5" as="geometry" />
         </mxCell>
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" value="store buffer" vertex="1">
-          <mxGeometry height="17" width="46" x="217" y="189" as="geometry" />
+          <mxGeometry height="17" width="46" x="216" y="182" as="geometry" />
         </mxCell>
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Core A" vertex="1">
-          <mxGeometry height="17" width="39" x="83.5" y="217" as="geometry" />
+          <mxGeometry height="17" width="39" x="82.5" y="210" as="geometry" />
         </mxCell>
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Core B" vertex="1">
-          <mxGeometry height="17" width="40.5" x="220.5" y="217" as="geometry" />
+          <mxGeometry height="17" width="40.5" x="219.5" y="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
