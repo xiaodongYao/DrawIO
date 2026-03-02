@@ -7,6 +7,15 @@
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="缓存一致性协议(Cache coherence protocol)&lt;div&gt;&lt;span style=&quot;&quot;&gt;实际交互流程案例&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="31" width="235" x="45" y="22" as="geometry" />
         </mxCell>
+        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-5" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="CoreA" vertex="1">
+          <mxGeometry height="80" width="80" x="71" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-6" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="CoreB" vertex="1">
+          <mxGeometry height="80" width="80" x="320" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="RAM" vertex="1">
+          <mxGeometry height="33" width="63" x="204" y="115.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
