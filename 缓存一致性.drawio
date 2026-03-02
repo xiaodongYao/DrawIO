@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.3.0">
   <diagram name="Page-1" id="79gSdEwwKMWHRwFeuU2-">
-    <mxGraphModel dx="572" dy="317" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="354" dy="245" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,13 +23,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="L1" vertex="1">
-          <mxGeometry height="17" width="151" x="76" y="221.5" as="geometry" />
+          <mxGeometry height="17" width="151" x="76" y="238.5" as="geometry" />
         </mxCell>
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="L2" vertex="1">
           <mxGeometry height="17" width="46" x="318" y="195" as="geometry" />
         </mxCell>
+        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-127" edge="1" parent="1" source="ZqWIN0pX9Obz-YS4HQuo-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="ZqWIN0pX9Obz-YS4HQuo-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeColor=light-dark(#FF0000,#EDEDED);" value="Store buffer" vertex="1">
-          <mxGeometry height="17" width="151" x="76" y="248" as="geometry" />
+          <mxGeometry height="17" width="151" x="76" y="284" as="geometry" />
         </mxCell>
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="L1" vertex="1">
           <mxGeometry height="17" width="46" x="318" y="221.5" as="geometry" />
@@ -242,6 +245,18 @@
         </mxCell>
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-116" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=14;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;不再进行全员广播，而是维护一个集中的（或分布式的）“目录”。&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: bold;&quot;&gt;优点：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;节省总线带宽，扩展性好&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: bold;&quot;&gt;缺点：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;延迟较高(多了查目录和点对点通信的步骤)&lt;/span&gt;&lt;/p&gt;&lt;ul type=&quot;disc&quot; style=&quot;direction: ltr; unicode-bidi: embed; margin-top: 0in;&quot;&gt;&lt;br&gt;&lt;/ul&gt;" vertex="1">
           <mxGeometry height="70" width="430" x="738" y="533" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-125" edge="1" parent="1" source="ZqWIN0pX9Obz-YS4HQuo-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="ZqWIN0pX9Obz-YS4HQuo-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-124" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" value="CPU 执行单元(寄存器/ALU)&amp;nbsp;" vertex="1">
+          <mxGeometry height="17" width="151" x="76" y="330.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-126" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=7;" value="写入数据" vertex="1">
+          <mxGeometry height="11" width="34.75" x="76" y="312" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-128" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=7;" value="Store Forwarding&amp;nbsp;&lt;div&gt;旁路读取&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="59" x="131" y="305" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
