@@ -192,6 +192,9 @@
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-97" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;所有核心的缓存控制器都连接到一条共享的总线（Bus）上，并时刻监听（Snoop）总线上的流量&lt;/p&gt;" vertex="1">
           <mxGeometry height="70" width="284.86" x="74" y="454.29" as="geometry" />
         </mxCell>
+        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-113" edge="1" parent="1" source="ZqWIN0pX9Obz-YS4HQuo-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="ZqWIN0pX9Obz-YS4HQuo-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-98" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
           <mxGeometry height="80" width="80" x="563.5" y="348" as="geometry" />
         </mxCell>
@@ -239,6 +242,9 @@
         </mxCell>
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-110" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Core D" vertex="1">
           <mxGeometry height="17" width="43" x="791" y="382" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-114" edge="1" parent="1" source="ZqWIN0pX9Obz-YS4HQuo-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.542;entryY=1.01;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZqWIN0pX9Obz-YS4HQuo-77">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
