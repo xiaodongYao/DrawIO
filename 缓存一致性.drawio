@@ -69,6 +69,9 @@
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-42" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#000000, #ffadcd);fontColor=#ffffff;strokeColor=#000000;" value="" vertex="1">
           <mxGeometry height="4" width="4" x="168.5" y="135.5" as="geometry" />
         </mxCell>
+        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;" value="总线（Bus）" vertex="1">
+          <mxGeometry height="15" width="51" x="145" y="227" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
