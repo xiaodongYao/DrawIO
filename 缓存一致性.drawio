@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.3.0">
   <diagram name="Page-1" id="79gSdEwwKMWHRwFeuU2-">
-    <mxGraphModel dx="354" dy="245" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="572" dy="317" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -187,12 +187,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="228.25" y="478.71" as="sourcePoint" />
             <mxPoint x="319.25" y="478.71" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-96" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="228.25" y="505.21" as="sourcePoint" />
-            <mxPoint x="319.25" y="505.21" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-97" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=14;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;所有核心的缓存控制器都连接到一条共享的总线（Bus）上，并时刻监听（Snoop）总线上的流量&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: bold;&quot;&gt;优点：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; 响应快，实现相对简单。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: bold;&quot;&gt;缺点：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; 扩展性差。如果有 64&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;个核心都在广播，总线带宽瞬间就会被占满，成为瓶颈。&lt;/span&gt;&lt;/p&gt;&lt;ul type=&quot;disc&quot; style=&quot;direction:ltr;unicode-bidi:embed;margin-top:0in;&amp;lt;br/&amp;gt; margin-bottom:0in&quot;&gt;&lt;br&gt;&lt;/ul&gt;" vertex="1">
