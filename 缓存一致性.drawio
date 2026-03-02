@@ -1,14 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.3.0">
   <diagram name="Page-1" id="79gSdEwwKMWHRwFeuU2-">
-    <mxGraphModel dx="425" dy="294" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="16000" math="0" shadow="0">
+    <mxGraphModel dx="686" dy="380" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="16000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="缓存一致性协议(Cache coherence protocol)" vertex="1">
           <mxGeometry height="23" width="235" x="45" y="22" as="geometry" />
         </mxCell>
-        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="硬件状态机协议MESI&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;1.M(Modified)-已修改&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;2.E(Exclusive)-独占&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;3.S(Shared)-共享&lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;4.I(Invalid)-无效&lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="73" width="117" x="45" y="49" as="geometry" />
+        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="硬件状态机协议MESI&lt;div&gt;&lt;br&gt;&lt;div&gt;将每个缓存行标记为四种状态之一（每个缓存行需要额外的 2 bit 来存储这些状态）&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;1.M(Modified)-已修改&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;2.E(Exclusive)-独占&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;3.S(Shared)-共享&lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;4.I(Invalid)-无效&lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="121" width="472" x="45" y="49" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
