@@ -1,20 +1,38 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.3.0">
   <diagram name="Page-1" id="79gSdEwwKMWHRwFeuU2-">
-    <mxGraphModel dx="686" dy="380" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="16000" math="0" shadow="0">
+    <mxGraphModel dx="425" dy="294" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="16000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="缓存一致性协议(Cache coherence protocol)&lt;div&gt;&lt;span style=&quot;&quot;&gt;实际交互流程案例&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="31" width="235" x="45" y="22" as="geometry" />
         </mxCell>
-        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-5" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="CoreA" vertex="1">
-          <mxGeometry height="80" width="80" x="71" y="92" as="geometry" />
+        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-5" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="63" y="131" as="geometry" />
         </mxCell>
-        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-6" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="CoreB" vertex="1">
-          <mxGeometry height="80" width="80" x="320" y="92" as="geometry" />
+        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-6" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="200" y="131" as="geometry" />
         </mxCell>
-        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="RAM" vertex="1">
-          <mxGeometry height="33" width="63" x="204" y="115.5" as="geometry" />
+        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="RAM&lt;div&gt;int x&lt;/div&gt;" vertex="1">
+          <mxGeometry height="33" width="63" x="139" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="17" width="46" x="80" y="136" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="17" width="24" x="91" y="162.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="9" width="24" x="91" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="17" width="46" x="217" y="136" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="17" width="24" x="228" y="162.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="9" width="24" x="228" y="192" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
