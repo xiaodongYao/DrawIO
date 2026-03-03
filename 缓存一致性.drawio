@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.0">
   <diagram name="Page-1" id="79gSdEwwKMWHRwFeuU2-">
-    <mxGraphModel dx="2176" dy="651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="3058" dy="1140" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -263,6 +263,39 @@
         </mxCell>
         <mxCell id="Xc06T8GCqguyYpIJk1bx-6" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=12;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;MESI协议只保证&lt;span style=&quot;font-weight:bold&quot;&gt;单个变量（缓存行）的一致性，它不保证多条指令之间的执行顺序&lt;/span&gt;。&lt;/p&gt;" vertex="1">
           <mxGeometry height="41" width="451" x="-444" y="229" as="geometry" />
+        </mxCell>
+        <mxCell id="Xc06T8GCqguyYpIJk1bx-8" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="98" y="907" as="geometry" />
+        </mxCell>
+        <mxCell id="Xc06T8GCqguyYpIJk1bx-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="L2" vertex="1">
+          <mxGeometry height="17" width="46" x="115" y="912" as="geometry" />
+        </mxCell>
+        <mxCell id="Xc06T8GCqguyYpIJk1bx-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="L1" vertex="1">
+          <mxGeometry height="17" width="46" x="115" y="938.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Xc06T8GCqguyYpIJk1bx-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" value="store buffer" vertex="1">
+          <mxGeometry height="17" width="46" x="115" y="965" as="geometry" />
+        </mxCell>
+        <mxCell id="Xc06T8GCqguyYpIJk1bx-12" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="235" y="907" as="geometry" />
+        </mxCell>
+        <mxCell id="Xc06T8GCqguyYpIJk1bx-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="L2" vertex="1">
+          <mxGeometry height="17" width="46" x="252" y="912" as="geometry" />
+        </mxCell>
+        <mxCell id="Xc06T8GCqguyYpIJk1bx-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="L1" vertex="1">
+          <mxGeometry height="17" width="46" x="252" y="938.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Xc06T8GCqguyYpIJk1bx-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" value="store buffer" vertex="1">
+          <mxGeometry height="17" width="46" x="252" y="965" as="geometry" />
+        </mxCell>
+        <mxCell id="Xc06T8GCqguyYpIJk1bx-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Core C" vertex="1">
+          <mxGeometry height="17" width="43" x="40" y="938.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Xc06T8GCqguyYpIJk1bx-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Core D" vertex="1">
+          <mxGeometry height="17" width="43" x="327.5" y="938.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Xc06T8GCqguyYpIJk1bx-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=15;" value="&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;伪共享(&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;font-weight: bold; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;False Sharing&lt;/span&gt;&lt;b style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 144, 144)); background-color: transparent;&quot;&gt;)&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="164.5" x="112.5" y="836" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
