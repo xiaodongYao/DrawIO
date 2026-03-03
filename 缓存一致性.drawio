@@ -312,6 +312,9 @@
         <mxCell id="Xc06T8GCqguyYpIJk1bx-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="Core A修改1导致Core B 数据失效&lt;div&gt;Core B修改2导致Core A 数据失效&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="242" x="91" y="1181" as="geometry" />
         </mxCell>
+        <mxCell id="Xc06T8GCqguyYpIJk1bx-29" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;缓存行乒乓（Cache Line Ping-Pong）现象&lt;/p&gt;" vertex="1">
+          <mxGeometry height="44" width="403" x="20" y="1230" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
