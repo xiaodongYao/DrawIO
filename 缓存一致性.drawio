@@ -246,8 +246,20 @@
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-131" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=7;" value="缓存控制器异步排队写入" vertex="1">
           <mxGeometry height="11" width="54" x="96.25" y="265" as="geometry" />
         </mxCell>
-        <mxCell id="Xc06T8GCqguyYpIJk1bx-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="内存屏障" vertex="1">
-          <mxGeometry height="39" width="73" x="-169" y="355" as="geometry" />
+        <mxCell id="Xc06T8GCqguyYpIJk1bx-2" edge="1" parent="1" source="Xc06T8GCqguyYpIJk1bx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ZqWIN0pX9Obz-YS4HQuo-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xc06T8GCqguyYpIJk1bx-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="内存屏障(Memory Barrier)" vertex="1">
+          <mxGeometry height="39" width="103" x="-276" y="273" as="geometry" />
+        </mxCell>
+        <mxCell id="Xc06T8GCqguyYpIJk1bx-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=10;" value="将Store buffer中的值强行写入L1并清空Store buffer" vertex="1">
+          <mxGeometry height="19" width="196" x="-164" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Xc06T8GCqguyYpIJk1bx-5" edge="1" parent="1" source="Xc06T8GCqguyYpIJk1bx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Xc06T8GCqguyYpIJk1bx-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xc06T8GCqguyYpIJk1bx-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=left;dashed=1;" value="&lt;p style=&quot;margin: 0in;&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Cascadia Code&amp;quot;&quot;&gt;x = 1;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;;&quot;&gt;//&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;这里的栅栏确保&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;;&quot;&gt;&amp;nbsp;x&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;写入完成后，才能碰&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;;&quot;&gt;&amp;nbsp;y&lt;/span&gt;&lt;span style=&quot;font-family:&amp;quot;Cascadia Code&amp;quot;&quot;&gt;&lt;br&gt;Memory_Barrier();&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family:&amp;quot;Cascadia Code&amp;quot;&quot;&gt;&lt;br&gt;y = 1;&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="65" width="220" x="-334.5" y="347.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
