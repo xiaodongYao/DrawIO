@@ -353,20 +353,26 @@
         <mxCell id="j9GzwqdxOmsCHDg4bl05-11" edge="1" parent="1" source="j9GzwqdxOmsCHDg4bl05-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j9GzwqdxOmsCHDg4bl05-10" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="j9GzwqdxOmsCHDg4bl05-16" edge="1" parent="1" source="j9GzwqdxOmsCHDg4bl05-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="j9GzwqdxOmsCHDg4bl05-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="j9GzwqdxOmsCHDg4bl05-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="缓存一致性" vertex="1">
-          <mxGeometry height="80" width="80" x="-768" y="168" as="geometry" />
+          <mxGeometry height="80" width="80" x="-693" y="637" as="geometry" />
         </mxCell>
         <mxCell id="j9GzwqdxOmsCHDg4bl05-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="实现数据全局统一" vertex="1">
-          <mxGeometry height="60" width="120" x="-788" y="57" as="geometry" />
+          <mxGeometry height="60" width="120" x="-868" y="524" as="geometry" />
         </mxCell>
-        <mxCell id="j9GzwqdxOmsCHDg4bl05-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="指令重排序" vertex="1">
-          <mxGeometry height="80" width="80" x="-583" y="270" as="geometry" />
+        <mxCell id="j9GzwqdxOmsCHDg4bl05-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="原理" vertex="1">
+          <mxGeometry height="60" width="120" x="-545" y="524" as="geometry" />
         </mxCell>
-        <mxCell id="j9GzwqdxOmsCHDg4bl05-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="性能影响" vertex="1">
-          <mxGeometry height="80" width="80" x="-768" y="270.5" as="geometry" />
+        <mxCell id="j9GzwqdxOmsCHDg4bl05-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="死锁" vertex="1">
+          <mxGeometry height="80" width="120" x="-961" y="782" as="geometry" />
         </mxCell>
-        <mxCell id="j9GzwqdxOmsCHDg4bl05-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="死锁" vertex="1">
-          <mxGeometry height="80" width="80" x="-935" y="270" as="geometry" />
+        <mxCell id="j9GzwqdxOmsCHDg4bl05-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="性能" vertex="1">
+          <mxGeometry height="80" width="120" x="-713" y="782" as="geometry" />
+        </mxCell>
+        <mxCell id="j9GzwqdxOmsCHDg4bl05-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="120" x="-475" y="782" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
