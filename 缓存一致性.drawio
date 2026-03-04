@@ -339,6 +339,9 @@
         <mxCell id="j9GzwqdxOmsCHDg4bl05-3" edge="1" parent="1" source="ZqWIN0pX9Obz-YS4HQuo-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.275;entryY=0.973;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZqWIN0pX9Obz-YS4HQuo-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="j9GzwqdxOmsCHDg4bl05-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" value="Invalidate&lt;div&gt;Queue&lt;/div&gt;" vertex="1">
+          <mxGeometry height="39" width="55" x="182.13" y="217" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
