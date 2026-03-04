@@ -247,7 +247,7 @@
           <mxGeometry height="11" width="51.75" x="48" y="339.5" as="geometry" />
         </mxCell>
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-128" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=10;" value="Store Forwarding&amp;nbsp;&lt;div&gt;旁路读取&lt;/div&gt;" vertex="1">
-          <mxGeometry height="32" width="81.75" x="186.25" y="335" as="geometry" />
+          <mxGeometry height="32" width="81.75" x="182.13" y="332" as="geometry" />
         </mxCell>
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-131" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=11;" value="缓存控制器异步排队写入" vertex="1">
           <mxGeometry height="15" width="77" x="64" y="263" as="geometry" />
