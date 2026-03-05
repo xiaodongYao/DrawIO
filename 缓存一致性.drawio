@@ -369,16 +369,16 @@
           <mxGeometry height="80" width="120" x="-814" y="1005" as="geometry" />
         </mxCell>
         <mxCell id="rlqyw-OXyF3YiGgFIkFy-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=18;" value="&lt;span style=&quot;font-weight:bold&quot;&gt;保证严格的一致性而不造成性能瓶颈&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="292" x="-632" y="891" as="geometry" />
+          <mxGeometry height="30" width="292" x="-674" y="990" as="geometry" />
         </mxCell>
         <mxCell id="rlqyw-OXyF3YiGgFIkFy-3" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=18;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&lt;/span&gt;避免死锁和饥饿状态&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="34.5" width="173" x="-632" y="985" as="geometry" />
+          <mxGeometry height="34.5" width="173" x="-676" y="1018" as="geometry" />
         </mxCell>
         <mxCell id="rlqyw-OXyF3YiGgFIkFy-4" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;减少总线通信量 &amp;amp; 设计易于扩展的协议&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="39" width="317" x="-632" y="1071" as="geometry" />
+          <mxGeometry height="39" width="317" x="-674" y="1055" as="geometry" />
         </mxCell>
         <mxCell id="rlqyw-OXyF3YiGgFIkFy-5" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;在多核系统中高效管理状态转换 &amp;amp; 复杂场景下的正确性&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="37" width="447" x="-632" y="1161" as="geometry" />
+          <mxGeometry height="37" width="447" x="-674" y="1089" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
