@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.0">
   <diagram name="Page-1" id="79gSdEwwKMWHRwFeuU2-">
-    <mxGraphModel dx="2349" dy="1049" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="3421" dy="1341" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -297,8 +297,8 @@
         <mxCell id="Xc06T8GCqguyYpIJk1bx-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Core B" vertex="1">
           <mxGeometry height="17" width="43" x="986.5" y="855.5" as="geometry" />
         </mxCell>
-        <mxCell id="Xc06T8GCqguyYpIJk1bx-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;伪共享(&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;font-weight: bold; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;False Sharing&lt;/span&gt;&lt;b style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 144, 144)); background-color: transparent;&quot;&gt;)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;不同线程的变量在同一个缓存行中&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="261.5" x="747.75" y="753" as="geometry" />
+        <mxCell id="Xc06T8GCqguyYpIJk1bx-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=21;" value="&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;伪共享(&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;font-weight: bold; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;False Sharing&lt;/span&gt;&lt;b style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 144, 144)); background-color: transparent;&quot;&gt;)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;不同线程的变量在同一个缓存行中&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="371.25" x="699" y="755" as="geometry" />
         </mxCell>
         <mxCell id="Xc06T8GCqguyYpIJk1bx-28" edge="1" parent="1" source="Xc06T8GCqguyYpIJk1bx-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Xc06T8GCqguyYpIJk1bx-27" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -412,6 +412,9 @@
         </mxCell>
         <mxCell id="rlqyw-OXyF3YiGgFIkFy-23" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Microsoft YaHei&amp;quot;;font-size:15.0pt&quot;&gt;缓存行失效与内存延迟&lt;/p&gt;" vertex="1">
           <mxGeometry height="37" width="211" x="-557" y="716" as="geometry" />
+        </mxCell>
+        <mxCell id="rlqyw-OXyF3YiGgFIkFy-24" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;伪共享（False Sharing）：隐形的性能杀手&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="48" width="435" x="-562.0005882352941" y="776.0011764705882" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
