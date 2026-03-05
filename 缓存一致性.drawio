@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.0">
   <diagram name="Page-1" id="79gSdEwwKMWHRwFeuU2-">
-    <mxGraphModel dx="5430" dy="1900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="4940" dy="1629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -455,8 +455,8 @@
         <mxCell id="rlqyw-OXyF3YiGgFIkFy-40" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;使用编译器指令（如&#xa;C++ 的 alignas(64)）强制它们对齐到独立的缓存行，或者在结构体内手动填充无用字节&lt;/p&gt;" vertex="1">
           <mxGeometry height="94" width="550" x="-1297" y="1330" as="geometry" />
         </mxCell>
-        <mxCell id="rlqyw-OXyF3YiGgFIkFy-42" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=26;direction=west;" value="引发死锁" vertex="1">
-          <mxGeometry height="80" width="120" x="-1974" y="564" as="geometry" />
+        <mxCell id="rlqyw-OXyF3YiGgFIkFy-42" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=26;direction=west;" value="缓存一致性协议运行时可能引发死锁" vertex="1">
+          <mxGeometry height="151" width="323" x="-1974" y="564" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
