@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.0">
   <diagram name="Page-1" id="79gSdEwwKMWHRwFeuU2-">
-    <mxGraphModel dx="3421" dy="1341" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="4430" dy="1900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -408,13 +408,31 @@
           <mxGeometry height="44" width="399" x="-409" y="1470" as="geometry" />
         </mxCell>
         <mxCell id="rlqyw-OXyF3YiGgFIkFy-22" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=26;" value="性能影响" vertex="1">
-          <mxGeometry height="80" width="120" x="-755" y="753" as="geometry" />
+          <mxGeometry height="80" width="120" x="-804" y="824" as="geometry" />
         </mxCell>
-        <mxCell id="rlqyw-OXyF3YiGgFIkFy-23" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Microsoft YaHei&amp;quot;;font-size:15.0pt&quot;&gt;缓存行失效与内存延迟&lt;/p&gt;" vertex="1">
-          <mxGeometry height="37" width="211" x="-557" y="716" as="geometry" />
+        <mxCell id="rlqyw-OXyF3YiGgFIkFy-23" parent="1" style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=20;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;缓存行失效与内存延迟&lt;/p&gt;" vertex="1">
+          <mxGeometry height="37" width="211" x="-594" y="728" as="geometry" />
         </mxCell>
-        <mxCell id="rlqyw-OXyF3YiGgFIkFy-24" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;伪共享（False Sharing）：隐形的性能杀手&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="48" width="435" x="-562.0005882352941" y="776.0011764705882" as="geometry" />
+        <mxCell id="rlqyw-OXyF3YiGgFIkFy-24" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;伪共享（False Sharing）：隐形的性能杀手&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="403" x="-594" y="807" as="geometry" />
+        </mxCell>
+        <mxCell id="rlqyw-OXyF3YiGgFIkFy-25" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;总线与互联网络带宽瓶颈&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="41" width="243" x="-594" y="884" as="geometry" />
+        </mxCell>
+        <mxCell id="rlqyw-OXyF3YiGgFIkFy-26" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;内存屏障（Memory Barriers）导致的流水线停顿&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="38.65" width="484.76" x="-590" y="963" as="geometry" />
+        </mxCell>
+        <mxCell id="rlqyw-OXyF3YiGgFIkFy-27" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=17;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;当多个核心只&lt;span style=&quot;font-weight:bold&quot;&gt;读&lt;/span&gt;同一块数据时，&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica;&quot;&gt;一旦&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica; font-weight: bold;&quot;&gt;核心 A 修改&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica;&quot;&gt;了某个变量，&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica; font-weight: bold;&quot;&gt;核心 B 再次读取&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica;&quot;&gt;该变量时，会遭遇 Cache Miss&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="38" width="895" x="-338" y="732" as="geometry" />
+        </mxCell>
+        <mxCell id="rlqyw-OXyF3YiGgFIkFy-28" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;CPU缓存并非按字节加载，而是按&lt;b&gt;缓存行（Cache Line，通常为 64 字节）&lt;/b&gt;加载。&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;如果两个完全独立的数据恰好紧挨着被放进了同一个缓存行&lt;/p&gt;" vertex="1">
+          <mxGeometry height="65" width="731" x="-153" y="790.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rlqyw-OXyF3YiGgFIkFy-29" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;当大量线程在频繁修改共享数据时，这些一致性控制消息会挤占总线带宽。当总线饱和时，所有的内存操作都会被严重阻塞，导致整体系统的吞吐量达到瓶颈，甚至下降&lt;/p&gt;" vertex="1">
+          <mxGeometry height="94" width="550" x="-263.995882352941" y="858.0023529411766" as="geometry" />
+        </mxCell>
+        <mxCell id="rlqyw-OXyF3YiGgFIkFy-30" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:14.0pt&quot;&gt;强制CPU 清空写缓冲区（Store Buffer）或停止指令重排（Instruction Reordering），直接损失了现代CPU 乱序执行带来的性能红利&lt;/p&gt;" vertex="1">
+          <mxGeometry height="65" width="590.18" x="-82.59" y="952" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
