@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.0">
   <diagram name="Page-1" id="79gSdEwwKMWHRwFeuU2-">
-    <mxGraphModel dx="5116" dy="2280" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="3058" dy="1140" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -405,7 +405,7 @@
           <mxGeometry height="44" width="399" x="1395" y="1268" as="geometry" />
         </mxCell>
         <mxCell id="rlqyw-OXyF3YiGgFIkFy-22" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=26;direction=west;" value="性能" vertex="1">
-          <mxGeometry height="80" width="120" x="-940" y="960" as="geometry" />
+          <mxGeometry height="80" width="120" x="-950" y="980" as="geometry" />
         </mxCell>
         <mxCell id="rlqyw-OXyF3YiGgFIkFy-23" parent="1" style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=20;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;缓存行失效与内存延迟&lt;/p&gt;" vertex="1">
           <mxGeometry height="37" width="211" x="-594" y="728" as="geometry" />
@@ -435,7 +435,25 @@
           <mxGeometry height="39" width="72" x="-763" y="845" as="geometry" />
         </mxCell>
         <mxCell id="rlqyw-OXyF3YiGgFIkFy-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;应对策略&lt;/font&gt;" vertex="1">
-          <mxGeometry height="39" width="102" x="-763" y="1059" as="geometry" />
+          <mxGeometry height="39" width="102" x="-782" y="1147" as="geometry" />
+        </mxCell>
+        <mxCell id="rlqyw-OXyF3YiGgFIkFy-35" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;内存对齐与填充（Padding）&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="46" width="289" x="-590" y="1079" as="geometry" />
+        </mxCell>
+        <mxCell id="rlqyw-OXyF3YiGgFIkFy-36" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;数据局部性（Data Locality）&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="46" width="276" x="-590" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="rlqyw-OXyF3YiGgFIkFy-37" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;将结构体数组（AoS）转变为数组结构体（SoA）&lt;/p&gt;" vertex="1">
+          <mxGeometry height="34" width="433" x="-278" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="rlqyw-OXyF3YiGgFIkFy-38" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;线程本地存储（Thread-Local Storage）&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="46" width="386" x="-594" y="1231" as="geometry" />
+        </mxCell>
+        <mxCell id="rlqyw-OXyF3YiGgFIkFy-39" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;每个线程在本地内存（如私有累加器、本地队列）中完成大部分计算，最后再通过一次性写入或原子操作合并到全局共享状态中&lt;/p&gt;" vertex="1">
+          <mxGeometry height="94" width="550" x="-195" y="1212" as="geometry" />
+        </mxCell>
+        <mxCell id="rlqyw-OXyF3YiGgFIkFy-40" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;使用编译器指令（如&#xa;C++ 的 alignas(64)）强制它们对齐到独立的缓存行，或者在结构体内手动填充无用字节&lt;/p&gt;" vertex="1">
+          <mxGeometry height="94" width="550" x="-270" y="1053" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
