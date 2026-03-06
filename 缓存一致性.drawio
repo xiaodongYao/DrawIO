@@ -456,10 +456,31 @@
           <mxGeometry height="194" width="161" x="-2000" y="564" as="geometry" />
         </mxCell>
         <mxCell id="1-6_obU4I-_CsHtN2B1U-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Microsoft YaHei&amp;quot;;font-size:15.0pt&quot;&gt;多核同时请求缓存状态变化时互相等待&lt;/p&gt;" vertex="1">
-          <mxGeometry height="39.5" width="347" x="-1334" y="424.5" as="geometry" />
+          <mxGeometry height="39.5" width="347" x="-1646" y="524.5" as="geometry" />
         </mxCell>
         <mxCell id="1-6_obU4I-_CsHtN2B1U-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;原因&lt;/font&gt;" vertex="1">
-          <mxGeometry height="39" width="72" x="-1790" y="415.5" as="geometry" />
+          <mxGeometry height="39" width="72" x="-1790" y="524.5" as="geometry" />
+        </mxCell>
+        <mxCell id="1-6_obU4I-_CsHtN2B1U-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;应对策略&lt;/font&gt;" vertex="1">
+          <mxGeometry height="39" width="102" x="-1809" y="746" as="geometry" />
+        </mxCell>
+        <mxCell id="1-6_obU4I-_CsHtN2B1U-4" parent="1" style="text;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Microsoft YaHei&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-size: 15pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;超时策略，避免循环等待--NACK退避机制&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Microsoft YaHei&amp;quot;;font-size:15.0pt&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="41" width="388" x="-1650" y="746" as="geometry" />
+        </mxCell>
+        <mxCell id="1-6_obU4I-_CsHtN2B1U-6" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Microsoft YaHei&amp;quot;&quot;&gt;使用非阻塞协议（如&lt;/span&gt;&lt;span style=&quot;font-family:&#xa;Calibri&quot;&gt; MESI &lt;/span&gt;&lt;span style=&quot;font-family:&amp;quot;Microsoft YaHei&amp;quot;&quot;&gt;带的事务支持）&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="46" width="408" x="-1649.9984427584136" y="903.9969418569711" as="geometry" />
+        </mxCell>
+        <mxCell id="1-6_obU4I-_CsHtN2B1U-7" parent="1" style="text;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 20px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;时间戳&lt;/span&gt;" vertex="1">
+          <mxGeometry height="46" width="88" x="-1649.9984427584136" y="657.0038649338943" as="geometry" />
+        </mxCell>
+        <mxCell id="1-6_obU4I-_CsHtN2B1U-8" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 20px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;当一个缓存行请求（Request）在队列中等待超过特定的时钟周期（发生拥堵），硬件定时器会触发。仲裁器会直接把这个请求踢出队列（返回NACK），强迫发送方的 CPU 核心释放资源并稍后重试&lt;/span&gt;" vertex="1">
+          <mxGeometry height="118" width="550" x="-1200.9984615384615" y="715.9960787259614" as="geometry" />
+        </mxCell>
+        <mxCell id="1-6_obU4I-_CsHtN2B1U-9" parent="1" style="text;whiteSpace=wrap;html=1;fontStyle=0;fontSize=20;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;硬件会给每个内存请求打上一个极小的时间戳（或分配一个&#xa;Age 计数器）。当多个请求发生冲突时，&lt;span&gt;“资历最老（时间戳最早）”的请求拥有绝对优先权&lt;/span&gt;，年轻的请求必须给它让路&lt;/p&gt;" vertex="1">
+          <mxGeometry height="89" width="550" x="-1515.9976923076924" y="630.0022325721152" as="geometry" />
+        </mxCell>
+        <mxCell id="1-6_obU4I-_CsHtN2B1U-10" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:14.0pt&quot;&gt;引入一个“全局仲裁者”（通常是&#xa;Directory Controller 目录控制器，或者总线仲裁器）&lt;/p&gt;" vertex="1">
+          <mxGeometry height="67" width="466" x="-1652.4969230769234" y="823.9969418569711" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
