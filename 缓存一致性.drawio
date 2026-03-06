@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.0">
   <diagram name="Page-1" id="79gSdEwwKMWHRwFeuU2-">
-    <mxGraphModel dx="3260" dy="902" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="4382" dy="1351" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -481,6 +481,9 @@
         </mxCell>
         <mxCell id="1-6_obU4I-_CsHtN2B1U-10" parent="1" style="text;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:14.0pt&quot;&gt;引入一个“全局仲裁者”（通常是&#xa;Directory Controller 目录控制器，或者总线仲裁器）&lt;/p&gt;" vertex="1">
           <mxGeometry height="67" width="466" x="-1652.4969230769234" y="605.9969418569711" as="geometry" />
+        </mxCell>
+        <mxCell id="1-6_obU4I-_CsHtN2B1U-11" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;CPU假装没有冲突，直接开始执行代码，将修改暂存在本地 L1 缓存的一个隐藏区域中（不广播给其他人）&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;如果在执行期间，CPU监听（Snoop）到其他核心试图修改同一块内存，&lt;span style=&quot;font-weight:bold&quot;&gt;硬件会直接触发“事务中止（Abort）”&lt;/span&gt;，瞬间撤销（Rollback）刚才所有的修改&lt;/p&gt;" vertex="1">
+          <mxGeometry height="136" width="647" x="-1119" y="686" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
