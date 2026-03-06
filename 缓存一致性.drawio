@@ -485,6 +485,9 @@
         <mxCell id="1-6_obU4I-_CsHtN2B1U-11" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;CPU假装没有冲突，直接开始执行代码，将修改暂存在本地 L1 缓存的一个隐藏区域中（不广播给其他人）&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;如果在执行期间，CPU监听（Snoop）到其他核心试图修改同一块内存，&lt;span style=&quot;font-weight:bold&quot;&gt;硬件会直接触发“事务中止（Abort）”&lt;/span&gt;，瞬间撤销（Rollback）刚才所有的修改&lt;/p&gt;" vertex="1">
           <mxGeometry height="136" width="647" x="-1119" y="686" as="geometry" />
         </mxCell>
+        <mxCell id="1-6_obU4I-_CsHtN2B1U-12" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;虚拟网络与消息分类 (Virtual Networks &amp;amp; Message Classes)&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="73" width="550" x="-1649.9939212740385" y="827.5038461538462" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
