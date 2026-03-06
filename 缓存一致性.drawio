@@ -13,8 +13,8 @@
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-117" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="213" width="237" x="-2555" y="847" as="geometry" />
         </mxCell>
-        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=15;" value="&lt;div&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;A.总线嗅探 (Bus Snooping)&lt;/font&gt; —— 适用于核心较少的 CPU (如家用 PC)&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="38" width="475" x="-2775" y="656" as="geometry" />
+        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=21;" value="&lt;div&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;A.总线嗅探 (Bus Snooping)&lt;/font&gt; —— 适用于核心较少的 CPU (如家用 PC)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="38" width="690" x="-2842" y="656" as="geometry" />
         </mxCell>
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="RAM" vertex="1">
           <mxGeometry height="18" width="454" x="-2531.5" y="753" as="geometry" />
