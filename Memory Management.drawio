@@ -711,6 +711,9 @@
         <mxCell id="qWZpPbq2GA6Z5xrev1HH-113" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="CoreA 收到B的Invalid信号，将状态变为M(Modified)并写入新值" vertex="1">
           <mxGeometry height="65" width="283" x="-1991" y="1098" as="geometry" />
         </mxCell>
+        <mxCell id="qWZpPbq2GA6Z5xrev1HH-114" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="CoreB读取数据data，发现是I(缓存未命中)，重新读取数据，发出读取请求" vertex="1">
+          <mxGeometry height="65" width="283" x="-1662" y="1097" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
