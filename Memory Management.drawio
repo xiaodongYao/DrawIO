@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.1" pages="2">
   <diagram name="缓存一致性" id="79gSdEwwKMWHRwFeuU2-">
-    <mxGraphModel dx="6096" dy="1756" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="5160" dy="1562" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -731,6 +731,9 @@
         </mxCell>
         <mxCell id="qWZpPbq2GA6Z5xrev1HH-122" parent="1" style="text;whiteSpace=wrap;html=1;fontColor=#0000FF;fontSize=30;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans&amp;quot;;&quot;&gt;&lt;b&gt;Lock-Free (无锁编程) CAS (Compare-And-Swap)&lt;/b&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="51" width="715" x="-988" y="13.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qWZpPbq2GA6Z5xrev1HH-124" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;之所以叫“无锁”，不是因为它真的没有限制，而是因为它&lt;span style=&quot;font-weight:bold&quot;&gt;不用操作系统层面的“互斥锁” (Mutex)&lt;/span&gt;。&lt;/p&gt;&#xa;&#xa;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;在传统的&#xa;Mutex 模式下，如果一个线程拿不到锁，操作系统会让它“睡觉”（挂起，Context Switch），把 CPU 让给别人。这个过程虽然公平，但&lt;span style=&quot;font-weight:bold&quot;&gt;切换成本极高&lt;/span&gt;（保存寄存器、刷新缓存等）。&lt;/p&gt;&#xa;&#xa;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;Lock-Free 的核心哲学是：&lt;/span&gt;&#xa;不要让线程睡觉，而是让它在用户态“不断尝试”，直到成功为止。这依赖于一条神级硬件指令：&lt;span style=&quot;font-weight:bold&quot;&gt;CAS&#xa;(Compare-And-Swap)&lt;/span&gt;。&lt;/p&gt;" vertex="1">
+          <mxGeometry height="344" width="550" x="-982.00009765625" y="79.75004882812499" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
