@@ -720,6 +720,15 @@
         <mxCell id="qWZpPbq2GA6Z5xrev1HH-118" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=19;" value="C/C++中的volatile" vertex="1">
           <mxGeometry height="30" width="160" x="-1974" y="1191" as="geometry" />
         </mxCell>
+        <mxCell id="qWZpPbq2GA6Z5xrev1HH-119" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=19;" value="1.告诉编译器“这个变量可能会被未知的外部因素（如硬件中断、I/O端口）修改”。" vertex="1">
+          <mxGeometry height="30" width="746" x="-1930" y="1229" as="geometry" />
+        </mxCell>
+        <mxCell id="qWZpPbq2GA6Z5xrev1HH-120" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;2.禁止&lt;span style=&quot;font-weight:bold&quot;&gt;编译器&lt;/span&gt;对该变量进行优化（比如不要把它缓存在寄存器里，每次都要去内存读）。&lt;/p&gt;" vertex="1">
+          <mxGeometry height="46" width="804" x="-1930" y="1265" as="geometry" />
+        </mxCell>
+        <mxCell id="qWZpPbq2GA6Z5xrev1HH-121" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;3.不能&lt;/span&gt;阻止 CPU 硬件层面的指令重排序！&lt;/p&gt;" vertex="1">
+          <mxGeometry height="46" width="377" x="-1929.99990234375" y="1312" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
