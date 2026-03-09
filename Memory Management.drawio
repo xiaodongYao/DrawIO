@@ -802,7 +802,7 @@
           <mxGeometry height="43" width="284" x="-1987" y="747" as="geometry" />
         </mxCell>
         <mxCell id="qWZpPbq2GA6Z5xrev1HH-111" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="CoreB 读取data，发出读请求，A嗅探到有人要共享。A 状态降级为S，B读取到data，状态也为S" vertex="1">
-          <mxGeometry height="43" width="355" x="-1682" y="748" as="geometry" />
+          <mxGeometry height="43" width="327" x="-1677.5" y="752" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
