@@ -744,6 +744,9 @@
         <mxCell id="qWZpPbq2GA6Z5xrev1HH-127" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;无锁编程的经典陷阱：ABA 问题&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="19.75" width="318" x="-992" y="326" as="geometry" />
         </mxCell>
+        <mxCell id="qWZpPbq2GA6Z5xrev1HH-128" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontColor=#FF0000;fontStyle=1" value="手动控制内存屏障的强度" vertex="1">
+          <mxGeometry height="30" width="223.5" x="-1986.5" y="1225.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
