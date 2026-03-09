@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.1" pages="2">
   <diagram name="缓存一致性" id="79gSdEwwKMWHRwFeuU2-">
-    <mxGraphModel dx="4407" dy="798" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="3982" dy="710" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -739,10 +739,10 @@
           <mxGeometry height="29.13" width="364" x="-994.34" y="253.5" as="geometry" />
         </mxCell>
         <mxCell id="qWZpPbq2GA6Z5xrev1HH-126" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;如何用 CAS 实现无锁？（CAS Loop）&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="22.87" width="359" x="-831" y="497" as="geometry" />
+          <mxGeometry height="22.87" width="359" x="-994.34" y="320" as="geometry" />
         </mxCell>
         <mxCell id="qWZpPbq2GA6Z5xrev1HH-127" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;无锁编程的经典陷阱：ABA 问题&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="19.75" width="318" x="-831" y="558" as="geometry" />
+          <mxGeometry height="19.75" width="318" x="-992" y="404" as="geometry" />
         </mxCell>
         <mxCell id="qWZpPbq2GA6Z5xrev1HH-128" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontColor=#FF0000;fontStyle=1" value="手动控制内存屏障的强度" vertex="1">
           <mxGeometry height="30" width="223.5" x="-1986.5" y="1225.5" as="geometry" />
