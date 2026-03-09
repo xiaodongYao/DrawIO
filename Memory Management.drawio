@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.1" pages="2">
   <diagram name="缓存一致性" id="79gSdEwwKMWHRwFeuU2-">
-    <mxGraphModel dx="4800" dy="1302" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="5160" dy="1562" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -714,8 +714,8 @@
         <mxCell id="qWZpPbq2GA6Z5xrev1HH-116" parent="1" style="text;whiteSpace=wrap;html=1;fontColor=#FF0000;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;b&gt;内存屏障和C/C++ 中的valitile&lt;/b&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="35" width="371" x="-1974" y="1108" as="geometry" />
         </mxCell>
-        <mxCell id="qWZpPbq2GA6Z5xrev1HH-117" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="内存屏障见图示" vertex="1">
-          <mxGeometry height="30" width="60" x="-1884" y="1263" as="geometry" />
+        <mxCell id="qWZpPbq2GA6Z5xrev1HH-117" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=19;" value="内存屏障见左图示" vertex="1">
+          <mxGeometry height="30" width="160" x="-1977" y="1154" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
