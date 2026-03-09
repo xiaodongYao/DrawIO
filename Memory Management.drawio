@@ -738,6 +738,12 @@
         <mxCell id="qWZpPbq2GA6Z5xrev1HH-125" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;什么是 CAS (Compare-And-Swap)？&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="36" width="366" x="-992" y="259.13" as="geometry" />
         </mxCell>
+        <mxCell id="qWZpPbq2GA6Z5xrev1HH-126" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;如何用 CAS 实现无锁？（CAS Loop）&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="31.75" width="359.33" x="-992" y="295.13" as="geometry" />
+        </mxCell>
+        <mxCell id="qWZpPbq2GA6Z5xrev1HH-127" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;无锁编程的经典陷阱：ABA 问题&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="35.25" width="311" x="-992" y="331.75" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
