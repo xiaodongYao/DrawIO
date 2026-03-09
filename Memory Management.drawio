@@ -618,10 +618,10 @@
         <mxCell id="qWZpPbq2GA6Z5xrev1HH-54" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" value="Memory data" vertex="1">
           <mxGeometry height="23" width="93" x="-1893.5" y="948" as="geometry" />
         </mxCell>
-        <mxCell id="qWZpPbq2GA6Z5xrev1HH-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="S" vertex="1">
+        <mxCell id="qWZpPbq2GA6Z5xrev1HH-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=15;" value="M" vertex="1">
           <mxGeometry height="19" width="26" x="-1999.5" y="983.5" as="geometry" />
         </mxCell>
-        <mxCell id="qWZpPbq2GA6Z5xrev1HH-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="S" vertex="1">
+        <mxCell id="qWZpPbq2GA6Z5xrev1HH-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=15;" value="I" vertex="1">
           <mxGeometry height="19" width="26" x="-1720.5" y="984.5" as="geometry" />
         </mxCell>
         <mxCell id="qWZpPbq2GA6Z5xrev1HH-57" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;endFill=0;fontStyle=1" value="">
@@ -699,9 +699,6 @@
         <mxCell id="qWZpPbq2GA6Z5xrev1HH-78" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Bus" vertex="1">
           <mxGeometry height="30" width="60" x="-1213.5" y="1064" as="geometry" />
         </mxCell>
-        <mxCell id="qWZpPbq2GA6Z5xrev1HH-106" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="S" vertex="1">
-          <mxGeometry height="19" width="26" x="-1056" y="1068.5" as="geometry" />
-        </mxCell>
         <mxCell id="qWZpPbq2GA6Z5xrev1HH-110" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="CoreA 读取data，发出读请求，总线无人响应。从内存读取data，状态变为&lt;b&gt;E&lt;/b&gt;" vertex="1">
           <mxGeometry height="43" width="284" x="-1992" y="768" as="geometry" />
         </mxCell>
@@ -709,7 +706,10 @@
           <mxGeometry height="43" width="327" x="-1678.5" y="771" as="geometry" />
         </mxCell>
         <mxCell id="qWZpPbq2GA6Z5xrev1HH-112" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="CoreA 想要写入data，但是是S状态无法直接写。A在总线广播&quot;我要写(Invalidate)信号&quot;&lt;div&gt;B嗅探到，将自己的状态改I(Invalid)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="65" width="327" x="-1342" y="768" as="geometry" />
+          <mxGeometry height="65" width="327" x="-1342" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="qWZpPbq2GA6Z5xrev1HH-113" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="CoreA 收到B的Invalid信号，将状态变为M(Modified)并写入新值" vertex="1">
+          <mxGeometry height="65" width="283" x="-1991" y="1098" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
