@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.1" pages="2">
   <diagram name="缓存一致性" id="79gSdEwwKMWHRwFeuU2-">
-    <mxGraphModel dx="4200" dy="868" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="4800" dy="1302" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -710,6 +710,9 @@
         </mxCell>
         <mxCell id="qWZpPbq2GA6Z5xrev1HH-115" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=16;" value="CoreA嗅探到读请求，发现自己是M状态，必须先暂停A的读取，先把内存写回内存或直接传给B。&lt;div&gt;A降级为S，B拿到数据也为S&lt;/div&gt;" vertex="1">
           <mxGeometry height="87" width="283" x="-1329" y="1097" as="geometry" />
+        </mxCell>
+        <mxCell id="qWZpPbq2GA6Z5xrev1HH-116" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;总线嗅探--&lt;/span&gt;一个实际的交互流程案例&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="35" width="371" x="-1729" y="1181" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
