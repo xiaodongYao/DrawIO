@@ -72,8 +72,8 @@
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=12;fontStyle=1" value="总线（Bus）" vertex="1">
           <mxGeometry height="15" width="69" x="-2376.75" y="1224" as="geometry" />
         </mxCell>
-        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=17;" value="&lt;div&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;B.目录机制 (Directory-based)&lt;/font&gt; ——&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: bold; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;适用于核心很多的 CPU (如服务器)&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="34" width="563" x="-1834" y="22" as="geometry" />
+        <mxCell id="ZqWIN0pX9Obz-YS4HQuo-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=20;" value="&lt;div&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;B.目录机制 (Directory-based)&lt;/font&gt; ——&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: bold; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;适用于核心很多的 CPU (如服务器)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="34" width="661" x="-1834" y="22" as="geometry" />
         </mxCell>
         <mxCell id="ZqWIN0pX9Obz-YS4HQuo-82" edge="1" parent="1" source="ZqWIN0pX9Obz-YS4HQuo-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="ZqWIN0pX9Obz-YS4HQuo-73">
           <mxGeometry relative="1" as="geometry" />
