@@ -552,10 +552,10 @@
         <mxCell id="qWZpPbq2GA6Z5xrev1HH-29" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" value="Memory data" vertex="1">
           <mxGeometry height="23" width="93" x="-1565" y="606" as="geometry" />
         </mxCell>
-        <mxCell id="qWZpPbq2GA6Z5xrev1HH-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="S" vertex="1">
+        <mxCell id="qWZpPbq2GA6Z5xrev1HH-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=15;" value="S" vertex="1">
           <mxGeometry height="19" width="26" x="-1671" y="642.5" as="geometry" />
         </mxCell>
-        <mxCell id="qWZpPbq2GA6Z5xrev1HH-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="S" vertex="1">
+        <mxCell id="qWZpPbq2GA6Z5xrev1HH-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=15;" value="S" vertex="1">
           <mxGeometry height="19" width="26" x="-1392" y="641.5" as="geometry" />
         </mxCell>
         <mxCell id="qWZpPbq2GA6Z5xrev1HH-32" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;endFill=0;fontStyle=1" value="">
