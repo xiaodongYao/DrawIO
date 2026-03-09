@@ -711,11 +711,14 @@
         <mxCell id="qWZpPbq2GA6Z5xrev1HH-115" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=16;" value="CoreA嗅探到读请求，发现自己是M状态，必须先暂停A的读取，先把内存写回内存或直接传给B。&lt;div&gt;A降级为S，B拿到数据也为S&lt;/div&gt;" vertex="1">
           <mxGeometry height="87" width="283" x="-1332.5" y="1004.5" as="geometry" />
         </mxCell>
-        <mxCell id="qWZpPbq2GA6Z5xrev1HH-116" parent="1" style="text;whiteSpace=wrap;html=1;fontColor=#FF0000;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;b&gt;内存屏障和C/C++ 中的valitile&lt;/b&gt;&lt;/p&gt;" vertex="1">
+        <mxCell id="qWZpPbq2GA6Z5xrev1HH-116" parent="1" style="text;whiteSpace=wrap;html=1;fontColor=#FF0000;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;b&gt;内存屏障和C/C++ 中的volatile&lt;/b&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="35" width="371" x="-1974" y="1108" as="geometry" />
         </mxCell>
         <mxCell id="qWZpPbq2GA6Z5xrev1HH-117" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=19;" value="内存屏障见左图示" vertex="1">
           <mxGeometry height="30" width="160" x="-1977" y="1154" as="geometry" />
+        </mxCell>
+        <mxCell id="qWZpPbq2GA6Z5xrev1HH-118" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=19;" value="C/C++中的volatile" vertex="1">
+          <mxGeometry height="30" width="160" x="-1974" y="1191" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
