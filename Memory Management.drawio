@@ -767,7 +767,7 @@
             <mxGeometry height="40" width="421" x="-904" y="829.5" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="jdp7ciYfCAcHsXH9sEiK-6" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;fontSize=18;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;编译器会在底层插入最重的内存屏障（Full Memory Barrier），&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;强行清空我们在上个话题提到的 Store Buffer&lt;/span&gt;&lt;/p&gt;" vertex="1">
+        <mxCell id="jdp7ciYfCAcHsXH9sEiK-6" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;fontSize=18;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;编译器会在底层插入最重的内存屏障（&lt;b&gt;Full Memory Barrier&lt;/b&gt;），&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;强行清空我们在上个话题提到的 Store Buffer&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="31" width="867" x="-904" y="863" as="geometry" />
         </mxCell>
       </root>
