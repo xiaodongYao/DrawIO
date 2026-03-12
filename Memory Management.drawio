@@ -751,10 +751,10 @@
           <mxGeometry height="28.25" width="662" x="-950" y="283.75" as="geometry" />
         </mxCell>
         <mxCell id="jdp7ciYfCAcHsXH9sEiK-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;C++std::atomic 中的 &lt;span style=&quot;font-weight:bold&quot;&gt;Memory Order (relaxed, acquire,release)&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="40.5" width="595" x="-923" y="766.5" as="geometry" />
+          <mxGeometry height="40.5" width="595" x="-950" y="766.5" as="geometry" />
         </mxCell>
         <mxCell id="jdp7ciYfCAcHsXH9sEiK-2" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold;font-family:&amp;quot;Google Sans&amp;quot;&quot;&gt;1.绝对安全，但也最慢：顺序一致性 (&lt;/span&gt;&lt;span style=&quot;font-weight:bold;font-family:&amp;quot;Google Sans Text&amp;quot;&quot;&gt;memory_order_seq_cst&lt;/span&gt;&lt;span style=&quot;font-weight:bold;font-family:&amp;quot;Google Sans&amp;quot;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="31" width="627" x="-875" y="803.5" as="geometry" />
+          <mxGeometry height="31" width="627" x="-923" y="800" as="geometry" />
         </mxCell>
         <mxCell id="jdp7ciYfCAcHsXH9sEiK-3" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold;font-family:&amp;quot;Google Sans&amp;quot;&quot;&gt;2.彻底狂野：松散模型 (&lt;/span&gt;&lt;span style=&quot;font-weight:bold;font-family:&amp;quot;Google Sans Text&amp;quot;&quot;&gt;memory_order_relaxed&lt;/span&gt;&lt;span style=&quot;font-weight:bold;font-family:&amp;quot;Google Sans&amp;quot;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="29" width="486.71" x="-873.85" y="915.44" as="geometry" />
@@ -764,11 +764,11 @@
         </mxCell>
         <UserObject label="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;比如直接写std::atomic_int.store(1);&lt;/p&gt;" id="jdp7ciYfCAcHsXH9sEiK-5">
           <mxCell parent="1" style="text;whiteSpace=wrap;html=1;" vertex="1">
-            <mxGeometry height="40" width="421" x="-851" y="829.5" as="geometry" />
+            <mxGeometry height="40" width="421" x="-904" y="829.5" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="jdp7ciYfCAcHsXH9sEiK-6" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;编译器会在底层插入最重的内存屏障（Full Memory Barrier），&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;强行清空我们在上个话题提到的 Store Buffer&lt;/p&gt;" vertex="1">
-          <mxGeometry height="51" width="559" x="-851" y="863" as="geometry" />
+        <mxCell id="jdp7ciYfCAcHsXH9sEiK-6" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;fontSize=18;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;编译器会在底层插入最重的内存屏障（Full Memory Barrier），&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;强行清空我们在上个话题提到的 Store Buffer&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="31" width="867" x="-904" y="863" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
