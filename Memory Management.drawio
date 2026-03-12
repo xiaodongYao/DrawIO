@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.1" pages="2">
   <diagram name="缓存一致性" id="79gSdEwwKMWHRwFeuU2-">
-    <mxGraphModel dx="4821" dy="1033" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="4509" dy="896" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -757,11 +757,16 @@
           <mxGeometry height="31" width="627" x="-875" y="803.5" as="geometry" />
         </mxCell>
         <mxCell id="jdp7ciYfCAcHsXH9sEiK-3" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold;font-family:&amp;quot;Google Sans&amp;quot;&quot;&gt;2.彻底狂野：松散模型 (&lt;/span&gt;&lt;span style=&quot;font-weight:bold;font-family:&amp;quot;Google Sans Text&amp;quot;&quot;&gt;memory_order_relaxed&lt;/span&gt;&lt;span style=&quot;font-weight:bold;font-family:&amp;quot;Google Sans&amp;quot;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="29" width="486.71" x="-875" y="838" as="geometry" />
+          <mxGeometry height="29" width="486.71" x="-873.85" y="889" as="geometry" />
         </mxCell>
         <mxCell id="jdp7ciYfCAcHsXH9sEiK-4" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;3.高手的武器库：获取-释放语义 (Acquire-Release)&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="36.06" width="500.71" x="-875" y="867.94" as="geometry" />
+          <mxGeometry height="36.06" width="500.71" x="-875" y="952" as="geometry" />
         </mxCell>
+        <UserObject label="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;比如直接写std::atomic_int.store(1);&lt;/p&gt;" id="jdp7ciYfCAcHsXH9sEiK-5">
+          <mxCell parent="1" style="text;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="40" width="421" x="-851" y="829.5" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
