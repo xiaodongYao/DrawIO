@@ -145,6 +145,9 @@
         <mxCell id="BuDZwHWKGyt7g6mrraTV-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0" vertex="1">
           <mxGeometry height="19" width="20" x="347" y="149" as="geometry" />
         </mxCell>
+        <mxCell id="BuDZwHWKGyt7g6mrraTV-74" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="向左移动，超出边界" vertex="1">
+          <mxGeometry height="30" width="113" x="352" y="109" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
