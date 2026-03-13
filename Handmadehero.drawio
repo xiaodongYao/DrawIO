@@ -148,6 +148,12 @@
         <mxCell id="BuDZwHWKGyt7g6mrraTV-74" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="向左移动，超出边界" vertex="1">
           <mxGeometry height="30" width="113" x="352" y="109" as="geometry" />
         </mxCell>
+        <mxCell id="BuDZwHWKGyt7g6mrraTV-75" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="TileMap B&amp;nbsp; 的TileX = -1&amp;nbsp; 相当于 TileMap A 的 n-1" vertex="1">
+          <mxGeometry height="30" width="273" x="187" y="318" as="geometry" />
+        </mxCell>
+        <mxCell id="BuDZwHWKGyt7g6mrraTV-77" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="-x -&amp;gt; n-x" vertex="1">
+          <mxGeometry height="25" width="69" x="287" y="348" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
