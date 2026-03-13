@@ -122,7 +122,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BuDZwHWKGyt7g6mrraTV-29" parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" value="" vertex="1">
-          <mxGeometry height="120" width="180" x="133" y="333" as="geometry" />
+          <mxGeometry height="120" width="180" x="133" y="336" as="geometry" />
         </mxCell>
         <mxCell id="BuDZwHWKGyt7g6mrraTV-30" parent="BuDZwHWKGyt7g6mrraTV-29" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
           <mxGeometry height="40" width="180" as="geometry" />
@@ -236,7 +236,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BuDZwHWKGyt7g6mrraTV-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="TileMap[2][2] //[y][x]" vertex="1">
-          <mxGeometry height="30" width="153" x="119" y="100" as="geometry" />
+          <mxGeometry height="30" width="117" x="99" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BuDZwHWKGyt7g6mrraTV-58" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="TileMap[0][0]&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="78" x="170" y="293" as="geometry" />
+        </mxCell>
+        <mxCell id="BuDZwHWKGyt7g6mrraTV-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="TileMap[0][1]&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="78" x="415" y="293" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
