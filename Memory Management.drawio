@@ -847,6 +847,9 @@
         <mxCell id="G5onTS8pnKVt104G9YcV-19" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;场景举例：&lt;/span&gt; 实体组件系统（ECS）中的组件数据存储、寻路算法（如A*）中的节点评估集合。使用内存池可以确保这些节点在物理内存上是紧凑连续排列的，从而享受 CPU 硬件预取的红利&lt;/p&gt;" vertex="1">
           <mxGeometry height="48" width="809" x="67" y="646" as="geometry" />
         </mxCell>
+        <mxCell id="G5onTS8pnKVt104G9YcV-20" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="62.83" width="20" x="42" y="618" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
