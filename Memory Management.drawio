@@ -865,8 +865,8 @@
         <mxCell id="G5onTS8pnKVt104G9YcV-25" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
           <mxGeometry height="42.42" width="20" x="50" y="731.58" as="geometry" />
         </mxCell>
-        <mxCell id="G5onTS8pnKVt104G9YcV-27" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;如果你的程序主要是分配生命周期很长的大对象（如加载一张高清纹理贴图），或者内存分配频率极低，那么直接使用系统的new 或 malloc 是最明智的选择。引入内存池反而会增加代码复杂度和维护成本。&lt;/p&gt;" vertex="1">
-          <mxGeometry height="64" width="956" x="12" y="1183" as="geometry" />
+        <mxCell id="G5onTS8pnKVt104G9YcV-27" parent="1" style="text;whiteSpace=wrap;html=1;fontStyle=4" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;如果你的程序主要是分配生命周期很长的大对象（如加载一张高清纹理贴图），或者内存分配频率极低，那么直接使用系统的new 或 malloc 是最明智的选择。引入内存池反而会增加代码复杂度和维护成本。&lt;/p&gt;" vertex="1">
+          <mxGeometry height="64" width="956" x="7" y="1196" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontColor=#FF0000;" value="OOM补充" vertex="1">
           <mxGeometry height="30" width="94" x="56" y="800" as="geometry" />
@@ -885,6 +885,12 @@
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-35" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;痛点：&lt;/span&gt; 内存可能只有几 MB 到几百MB。稍微大手大脚地动态申请内存，或者发生一点点内存泄漏，就会立刻把系统撑爆。&lt;/p&gt;" vertex="1">
           <mxGeometry height="25" width="816.64" x="92.00000000000001" y="986" as="geometry" />
+        </mxCell>
+        <mxCell id="G5onTS8pnKVt104G9YcV-36" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=16;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;如果频繁使用系统自带的new 或 malloc，会导致一个隐形杀手：&lt;span style=&quot;font-weight:bold&quot;&gt;内存碎片（Memory Fragmentation）&lt;/span&gt;。&lt;/p&gt;" vertex="1">
+          <mxGeometry height="33" width="772" x="62" y="1015" as="geometry" />
+        </mxCell>
+        <mxCell id="G5onTS8pnKVt104G9YcV-37" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;内存池的防范策略（预算制管理）：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;使用了内存池后，程序在刚启动的时候，就会直接向操作系统“买断”一块巨大且连续的内存（例如直接申请50MB）。&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: bold;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;启动即验证：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; 如果启动时这 50MB&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;都申请不下来，程序干脆就不启动，尽早暴露问题。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight: bold; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;运行时安全：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;只要启动成功了，以后程序运行过程中的所有内存需求，都在这 50MB&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;的内存池内部自己消化、自己循环利用。它从根源上杜绝了程序运行到一半向系统要内存被拒绝（OOM）的风险，同时也消除了内存碎片带来的隐患。&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="131" width="849" x="62" y="1051" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
