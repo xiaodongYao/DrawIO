@@ -783,7 +783,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="R3RajqSZWAp9AMWC7a3E" name="内存池">
-    <mxGraphModel dx="1474" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1417" dy="610" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -804,6 +804,12 @@
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-5" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=16;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;频繁创建和销毁大量小对象&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="32" width="200" x="34" y="259" as="geometry" />
+        </mxCell>
+        <mxCell id="G5onTS8pnKVt104G9YcV-6" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;b&gt;痛点&lt;/b&gt;：标准分配器在处理小对象时，除了对象本身的内存，还会额外分配用于记录内存块大小等信息的控制头（Overhead）。此外，频繁的碎片化释放会导致严重的内存碎片（Memory Fragmentation）&lt;/p&gt;" vertex="1">
+          <mxGeometry height="54" width="840" x="70" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="G5onTS8pnKVt104G9YcV-7" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;b&gt;举例&lt;/b&gt;：戏引擎中的粒子系统、同屏海量的弹幕/子弹、网络服务器接收和发送的短连接数据包（如TCP 流的 Buffer 解析）。&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="823" x="70" y="334" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
