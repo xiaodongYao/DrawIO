@@ -783,7 +783,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="R3RajqSZWAp9AMWC7a3E" name="内存池">
-    <mxGraphModel dx="1417" dy="610" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1474" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -813,6 +813,9 @@
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-8" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
           <mxGeometry height="49" width="20" x="50" y="301" as="geometry" />
+        </mxCell>
+        <mxCell id="G5onTS8pnKVt104G9YcV-9" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=16;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;对实时性（Latency）有极高要求的系统&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30.81" width="299.71" x="34.00000000000003" y="356" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
