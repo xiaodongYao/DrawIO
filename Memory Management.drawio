@@ -817,6 +817,12 @@
         <mxCell id="G5onTS8pnKVt104G9YcV-9" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=16;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;对实时性（Latency）有极高要求的系统&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="30.81" width="299.71" x="34.00000000000003" y="356" as="geometry" />
         </mxCell>
+        <mxCell id="G5onTS8pnKVt104G9YcV-10" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;b&gt;痛点&lt;/b&gt;：标准库的内存分配时间是不确定的。如果当前堆中没有合适的空间，malloc可能会触发系统调用（如 brk 或 mmap）去向操作系统要内存，这会导致不可预测的延迟峰值（Spike）&lt;/p&gt;" vertex="1">
+          <mxGeometry height="73.33" width="830" x="70" y="381" as="geometry" />
+        </mxCell>
+        <mxCell id="G5onTS8pnKVt104G9YcV-11" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;b&gt;举例&lt;/b&gt;：戏引擎中的粒子系统、同屏海量的弹幕/子弹、网络服务器接收和发送的短连接数据包（如TCP 流的 Buffer 解析）。&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="823" x="70" y="427" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
