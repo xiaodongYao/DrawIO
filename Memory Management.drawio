@@ -851,19 +851,19 @@
           <mxGeometry height="62.83" width="20" x="47" y="618" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-21" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;5.资源受限或需要严格防范OOM 的环境&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="30.81" width="385" x="34" y="687" as="geometry" />
+          <mxGeometry height="30.81" width="385" x="34" y="694" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-22" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;痛点：&lt;/span&gt; 内存耗尽或因碎片导致无法分配出足够大的连续内存块。&lt;/p&gt;" vertex="1">
-          <mxGeometry height="25" width="550" x="70" y="712" as="geometry" />
+          <mxGeometry height="25" width="550" x="70" y="719" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-23" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:14.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;场景举例：&lt;/span&gt;&#xa;嵌入式系统、主机游戏开发。在这些环境中，内存上限是绝对固定的。通过在程序启动时划分好不同子系统（音频、渲染、AI）的内存池，可以实现严格的内存预算控制，避免一个子系统泄漏导致整个程序崩溃。&lt;/p&gt;" vertex="1">
           <mxGeometry height="134" width="550" x="171.47619047619037" y="1025.2856910342261" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-24" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;场景举例：&lt;/span&gt;嵌入式系统、主机游戏开发。在这些环境中，内存上限是绝对固定的。通过在程序启动时划分好不同子系统（音频、渲染、AI）的内存池，可以实现严格的内存预算控制，避免一个子系统泄漏导致整个程序崩溃。&lt;/p&gt;" vertex="1">
-          <mxGeometry height="46" width="815" x="69" y="733" as="geometry" />
+          <mxGeometry height="46" width="815" x="69" y="740" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-25" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
-          <mxGeometry height="42.42" width="20" x="50" y="724.58" as="geometry" />
+          <mxGeometry height="42.42" width="20" x="50" y="731.58" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
