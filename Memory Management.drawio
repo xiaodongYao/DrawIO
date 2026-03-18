@@ -850,6 +850,9 @@
         <mxCell id="G5onTS8pnKVt104G9YcV-20" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
           <mxGeometry height="62.83" width="20" x="47" y="618" as="geometry" />
         </mxCell>
+        <mxCell id="G5onTS8pnKVt104G9YcV-29" edge="1" parent="1" source="G5onTS8pnKVt104G9YcV-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="G5onTS8pnKVt104G9YcV-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-21" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;5.资源受限或需要严格防范OOM(Out Of Memory) 的环境&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="30.81" width="423" x="34" y="694" as="geometry" />
         </mxCell>
@@ -864,6 +867,9 @@
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-27" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;如果你的程序主要是分配生命周期很长的大对象（如加载一张高清纹理贴图），或者内存分配频率极低，那么直接使用系统的new 或 malloc 是最明智的选择。引入内存池反而会增加代码复杂度和维护成本。&lt;/p&gt;" vertex="1">
           <mxGeometry height="64" width="956" x="12" y="1183" as="geometry" />
+        </mxCell>
+        <mxCell id="G5onTS8pnKVt104G9YcV-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontColor=#FF0000;" value="OOM补充" vertex="1">
+          <mxGeometry height="30" width="94" x="56" y="800" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
