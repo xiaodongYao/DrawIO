@@ -827,19 +827,25 @@
           <mxGeometry height="62.83" width="20" x="50" y="393.17" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-13" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=16;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;3.高并发的多线程环境&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="30.81" width="172" x="34" y="467" as="geometry" />
+          <mxGeometry height="30.81" width="172" x="34" y="472" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-14" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;b&gt;痛点&lt;/b&gt;：在多线程程序中，系统的全局堆是共享资源。当多个线程同时调用new 或 malloc 时，底层分配器必须加锁以保证线程安全，这会引发严重的锁竞争（Lock Contention）&lt;/p&gt;" vertex="1">
-          <mxGeometry height="47" width="837" x="67" y="489" as="geometry" />
+          <mxGeometry height="47" width="837" x="67" y="494" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-15" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;b&gt;举例&lt;/b&gt;：高性能Web 服务器、大型多人在线（MMO）游戏的服务端。通常的解决方案是使用&lt;span style=&quot;font-weight:bold&quot;&gt;线程本地内存池（Thread-Local&lt;br&gt;Allocation Buffer, TLAB）&lt;/span&gt;，为每个线程分配独立的池，从而彻底消除加锁开销&lt;/p&gt;" vertex="1">
-          <mxGeometry height="48" width="819" x="67" y="531" as="geometry" />
+          <mxGeometry height="48" width="819" x="67" y="536" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-16" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
-          <mxGeometry height="62.83" width="20" x="47" y="503" as="geometry" />
+          <mxGeometry height="62.83" width="20" x="47" y="508" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-17" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=16;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;4.对CPU缓存命中率&lt;/span&gt;&lt;span style=&quot;font-weight: bold; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica;&quot;&gt;（Cache Locality）敏感的计算&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="30.81" width="385" x="34" y="574" as="geometry" />
+          <mxGeometry height="30.81" width="385" x="34" y="579" as="geometry" />
+        </mxCell>
+        <mxCell id="G5onTS8pnKVt104G9YcV-18" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;痛点：&lt;/span&gt;如果使用标准分配器构建链表、树等节点型数据结构，节点在内存中的物理地址通常是随机分散的，遍历时会导致频繁的 Cache Miss，极大拖慢执行速度&lt;/p&gt;" vertex="1">
+          <mxGeometry height="68" width="820" x="67" y="606" as="geometry" />
+        </mxCell>
+        <mxCell id="G5onTS8pnKVt104G9YcV-19" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;场景举例：&lt;/span&gt; 实体组件系统（ECS）中的组件数据存储、寻路算法（如A*）中的节点评估集合。使用内存池可以确保这些节点在物理内存上是紧凑连续排列的，从而享受 CPU 硬件预取的红利&lt;/p&gt;" vertex="1">
+          <mxGeometry height="48" width="809" x="67" y="646" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
