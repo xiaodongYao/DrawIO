@@ -871,6 +871,9 @@
         <mxCell id="G5onTS8pnKVt104G9YcV-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontColor=#FF0000;" value="OOM补充" vertex="1">
           <mxGeometry height="30" width="94" x="56" y="800" as="geometry" />
         </mxCell>
+        <mxCell id="G5onTS8pnKVt104G9YcV-30" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;当程序向操作系统申请内存，但系统已经&lt;span style=&quot;font-weight:bold&quot;&gt;没有多余的物理或虚拟内存&lt;/span&gt;可以分配给它时，就会触发 OOM 错误。一旦发生&#xa;OOM，操作系统为了自保，通常会强行杀掉（Kill）这个程序，导致程序突然崩溃、闪退，甚至可能引起整个设备的重启。&lt;/p&gt;" vertex="1">
+          <mxGeometry height="53" width="889" x="59" y="830" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
