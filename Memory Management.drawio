@@ -986,7 +986,10 @@
           <mxGeometry height="48" width="870" x="85" y="884" as="geometry" />
         </mxCell>
         <mxCell id="MS3efryZTIjpIkF84NTf-41" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;如何避免碎片：&lt;/span&gt;它通过牺牲一小部分内部碎片（向上取整），极大地减少了外部碎片，&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;因为相同大小范围的内存块被集中管理了，交错分配的情况大大降低。&lt;/p&gt;" vertex="1">
-          <mxGeometry height="118" width="878" x="85" y="926" as="geometry" />
+          <mxGeometry height="57" width="878" x="85" y="926" as="geometry" />
+        </mxCell>
+        <mxCell id="MS3efryZTIjpIkF84NTf-42" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;fontStyle=4" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;伙伴系统（Buddy System）&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="37" width="273" x="38" y="983" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
