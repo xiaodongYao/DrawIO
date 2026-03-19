@@ -783,7 +783,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="R3RajqSZWAp9AMWC7a3E" name="内存分配与回收">
-    <mxGraphModel dx="3580" dy="1463" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="2238" dy="702" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -925,8 +925,8 @@
         <mxCell id="MS3efryZTIjpIkF84NTf-19" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;缓存友好：&lt;/span&gt; 物理内存是连续的，CPU 预取数据时命中率极高。&lt;/p&gt;" vertex="1">
           <mxGeometry height="37.17" width="688.11" x="-850.11" y="678.5" as="geometry" />
         </mxCell>
-        <mxCell id="MS3efryZTIjpIkF84NTf-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="如何避免分配器产生的碎片问题" vertex="1">
-          <mxGeometry height="30" width="104" x="10" y="9" as="geometry" />
+        <mxCell id="MS3efryZTIjpIkF84NTf-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontColor=#FF0000;" value="如何避免分配器产生的碎片问题" vertex="1">
+          <mxGeometry height="36" width="283" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
