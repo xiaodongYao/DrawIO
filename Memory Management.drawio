@@ -1001,10 +1001,13 @@
           <mxGeometry height="33" width="537" x="3" y="1147" as="geometry" />
         </mxCell>
         <mxCell id="MS3efryZTIjpIkF84NTf-46" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;如果必须在内存中移动数据来“挤出”连续空间（类似磁盘碎片整理），你就不能向用户暴露原始的C 指针。&lt;/p&gt;" vertex="1">
-          <mxGeometry height="27" width="957" x="42" y="1180" as="geometry" />
+          <mxGeometry height="27" width="957" x="38" y="1180" as="geometry" />
         </mxCell>
         <mxCell id="MS3efryZTIjpIkF84NTf-47" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;原理：&lt;/span&gt; 分配器返回一个句柄（通常是一个索引或ID），用户在需要访问数据时，通过句柄查表获得真实指针。&lt;/p&gt;" vertex="1">
           <mxGeometry height="30" width="960" x="36.5" y="1207" as="geometry" />
+        </mxCell>
+        <mxCell id="MS3efryZTIjpIkF84NTf-48" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;如何避免碎片：&lt;/span&gt;当分配器发现外部碎片严重时，它可以暂停系统，将内存中存活的对象移动到连续的&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;空间中，然后更新句柄表中的真实指针。&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;这种做法在游戏引擎的资源管理系统（如纹理、音频加载）中比较常见&lt;/p&gt;" vertex="1">
+          <mxGeometry height="142" width="939" x="36" y="1241" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
