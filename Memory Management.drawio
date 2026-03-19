@@ -955,6 +955,9 @@
         <mxCell id="MS3efryZTIjpIkF84NTf-30" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;原理：&lt;/span&gt; 预先申请一大块连续内存，内部维护一个指针。每次分配只需将指针向前移动相应的字节数。&lt;/p&gt;" vertex="1">
           <mxGeometry height="26.83" width="895" x="85" y="413.17" as="geometry" />
         </mxCell>
+        <mxCell id="MS3efryZTIjpIkF84NTf-31" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;生命周期管理：&lt;/span&gt; 不提供针对单个对象的 free()操作。而是在某一个生命周期结束时&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;(比如一帧结束、或者一个游戏关卡卸载时)，将指针直接重置回起点&lt;/p&gt;" vertex="1">
+          <mxGeometry height="61" width="881" x="85" y="440" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
