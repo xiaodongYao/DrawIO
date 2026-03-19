@@ -976,6 +976,9 @@
         <mxCell id="MS3efryZTIjpIkF84NTf-37" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;内部碎片妥协：&lt;/span&gt;如果你把不同大小的数据塞进同一个池子，会产生内部碎片。&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;因此通常会为不同类型的实体创建独立的对象池。&lt;/p&gt;" vertex="1">
           <mxGeometry height="46" width="863" x="85" y="753" as="geometry" />
         </mxCell>
+        <mxCell id="MS3efryZTIjpIkF84NTf-38" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;fontStyle=4" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;大小分级与隔离空闲链表（Segregated Free Lists / Slab Allocator）&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="39" width="669" x="38" y="803" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
