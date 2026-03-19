@@ -964,6 +964,9 @@
         <mxCell id="MS3efryZTIjpIkF84NTf-33" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;fontStyle=4" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;固定大小的对象池（Pool Allocator）&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="36.33" width="360.78" x="38" y="528" as="geometry" />
         </mxCell>
+        <mxCell id="MS3efryZTIjpIkF84NTf-34" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;当需要频繁创建和销毁生命周期不规则的对象（比如游戏中的粒子、怪物、子弹）时，通用&#xa;malloc 会把内存切得七零八落。对象池是解决这个问题的标准答案。&lt;/p&gt;" vertex="1">
+          <mxGeometry height="50" width="888" x="83" y="561" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
