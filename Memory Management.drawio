@@ -905,7 +905,7 @@
           <mxGeometry height="40" width="425" x="-986" y="192" as="geometry" />
         </mxCell>
         <mxCell id="MS3efryZTIjpIkF84NTf-10" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=18;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&lt;b&gt;机制&lt;/b&gt;：&lt;/span&gt;它必须准备好应对&lt;span style=&quot;font-weight:bold&quot;&gt;任何时刻、任何大小&lt;/span&gt;的内存请求。你可能先要8 字节，又要 1024 字节，然后释放那个 8 字节。&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;b&gt;缺点&lt;/b&gt;：&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica;&quot;&gt;为了管理这些杂乱无章的内存块，它需要在底层维护复杂的数据结构（去记录哪些内存空闲、哪些被占用、每一块有多大）。每次调用malloc，它都要去“寻找”合适的空闲块；每次调用 free，它可能还要去“合并”相邻的空闲块。这不仅速度慢、破坏缓存局部性（Cache Locality），而且必定会导致&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica; font-weight: bold;&quot;&gt;外部碎片&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="178.29" width="915" x="-944" y="225.71" as="geometry" />
+          <mxGeometry height="119.29" width="948" x="-963" y="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
