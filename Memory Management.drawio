@@ -934,6 +934,9 @@
         <mxCell id="MS3efryZTIjpIkF84NTf-22" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Microsoft YaHei&amp;quot;;font-size:15.0pt&quot;&gt;通过采用&lt;span style=&quot;font-weight:bold&quot;&gt;固定块分配&lt;/span&gt;、&lt;span style=&quot;font-weight:bold&quot;&gt;对象池设计&lt;/span&gt;、&lt;span style=&quot;font-weight:bold&quot;&gt;对齐策略&lt;/span&gt;和&lt;span style=&quot;font-weight:bold&quot;&gt;内存整理&lt;/span&gt;（如内存紧缩）等方法，能够有效减少碎片，提高内存利用率。&lt;/p&gt;" vertex="1">
           <mxGeometry height="68" width="898" x="38" y="109" as="geometry" />
         </mxCell>
+        <mxCell id="MS3efryZTIjpIkF84NTf-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontColor=#FF0000;" value="详细解答" vertex="1">
+          <mxGeometry height="38" width="82" x="3" y="170" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
