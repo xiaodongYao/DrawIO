@@ -947,7 +947,7 @@
           <mxGeometry height="35" width="851" x="38" y="297" as="geometry" />
         </mxCell>
         <mxCell id="MS3efryZTIjpIkF84NTf-27" parent="1" style="text;whiteSpace=wrap;html=1;fontStyle=4" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;放弃通用分配，拥抱线性分配器（Arena / Linear Allocator）&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="41" width="588" x="38" y="343" as="geometry" />
+          <mxGeometry height="41" width="588" x="3" y="343" as="geometry" />
         </mxCell>
         <mxCell id="MS3efryZTIjpIkF84NTf-29" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;在游戏循环或特定任务中，这是最高效、最能彻底消灭外部碎片的方案&lt;/p&gt;" vertex="1">
           <mxGeometry height="40.22" width="637.78" x="85" y="376" as="geometry" />
@@ -962,7 +962,7 @@
           <mxGeometry height="36" width="806" x="85" y="496" as="geometry" />
         </mxCell>
         <mxCell id="MS3efryZTIjpIkF84NTf-33" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;fontStyle=4" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;固定大小的对象池（Pool Allocator）&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="36.33" width="360.78" x="38" y="528" as="geometry" />
+          <mxGeometry height="36.33" width="360.78" x="3" y="528" as="geometry" />
         </mxCell>
         <mxCell id="MS3efryZTIjpIkF84NTf-34" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;当需要频繁创建和销毁生命周期不规则的对象（比如游戏中的粒子、怪物、子弹）时，通用&#xa;malloc 会把内存切得七零八落。对象池是解决这个问题的标准答案。&lt;/p&gt;" vertex="1">
           <mxGeometry height="50" width="888" x="85" y="564.33" as="geometry" />
@@ -977,7 +977,7 @@
           <mxGeometry height="46" width="863" x="85" y="753" as="geometry" />
         </mxCell>
         <mxCell id="MS3efryZTIjpIkF84NTf-38" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;fontStyle=4" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;大小分级与隔离空闲链表（Segregated Free Lists / Slab Allocator）&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="39" width="669" x="38" y="803" as="geometry" />
+          <mxGeometry height="39" width="669" y="802" as="geometry" />
         </mxCell>
         <mxCell id="MS3efryZTIjpIkF84NTf-39" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;如果你确实需要一个通用分配器（类似自己实现一个 malloc），&lt;span style=&quot;font-size: 15pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;可以借鉴 Doug Lea 的dlmalloc 或 jemalloc 的思路。&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="51" width="864" x="85" y="837" as="geometry" />
@@ -989,13 +989,22 @@
           <mxGeometry height="57" width="878" x="85" y="926" as="geometry" />
         </mxCell>
         <mxCell id="MS3efryZTIjpIkF84NTf-42" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;fontStyle=4" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;伙伴系统（Buddy System）&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="37" width="273" x="38" y="983" as="geometry" />
+          <mxGeometry height="37" width="273" y="983" as="geometry" />
         </mxCell>
         <mxCell id="MS3efryZTIjpIkF84NTf-43" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;原理：&lt;/span&gt; &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;内存块的大小总是 2的幂。&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;如果需要的内存小于当前块的一半，就把当前块一分为二，成为两个“伙伴（Buddy）”。&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;释放时，如果发现它的“伙伴”也是空闲的，就立即将它们合并（Coalescing）成一个更大的块。&lt;/p&gt;" vertex="1">
           <mxGeometry height="84" width="938" x="62" y="1009.5" as="geometry" />
         </mxCell>
         <mxCell id="MS3efryZTIjpIkF84NTf-44" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;如何避免碎片：&lt;/span&gt; 快速合并机制能有效抵抗外部碎片的累积，但代价是会产生最高达 50%&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;的内部碎片(比如你只需要 129 字节，它会分配 256 字节给你）。&lt;/p&gt;" vertex="1">
           <mxGeometry height="54" width="905" x="62" y="1093.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MS3efryZTIjpIkF84NTf-45" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;fontStyle=4" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;内存整理（Memory Compaction）与句柄（Handles）&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="33" width="537" x="3" y="1147" as="geometry" />
+        </mxCell>
+        <mxCell id="MS3efryZTIjpIkF84NTf-46" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;如果必须在内存中移动数据来“挤出”连续空间（类似磁盘碎片整理），你就不能向用户暴露原始的C 指针。&lt;/p&gt;" vertex="1">
+          <mxGeometry height="27" width="957" x="42" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="MS3efryZTIjpIkF84NTf-47" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;原理：&lt;/span&gt; 分配器返回一个句柄（通常是一个索引或ID），用户在需要访问数据时，通过句柄查表获得真实指针。&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="960" x="36.5" y="1207" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
