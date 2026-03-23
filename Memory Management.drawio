@@ -1037,7 +1037,16 @@
           <mxGeometry height="29" width="870" x="1071" y="349" as="geometry" />
         </mxCell>
         <mxCell id="HmgQybzJTobprx0O6-0v-11" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=18;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;·&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;如果你的分配器返回了一个未对齐的指针并传递给这些指令，CPU会直接抛出硬件异常，&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;导致程序瞬间崩溃（Access Violation / Segfault）。&lt;/p&gt;" vertex="1">
-          <mxGeometry height="51" width="915" x="1071" y="376" as="geometry" />
+          <mxGeometry height="52" width="915" x="1071" y="376" as="geometry" />
+        </mxCell>
+        <mxCell id="HmgQybzJTobprx0O6-0v-12" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;严重的性能惩罚（缓存行跨越）&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="29.95" width="294" x="1040" y="426.05" as="geometry" />
+        </mxCell>
+        <mxCell id="HmgQybzJTobprx0O6-0v-13" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;·CPU从主存读取数据到 L1 缓存是以“缓存行”（Cache Line，通常是 64 字节）为单位的&lt;/p&gt;" vertex="1">
+          <mxGeometry height="34.58" width="813" x="1075" y="454.42" as="geometry" />
+        </mxCell>
+        <mxCell id="HmgQybzJTobprx0O6-0v-15" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;·如果你分配的一个4 字节的 int 恰好跨越了两个缓存行的边界&lt;span style=&quot;font-size: 15pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;（比如前 2 个字节在第一个&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-size: 15pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;缓存行，后 2 个字节在第二个缓存行），CPU 就必须发起&lt;/span&gt;&lt;span style=&quot;font-size: 15pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: bold;&quot;&gt;两次&lt;/span&gt;&lt;span style=&quot;font-size: 15pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;内存读取操作，&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-size: 15pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;然后把它们拼凑起来。在对性能极其敏感的实时渲染主循环中，这种隐藏的开销是致命的&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="142" width="874" x="1075" y="489" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
