@@ -783,7 +783,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="R3RajqSZWAp9AMWC7a3E" name="内存分配与回收">
-    <mxGraphModel dx="3580" dy="1463" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="2474" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -880,11 +880,11 @@
         <mxCell id="G5onTS8pnKVt104G9YcV-33" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=17;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;硬件资源极其有限的环境（容易 OOM）&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="26" width="302" x="2064" y="896" as="geometry" />
         </mxCell>
-        <mxCell id="G5onTS8pnKVt104G9YcV-34" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;代表场景：&lt;/span&gt; 嵌入式设备（如智能手表、IoT传感器、路由器）、早期的游戏主机、或者低端智能手机。&lt;/p&gt;" vertex="1">
-          <mxGeometry height="29" width="705" x="2094" y="922" as="geometry" />
+        <mxCell id="G5onTS8pnKVt104G9YcV-34" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=16;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;代表场景：&lt;/span&gt; 嵌入式设备（如智能手表、IoT传感器、路由器）、早期的游戏主机、或者低端智能手机。&lt;/p&gt;" vertex="1">
+          <mxGeometry height="29" width="728" x="2094" y="922" as="geometry" />
         </mxCell>
-        <mxCell id="G5onTS8pnKVt104G9YcV-35" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;痛点：&lt;/span&gt; 内存可能只有几 MB 到几百MB。稍微大手大脚地动态申请内存，或者发生一点点内存泄漏，就会立刻把系统撑爆。&lt;/p&gt;" vertex="1">
-          <mxGeometry height="25" width="816.64" x="2094" y="948" as="geometry" />
+        <mxCell id="G5onTS8pnKVt104G9YcV-35" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;痛点：&lt;/span&gt; 内存可能只有几 MB 到几百MB。稍微大手大脚地动态申请内存，或者发生一点点内存泄漏，就会立刻把系统撑爆。&lt;/p&gt;" vertex="1">
+          <mxGeometry height="25" width="868" x="2094" y="948" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-36" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=16;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;如果频繁使用系统自带的new 或 malloc，会导致一个隐形杀手：&lt;span style=&quot;font-weight:bold&quot;&gt;内存碎片（Memory Fragmentation）&lt;/span&gt;。&lt;/p&gt;" vertex="1">
           <mxGeometry height="33" width="772" x="2064" y="977" as="geometry" />
