@@ -184,6 +184,9 @@
             <mxPoint x="792" y="412" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="8f-TY5c90xnVgVcWCHMV-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="(PlayerLeft,PlayerTop)" vertex="1">
+          <mxGeometry height="19" width="123" x="763" y="339" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
