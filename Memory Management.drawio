@@ -856,11 +856,11 @@
         <mxCell id="G5onTS8pnKVt104G9YcV-21" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;5.资源受限或需要严格防范OOM(Out Of Memory) 的环境&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="30.81" width="423" x="2036" y="656" as="geometry" />
         </mxCell>
-        <mxCell id="G5onTS8pnKVt104G9YcV-22" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;痛点：&lt;/span&gt; 内存耗尽或因碎片导致无法分配出足够大的连续内存块。&lt;/p&gt;" vertex="1">
+        <mxCell id="G5onTS8pnKVt104G9YcV-22" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=17;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;痛点：&lt;/span&gt; 内存耗尽或因碎片导致无法分配出足够大的连续内存块。&lt;/p&gt;" vertex="1">
           <mxGeometry height="25" width="550" x="2072" y="681" as="geometry" />
         </mxCell>
-        <mxCell id="G5onTS8pnKVt104G9YcV-24" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;场景举例：&lt;/span&gt;嵌入式系统、主机游戏开发。在这些环境中，内存上限是绝对固定的。通过在程序启动时划分好不同子系统（音频、渲染、AI）的内存池，可以实现严格的内存预算控制，避免一个子系统泄漏导致整个程序崩溃。&lt;/p&gt;" vertex="1">
-          <mxGeometry height="46" width="815" x="2071" y="702" as="geometry" />
+        <mxCell id="G5onTS8pnKVt104G9YcV-24" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=17;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;场景举例：&lt;/span&gt;嵌入式系统、主机游戏开发。在这些环境中，内存上限是绝对固定的。通过在程序启动时划分好不同子系统（音频、渲染、AI）的内存池，可以实现严格的内存预算控制，避免一个子系统泄漏导致整个程序崩溃。&lt;/p&gt;" vertex="1">
+          <mxGeometry height="46" width="871" x="2071" y="702" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-25" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
           <mxGeometry height="42.42" width="20" x="2052" y="693.58" as="geometry" />
@@ -871,10 +871,10 @@
         <mxCell id="G5onTS8pnKVt104G9YcV-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontColor=#FF0000;" value="OOM补充" vertex="1">
           <mxGeometry height="30" width="94" x="2058" y="762" as="geometry" />
         </mxCell>
-        <mxCell id="G5onTS8pnKVt104G9YcV-30" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;当程序向操作系统申请内存，但系统已经&lt;span style=&quot;font-weight:bold&quot;&gt;没有多余的物理或虚拟内存&lt;/span&gt;可以分配给它时，就会触发 OOM 错误。一旦发生&#xa;OOM，操作系统为了自保，通常会强行杀掉（Kill）这个程序，导致程序突然崩溃、闪退，甚至可能引起整个设备的重启。&lt;/p&gt;" vertex="1">
+        <mxCell id="G5onTS8pnKVt104G9YcV-30" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=17;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;当程序向操作系统申请内存，但系统已经&lt;span style=&quot;font-weight:bold&quot;&gt;没有多余的物理或虚拟内存&lt;/span&gt;可以分配给它时，就会触发 OOM 错误。一旦发生&#xa;OOM，操作系统为了自保，通常会强行杀掉（Kill）这个程序，导致程序突然崩溃、闪退，甚至可能引起整个设备的重启。&lt;/p&gt;" vertex="1">
           <mxGeometry height="53" width="889" x="2061" y="792" as="geometry" />
         </mxCell>
-        <mxCell id="G5onTS8pnKVt104G9YcV-32" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;“需要严格防范OOM 的环境”并不是指某个特定的系统名称，而是指那些&lt;span style=&quot;font-weight:bold&quot;&gt;极易触发内存耗尽&lt;/span&gt;，或者&lt;span style=&quot;font-weight:bold&quot;&gt;绝对不能容忍内存崩溃&lt;/span&gt;的应用场景。&lt;/p&gt;" vertex="1">
+        <mxCell id="G5onTS8pnKVt104G9YcV-32" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=16;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;“需要严格防范OOM 的环境”并不是指某个特定的系统名称，而是指那些&lt;span style=&quot;font-weight:bold&quot;&gt;极易触发内存耗尽&lt;/span&gt;，或者&lt;span style=&quot;font-weight:bold&quot;&gt;绝对不能容忍内存崩溃&lt;/span&gt;的应用场景。&lt;/p&gt;" vertex="1">
           <mxGeometry height="45.76" width="809.95" x="2064" y="847" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-33" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=17;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;硬件资源极其有限的环境（容易 OOM）&lt;/span&gt;&lt;/p&gt;" vertex="1">
