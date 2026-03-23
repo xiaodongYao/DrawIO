@@ -160,8 +160,11 @@
         <mxCell id="8f-TY5c90xnVgVcWCHMV-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="5" vertex="1">
           <mxGeometry height="22" width="28" x="134" y="375" as="geometry" />
         </mxCell>
-        <mxCell id="8f-TY5c90xnVgVcWCHMV-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=18;" value="MinX = XOffset+Column*TileMapInPixels;" vertex="1">
+        <mxCell id="8f-TY5c90xnVgVcWCHMV-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=18;" value="MinX = XOffset + Column * TileMapInPixels;" vertex="1">
           <mxGeometry height="34" width="426" x="604" y="419" as="geometry" />
+        </mxCell>
+        <mxCell id="8f-TY5c90xnVgVcWCHMV-50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=18;" value="MinX = YOffset + Row * TileMapInPixels;" vertex="1">
+          <mxGeometry height="34" width="426" x="604" y="445" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
