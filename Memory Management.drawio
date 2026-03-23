@@ -1015,6 +1015,9 @@
             <mxPoint x="1031" y="146" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="HmgQybzJTobprx0O6-0v-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=20;fontColor=#FF0000;fontStyle=1" value="自定义分配器的对齐策略的重要性" vertex="1">
+          <mxGeometry height="28" width="308" x="1033" y="129" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
