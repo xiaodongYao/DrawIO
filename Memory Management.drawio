@@ -1018,6 +1018,15 @@
         <mxCell id="HmgQybzJTobprx0O6-0v-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=20;fontColor=#FF0000;fontStyle=1" value="自定义分配器的对齐策略的重要性" vertex="1">
           <mxGeometry height="28" width="308" x="1033" y="129" as="geometry" />
         </mxCell>
+        <mxCell id="HmgQybzJTobprx0O6-0v-5" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Microsoft YaHei&amp;quot;;font-size:15.0pt&quot;&gt;对齐策略非常重要，合理设计对齐可以保证&lt;span style=&quot;font-weight:bold&quot;&gt;硬件访问高效&lt;/span&gt;，减少未对齐访问带来的&lt;span style=&quot;font-weight:bold&quot;&gt;性能损失&lt;/span&gt;，同时满足不同平台的硬件需求&lt;/p&gt;" vertex="1">
+          <mxGeometry height="56" width="945" x="1033" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="HmgQybzJTobprx0O6-0v-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontColor=#FF0000;" value="详细解答" vertex="1">
+          <mxGeometry height="38" width="82" x="1033" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="HmgQybzJTobprx0O6-0v-7" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:14.0pt&quot;&gt;自定义分配器（比如常用的线性分配器/ Arena）没有正确处理内存对齐，通常会导致以下三个严重后果：&lt;/p&gt;" vertex="1">
+          <mxGeometry height="29.83" width="871" x="1033" y="244" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
