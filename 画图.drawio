@@ -106,6 +106,21 @@
         <mxCell id="8f-TY5c90xnVgVcWCHMV-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=7;" value="" vertex="1">
           <mxGeometry height="49" width="57" x="209" y="180" as="geometry" />
         </mxCell>
+        <mxCell id="8f-TY5c90xnVgVcWCHMV-30" edge="1" parent="1" source="8f-TY5c90xnVgVcWCHMV-29" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="479" y="319" as="sourcePoint" />
+            <mxPoint x="669" y="277" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8f-TY5c90xnVgVcWCHMV-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="126" width="181" x="691" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="8f-TY5c90xnVgVcWCHMV-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="(MinX,MinY)" vertex="1">
+          <mxGeometry height="26" width="118" x="616" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="8f-TY5c90xnVgVcWCHMV-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="(MaxX,MaxY)" vertex="1">
+          <mxGeometry height="26" width="118" x="872" y="371" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
