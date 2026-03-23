@@ -783,7 +783,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="R3RajqSZWAp9AMWC7a3E" name="内存分配与回收">
-    <mxGraphModel dx="2585" dy="663" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="3064" dy="1171" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1047,6 +1047,18 @@
         </mxCell>
         <mxCell id="HmgQybzJTobprx0O6-0v-15" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;·&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;如果你分配的一个4 字节的 int 恰好跨越了两个缓存行的边界&lt;span style=&quot;font-size: 15pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;（比如前 2 个字节在第一个&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-size: 15pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;缓存行，后 2 个字节在第二个缓存行），CPU 就必须发起&lt;/span&gt;&lt;span style=&quot;font-size: 15pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: bold;&quot;&gt;两次&lt;/span&gt;&lt;span style=&quot;font-size: 15pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;内存读取操作，&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-size: 15pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;然后把它们拼凑起来。在对性能极其敏感的实时渲染主循环中，这种隐藏的开销是致命的&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="84" width="896" x="1075" y="476" as="geometry" />
+        </mxCell>
+        <mxCell id="HmgQybzJTobprx0O6-0v-16" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;破坏 C 语言的数据结构&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="39" width="221" x="1033" y="552" as="geometry" />
+        </mxCell>
+        <mxCell id="HmgQybzJTobprx0O6-0v-17" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;C语言编译器在处理 struct 时，会根据成员变量的类型自动插入填充字节（Padding），以保证所谓的“自然对齐”（Natural Alignment）。&lt;/p&gt;" vertex="1">
+          <mxGeometry height="59" width="854" x="1078.5" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="HmgQybzJTobprx0O6-0v-19" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;·&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;比如，一个结构体里包含一个double（8字节），那么这个结构体的首地址通常也必须是 8 的倍数&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="890.5" x="1078.5" y="636" as="geometry" />
+        </mxCell>
+        <mxCell id="HmgQybzJTobprx0O6-0v-20" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;·&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;如果你的分配器只是简单地把指针往后移动，返回了一个奇数地址，那么当C 程序尝试&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;访问结构体内的成员时，就可能触发未定义行为（UB），或者在特定架构（如 ARM）&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;上直接引发总线错误（Bus Error）&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="880.5" x="1078.5" y="664" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
