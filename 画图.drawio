@@ -209,8 +209,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8f-TY5c90xnVgVcWCHMV-66" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=16;" value="PlayerLeft = XOffset + P.TileX *&amp;nbsp;&lt;span style=&quot;font-size: 18px;&quot;&gt;TileSideInPixels + P.RelTileX - P.Width * 0.5&lt;/span&gt;" vertex="1">
-          <mxGeometry height="19" width="589" x="530" y="491" as="geometry" />
+        <mxCell id="8f-TY5c90xnVgVcWCHMV-66" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;font&gt;PlayerLeft = XOffset + P.TileX *&amp;nbsp;TileSideInPixels + P.RelTileX - P.Width * 0.5&lt;/font&gt;" vertex="1">
+          <mxGeometry height="19" width="560" x="530" y="491" as="geometry" />
         </mxCell>
         <mxCell id="8f-TY5c90xnVgVcWCHMV-67" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#0000FF;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
