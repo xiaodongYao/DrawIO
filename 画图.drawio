@@ -232,8 +232,8 @@
         <mxCell id="8f-TY5c90xnVgVcWCHMV-74" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4" vertex="1">
           <mxGeometry height="13" width="9" x="293" y="319" as="geometry" />
         </mxCell>
-        <mxCell id="8f-TY5c90xnVgVcWCHMV-78" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="(PlayerLeft,PlayerTop)" vertex="1">
-          <mxGeometry height="19" width="167" x="681" y="531" as="geometry" />
+        <mxCell id="8f-TY5c90xnVgVcWCHMV-78" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=16;" value="PlayerTop = YOffset + p.TileY * TileSideInPixels + P.RelTileY - P.Height" vertex="1">
+          <mxGeometry height="19" width="574" x="530" y="513" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
