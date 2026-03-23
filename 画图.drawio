@@ -4,6 +4,24 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8f-TY5c90xnVgVcWCHMV-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="163" y="134" as="sourcePoint" />
+            <mxPoint x="573" y="134" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8f-TY5c90xnVgVcWCHMV-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="163" y="134" as="sourcePoint" />
+            <mxPoint x="163" y="468" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8f-TY5c90xnVgVcWCHMV-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="X" vertex="1">
+          <mxGeometry height="26" width="37" x="579" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8f-TY5c90xnVgVcWCHMV-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="Y" vertex="1">
+          <mxGeometry height="26" width="37" x="117" y="445" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
