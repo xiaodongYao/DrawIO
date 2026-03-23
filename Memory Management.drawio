@@ -1033,8 +1033,11 @@
         <mxCell id="HmgQybzJTobprx0O6-0v-9" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;在构建游戏引擎时，我们经常需要处理大量的底层数学计算（如向量、矩阵运算），这必然会用到&#xa;SIMD（单指令多数据流）指令集，比如 SSE 或 AVX。&lt;/p&gt;" vertex="1">
           <mxGeometry height="58" width="887" x="1071" y="297" as="geometry" />
         </mxCell>
-        <mxCell id="HmgQybzJTobprx0O6-0v-10" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;fontSize=18;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;许多SIMD 加载指令（例如本质指令 _mm_load_ps）&lt;span style=&quot;font-weight:bold&quot;&gt;严格要求&lt;/span&gt;内存地址必须是16 字节或 32 字节对齐的。&lt;/p&gt;" vertex="1">
-          <mxGeometry height="29" width="839" x="1071" y="349" as="geometry" />
+        <mxCell id="HmgQybzJTobprx0O6-0v-10" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;fontSize=18;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;·&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;许多SIMD 加载指令（例如本质指令 _mm_load_ps）&lt;span style=&quot;font-weight:bold&quot;&gt;严格要求&lt;/span&gt;内存地址必须是16 字节或 32 字节对齐的。&lt;/p&gt;" vertex="1">
+          <mxGeometry height="29" width="870" x="1071" y="349" as="geometry" />
+        </mxCell>
+        <mxCell id="HmgQybzJTobprx0O6-0v-11" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=18;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;·&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;如果你的分配器返回了一个未对齐的指针并传递给这些指令，CPU会直接抛出硬件异常，&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;导致程序瞬间崩溃（Access Violation / Segfault）。&lt;/p&gt;" vertex="1">
+          <mxGeometry height="51" width="915" x="1071" y="376" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
