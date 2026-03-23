@@ -163,7 +163,7 @@
         <mxCell id="8f-TY5c90xnVgVcWCHMV-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=18;" value="MinX = XOffset + Column * TileSideInPixels;" vertex="1">
           <mxGeometry height="21" width="426" x="604" y="421" as="geometry" />
         </mxCell>
-        <mxCell id="8f-TY5c90xnVgVcWCHMV-50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=18;" value="MinX = YOffset + Row * TileSideInPixels;" vertex="1">
+        <mxCell id="8f-TY5c90xnVgVcWCHMV-50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=18;" value="MinY = YOffset + Row * TileSideInPixels;" vertex="1">
           <mxGeometry height="17" width="426" x="604" y="445" as="geometry" />
         </mxCell>
       </root>
