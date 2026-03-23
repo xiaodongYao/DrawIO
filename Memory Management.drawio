@@ -783,7 +783,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="R3RajqSZWAp9AMWC7a3E" name="内存分配与回收">
-    <mxGraphModel dx="4096" dy="1756" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="3211" dy="1254" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -791,7 +791,7 @@
           <mxGeometry height="33" width="92" x="2002" y="3" as="geometry" />
         </mxCell>
         <mxCell id="G8sECt7ZoDkIn5LzIyny-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontColor=#FF0000;fontStyle=1" value="最佳场景" vertex="1">
-          <mxGeometry height="30" width="90" x="2012" y="144" as="geometry" />
+          <mxGeometry height="30" width="90" x="2002" y="98" as="geometry" />
         </mxCell>
         <mxCell id="G8sECt7ZoDkIn5LzIyny-3" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;目的是减少动态内存分配的开销，避免频繁的系统调用，特别是在频繁创建销毁相似对象的场景中效果显著。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;考虑那些对性能要求极高、对象生命周期局限明确、且内存使用有特殊优化需求的场景，例如游戏中的实体对象池。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;应注意不同对象的对齐要求和内存碎片问题，以及池的预先分配策略&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="57" width="822" x="2037" y="39" as="geometry" />
@@ -800,97 +800,97 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-4" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;自定义内存池适合在&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b&gt;高频率分配&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;和&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b&gt;回收同一类型对象&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;，&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b&gt;减少碎片&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;和&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b&gt;提升性能&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;的场景，如游戏中的&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b&gt;实体&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;、&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b&gt;组件管理&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;等，尤其在时间敏感性较高的实时系统中效果明显。&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;通常是那些&lt;span style=&quot;font-weight:bold&quot;&gt;标准内存分配器成为性能瓶颈&lt;/span&gt;的情况。以下是几个最经典的适用场景：&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="91" width="884" x="2046" y="171" as="geometry" />
+          <mxGeometry height="91" width="884" x="2036" y="125" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-5" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;1.频繁创建和销毁大量&lt;u&gt;小对象&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="32" width="228" x="2046" y="267" as="geometry" />
+          <mxGeometry height="32" width="228" x="2036" y="221" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-6" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;b&gt;痛点&lt;/b&gt;：标准分配器在处理小对象时，除了对象本身的内存，还会额外分配用于记录内存块大小等信息的控制头（Overhead）。此外，频繁的碎片化释放会导致严重的&lt;u&gt;内存碎片（Memory Fragmentation）&lt;/u&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="54" width="840" x="2082" y="296" as="geometry" />
+          <mxGeometry height="54" width="840" x="2072" y="250" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-7" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;b&gt;举例&lt;/b&gt;：戏引擎中的粒子系统、同屏海量的弹幕/子弹、网络服务器接收和发送的短连接数据包（如TCP 流的 Buffer 解析）。&lt;/p&gt;" vertex="1">
-          <mxGeometry height="30" width="823" x="2082" y="342" as="geometry" />
+          <mxGeometry height="30" width="823" x="2072" y="296" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-8" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
-          <mxGeometry height="49" width="20" x="2062" y="309" as="geometry" />
+          <mxGeometry height="49" width="20" x="2052" y="263" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-9" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;2.对实时性（Latency）有极高要求的系统&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="30.81" width="321" x="2046" y="364" as="geometry" />
+          <mxGeometry height="30.81" width="321" x="2036" y="318" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-10" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;b&gt;痛点&lt;/b&gt;：标准库的内存分配时间是不确定的。如果当前堆中没有合适的空间，malloc可能会触发系统调用（如 brk 或 mmap）去向操作系统要内存，这会导致不可预测的延迟峰值（Spike）&lt;/p&gt;" vertex="1">
-          <mxGeometry height="44" width="830" x="2082" y="389" as="geometry" />
+          <mxGeometry height="44" width="830" x="2072" y="343" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-11" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;b&gt;举例&lt;/b&gt;：&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica;&quot;&gt;3A游戏引擎的渲染主循环、物理引擎模拟、高频量化交易系统、实时音视频处理。内存池的分配（特别是定长内存池）通常只需移动一下指针，时间复杂度是极其稳定的 &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica; font-weight: bold;&quot;&gt;O(1)&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica;&quot;&gt;。&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="30" width="823" x="2082" y="435" as="geometry" />
+          <mxGeometry height="30" width="823" x="2072" y="389" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-12" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
-          <mxGeometry height="62.83" width="20" x="2062" y="401.17" as="geometry" />
+          <mxGeometry height="62.83" width="20" x="2052" y="355.17" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-13" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;3.高并发的多线程环境&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="30.81" width="172" x="2046" y="480" as="geometry" />
+          <mxGeometry height="30.81" width="172" x="2036" y="434" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-14" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;b&gt;痛点&lt;/b&gt;：在多线程程序中，系统的全局堆是共享资源。当多个线程同时调用new 或 malloc 时，底层分配器必须加锁以保证线程安全，这会引发严重的锁竞争（Lock Contention）&lt;/p&gt;" vertex="1">
-          <mxGeometry height="47" width="837" x="2079" y="502" as="geometry" />
+          <mxGeometry height="47" width="837" x="2069" y="456" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-15" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;b&gt;举例&lt;/b&gt;：高性能Web 服务器、大型多人在线（MMO）游戏的服务端。通常的解决方案是使用&lt;span style=&quot;font-weight:bold&quot;&gt;线程本地内存池（Thread-Local&lt;br&gt;Allocation Buffer, TLAB）&lt;/span&gt;，为每个线程分配独立的池，从而彻底消除加锁开销&lt;/p&gt;" vertex="1">
-          <mxGeometry height="48" width="819" x="2079" y="544" as="geometry" />
+          <mxGeometry height="48" width="819" x="2069" y="498" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-16" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
-          <mxGeometry height="62.83" width="20" x="2059" y="516" as="geometry" />
+          <mxGeometry height="62.83" width="20" x="2049" y="470" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-17" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;4.对CPU缓存命中率&lt;/span&gt;&lt;span style=&quot;font-weight: bold; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica;&quot;&gt;（Cache Locality）敏感的计算&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="30.81" width="385" x="2046" y="587" as="geometry" />
+          <mxGeometry height="30.81" width="385" x="2036" y="541" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-18" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;痛点：&lt;/span&gt;如果使用标准分配器构建链表、树等节点型数据结构，节点在内存中的物理地址通常是随机分散的，遍历时会导致频繁的 Cache Miss，极大拖慢执行速度&lt;/p&gt;" vertex="1">
-          <mxGeometry height="45" width="820" x="2079" y="614" as="geometry" />
+          <mxGeometry height="45" width="820" x="2069" y="568" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-19" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;场景举例：&lt;/span&gt; 实体组件系统（ECS）中的组件数据存储、寻路算法（如A*）中的节点评估集合。使用内存池可以确保这些节点在物理内存上是紧凑连续排列的，从而享受 CPU 硬件预取的红利&lt;/p&gt;" vertex="1">
-          <mxGeometry height="48" width="809" x="2079" y="654" as="geometry" />
+          <mxGeometry height="48" width="809" x="2069" y="608" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-20" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
-          <mxGeometry height="62.83" width="20" x="2059" y="626" as="geometry" />
+          <mxGeometry height="62.83" width="20" x="2049" y="580" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-29" edge="1" parent="1" source="G5onTS8pnKVt104G9YcV-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="G5onTS8pnKVt104G9YcV-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-21" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;5.资源受限或需要严格防范OOM(Out Of Memory) 的环境&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="30.81" width="423" x="2046" y="702" as="geometry" />
+          <mxGeometry height="30.81" width="423" x="2036" y="656" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-22" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;痛点：&lt;/span&gt; 内存耗尽或因碎片导致无法分配出足够大的连续内存块。&lt;/p&gt;" vertex="1">
-          <mxGeometry height="25" width="550" x="2082" y="727" as="geometry" />
+          <mxGeometry height="25" width="550" x="2072" y="681" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-24" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;场景举例：&lt;/span&gt;嵌入式系统、主机游戏开发。在这些环境中，内存上限是绝对固定的。通过在程序启动时划分好不同子系统（音频、渲染、AI）的内存池，可以实现严格的内存预算控制，避免一个子系统泄漏导致整个程序崩溃。&lt;/p&gt;" vertex="1">
-          <mxGeometry height="46" width="815" x="2081" y="748" as="geometry" />
+          <mxGeometry height="46" width="815" x="2071" y="702" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-25" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
-          <mxGeometry height="42.42" width="20" x="2062" y="739.58" as="geometry" />
+          <mxGeometry height="42.42" width="20" x="2052" y="693.58" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-27" parent="1" style="text;whiteSpace=wrap;html=1;fontStyle=4" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;如果你的程序主要是分配生命周期很长的大对象（如加载一张高清纹理贴图），或者内存分配频率极低，那么直接使用系统的new 或 malloc 是最明智的选择。引入内存池反而会增加代码复杂度和维护成本。&lt;/p&gt;" vertex="1">
-          <mxGeometry height="64" width="956" x="2019" y="1204" as="geometry" />
+          <mxGeometry height="64" width="956" x="2009" y="1158" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontColor=#FF0000;" value="OOM补充" vertex="1">
-          <mxGeometry height="30" width="94" x="2068" y="808" as="geometry" />
+          <mxGeometry height="30" width="94" x="2058" y="762" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-30" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;当程序向操作系统申请内存，但系统已经&lt;span style=&quot;font-weight:bold&quot;&gt;没有多余的物理或虚拟内存&lt;/span&gt;可以分配给它时，就会触发 OOM 错误。一旦发生&#xa;OOM，操作系统为了自保，通常会强行杀掉（Kill）这个程序，导致程序突然崩溃、闪退，甚至可能引起整个设备的重启。&lt;/p&gt;" vertex="1">
-          <mxGeometry height="53" width="889" x="2071" y="838" as="geometry" />
+          <mxGeometry height="53" width="889" x="2061" y="792" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-32" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;“需要严格防范OOM 的环境”并不是指某个特定的系统名称，而是指那些&lt;span style=&quot;font-weight:bold&quot;&gt;极易触发内存耗尽&lt;/span&gt;，或者&lt;span style=&quot;font-weight:bold&quot;&gt;绝对不能容忍内存崩溃&lt;/span&gt;的应用场景。&lt;/p&gt;" vertex="1">
-          <mxGeometry height="45.76" width="809.95" x="2074" y="893" as="geometry" />
+          <mxGeometry height="45.76" width="809.95" x="2064" y="847" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-33" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=17;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;硬件资源极其有限的环境（容易 OOM）&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="26" width="302" x="2074" y="942" as="geometry" />
+          <mxGeometry height="26" width="302" x="2064" y="896" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-34" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;代表场景：&lt;/span&gt; 嵌入式设备（如智能手表、IoT传感器、路由器）、早期的游戏主机、或者低端智能手机。&lt;/p&gt;" vertex="1">
-          <mxGeometry height="29" width="705" x="2104" y="968" as="geometry" />
+          <mxGeometry height="29" width="705" x="2094" y="922" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-35" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;痛点：&lt;/span&gt; 内存可能只有几 MB 到几百MB。稍微大手大脚地动态申请内存，或者发生一点点内存泄漏，就会立刻把系统撑爆。&lt;/p&gt;" vertex="1">
-          <mxGeometry height="25" width="816.64" x="2104" y="994" as="geometry" />
+          <mxGeometry height="25" width="816.64" x="2094" y="948" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-36" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=16;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;如果频繁使用系统自带的new 或 malloc，会导致一个隐形杀手：&lt;span style=&quot;font-weight:bold&quot;&gt;内存碎片（Memory Fragmentation）&lt;/span&gt;。&lt;/p&gt;" vertex="1">
-          <mxGeometry height="33" width="772" x="2074" y="1023" as="geometry" />
+          <mxGeometry height="33" width="772" x="2064" y="977" as="geometry" />
         </mxCell>
         <mxCell id="G5onTS8pnKVt104G9YcV-37" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;内存池的防范策略（预算制管理）：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;使用了内存池后，程序在刚启动的时候，就会直接向操作系统“买断”一块巨大且连续的内存（例如直接申请50MB）。&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: bold;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;启动即验证：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; 如果启动时这 50MB&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;都申请不下来，程序干脆就不启动，尽早暴露问题。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Google Sans Text&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight: bold; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;运行时安全：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;只要启动成功了，以后程序运行过程中的所有内存需求，都在这 50MB&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;的内存池内部自己消化、自己循环利用。它从根源上杜绝了程序运行到一半向系统要内存被拒绝（OOM）的风险，同时也消除了内存碎片带来的隐患。&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="109" width="849" x="2074" y="1059" as="geometry" />
+          <mxGeometry height="109" width="849" x="2064" y="1013" as="geometry" />
         </mxCell>
         <mxCell id="MS3efryZTIjpIkF84NTf-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=40;fontColor=#CC00CC;fontStyle=1" value="内存分配" vertex="1">
           <mxGeometry height="45" width="179" x="-624" y="5" as="geometry" />
