@@ -783,7 +783,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="R3RajqSZWAp9AMWC7a3E" name="内存分配与回收">
-    <mxGraphModel dx="2474" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="4235" dy="1344" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1059,6 +1059,9 @@
         </mxCell>
         <mxCell id="HmgQybzJTobprx0O6-0v-20" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;·&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;如果你的分配器只是简单地把指针往后移动，返回了一个奇数地址，那么当C 程序尝试&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;访问结构体内的成员时，就可能触发未定义行为（UB），或者在特定架构（如 ARM）&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;上直接引发总线错误（Bus Error）&lt;/p&gt;" vertex="1">
           <mxGeometry height="90" width="880.5" x="1078.5" y="664" as="geometry" />
+        </mxCell>
+        <mxCell id="apy4sgpF_2Qr1pRwPkBV-1" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=30;" value="&lt;p style=&quot;margin: 0in;&quot;&gt;&lt;span style=&quot;font-weight:bold;font-family:&amp;quot;Google Sans&amp;quot;&quot;&gt;·多线程内存分配器&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="88" width="350" x="-986" y="732" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
