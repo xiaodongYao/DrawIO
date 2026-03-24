@@ -1105,6 +1105,15 @@
         <mxCell id="apy4sgpF_2Qr1pRwPkBV-20" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;·解决方案：&lt;/span&gt; 使用多种尺寸的内存块分类（Size Classes）、伙伴系统（BuddySystem）&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;或 Slab 分配机制来减少碎片。jemalloc 就以极度优化内存碎片而闻名&lt;/p&gt;" vertex="1">
           <mxGeometry height="62" width="873" x="3055" y="706" as="geometry" />
         </mxCell>
+        <mxCell id="apy4sgpF_2Qr1pRwPkBV-21" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;内存占用膨胀 (Memory Blowup / Footprint)&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30.29" width="446.97" x="3000" y="762" as="geometry" />
+        </mxCell>
+        <mxCell id="apy4sgpF_2Qr1pRwPkBV-22" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;为了减少锁竞争，分配器给每个线程都分配了本地缓存。如果一个程序开启了成百上千个线程，即使每个线程的本地缓存只有几&#xa;MB，总体的内存占用也会非常惊人。此外，线程销毁后，其持有的本地缓存需要被及时回收。&lt;/p&gt;" vertex="1">
+          <mxGeometry height="83" width="896" x="3055" y="785" as="geometry" />
+        </mxCell>
+        <mxCell id="apy4sgpF_2Qr1pRwPkBV-23" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;·解决方案：&lt;/span&gt;设定合理的本地缓存上限；引入垃圾回收或定期清理机制，&lt;span style=&quot;font-size: 15pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;将线程本地缓存中&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-size: 15pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;长期不用&lt;/span&gt;&lt;span style=&quot;font-size: 15pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;的空闲内存交还给中央堆或操作系统&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="118" width="897" x="3056" y="868" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
