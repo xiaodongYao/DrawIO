@@ -479,7 +479,7 @@
           <mxGeometry height="588" width="588" x="1941" y="503" as="geometry" />
         </mxCell>
         <mxCell id="Yh5u4aRIclWnTqb4xGWi-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=40;fontStyle=1" value="Tile_Chunk" vertex="1">
-          <mxGeometry height="46" width="145" x="1978" y="1025" as="geometry" />
+          <mxGeometry height="46" width="145" x="2268" y="945" as="geometry" />
         </mxCell>
         <mxCell id="Yh5u4aRIclWnTqb4xGWi-4" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=4;" value="" vertex="1">
           <mxGeometry height="588" width="588" x="2566" y="501" as="geometry" />
@@ -537,6 +537,42 @@
         </mxCell>
         <mxCell id="Yh5u4aRIclWnTqb4xGWi-26" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=30;" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Cascadia Code&amp;quot;;&quot; lang=&quot;la&quot;&gt;&lt;span style=&quot;font-weight: bold; color: rgb(128, 128, 192);&quot;&gt;struct &lt;/span&gt;&lt;span style=&quot;color: black;&quot;&gt;tile_chunk_position&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Cascadia Code&amp;quot;; color: rgb(255, 0, 128);&quot; lang=&quot;la&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;{&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Cascadia Code&amp;quot;;&quot; lang=&quot;la&quot;&gt;&lt;span style=&quot;color: black;&quot;&gt;uint32 TileChunkX&lt;/span&gt;&lt;span style=&quot;font-weight: bold; color: rgb(255, 0, 128);&quot;&gt;;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Cascadia Code&amp;quot;;&quot; lang=&quot;la&quot;&gt;&lt;span style=&quot;color: black;&quot;&gt;uint32 TileChunkY&lt;/span&gt;&lt;span style=&quot;font-weight: bold; color: rgb(255, 0, 128);&quot;&gt;;&lt;/span&gt;&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin: 0in; font-family: Calibri;&quot;&gt;&lt;span style=&quot;color: light-dark(black, rgb(237, 237, 237)); font-family: &amp;quot;Cascadia Code&amp;quot;; background-color: transparent;&quot;&gt;uint32&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;; background-color: transparent; color: black;&quot;&gt;RelTileX&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;; background-color: transparent; font-weight: bold; color: rgb(255, 0, 128);&quot;&gt;;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Cascadia Code&amp;quot;;&quot; lang=&quot;la&quot;&gt;&lt;span style=&quot;color: black;&quot;&gt;uint32 RelTileY&lt;/span&gt;&lt;span style=&quot;font-weight: bold; color: rgb(255, 0, 128);&quot;&gt;;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Cascadia Code&amp;quot;;&quot; lang=&quot;la&quot;&gt;&lt;span style=&quot;font-weight: bold; color: light-dark(rgb(255, 0, 128), rgb(255, 128, 238)); background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Cascadia Code&amp;quot;;&quot; lang=&quot;la&quot;&gt;&lt;span style=&quot;font-weight: bold; color: light-dark(rgb(255, 0, 128), rgb(255, 128, 238)); background-color: transparent;&quot;&gt;};&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="344" width="524" x="1244" y="238" as="geometry" />
+        </mxCell>
+        <mxCell id="Yh5u4aRIclWnTqb4xGWi-27" parent="1" style="line;strokeWidth=2;direction=south;html=1;" value="" vertex="1">
+          <mxGeometry height="588" width="10" x="1987" y="503" as="geometry" />
+        </mxCell>
+        <mxCell id="Yh5u4aRIclWnTqb4xGWi-28" parent="1" style="line;strokeWidth=2;direction=south;html=1;" value="" vertex="1">
+          <mxGeometry height="588" width="10" x="2040" y="503" as="geometry" />
+        </mxCell>
+        <mxCell id="Yh5u4aRIclWnTqb4xGWi-29" parent="1" style="line;strokeWidth=2;direction=south;html=1;" value="" vertex="1">
+          <mxGeometry height="588" width="10" x="2084" y="503" as="geometry" />
+        </mxCell>
+        <mxCell id="Yh5u4aRIclWnTqb4xGWi-31" parent="1" style="line;strokeWidth=2;direction=south;html=1;" value="" vertex="1">
+          <mxGeometry height="588" width="10" x="2134" y="503" as="geometry" />
+        </mxCell>
+        <mxCell id="Yh5u4aRIclWnTqb4xGWi-33" parent="1" style="line;strokeWidth=2;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="588" x="1941" y="546" as="geometry" />
+        </mxCell>
+        <mxCell id="Yh5u4aRIclWnTqb4xGWi-35" parent="1" style="line;strokeWidth=2;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="588" x="1941" y="598" as="geometry" />
+        </mxCell>
+        <mxCell id="Yh5u4aRIclWnTqb4xGWi-36" parent="1" style="line;strokeWidth=2;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="588" x="1941" y="649" as="geometry" />
+        </mxCell>
+        <mxCell id="Yh5u4aRIclWnTqb4xGWi-37" parent="1" style="line;strokeWidth=2;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="588" x="1941" y="696" as="geometry" />
+        </mxCell>
+        <mxCell id="Yh5u4aRIclWnTqb4xGWi-38" parent="1" style="line;strokeWidth=2;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="588" x="1941" y="1045" as="geometry" />
+        </mxCell>
+        <mxCell id="Yh5u4aRIclWnTqb4xGWi-39" parent="1" style="line;strokeWidth=2;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="588" x="1941" y="741" as="geometry" />
+        </mxCell>
+        <mxCell id="Yh5u4aRIclWnTqb4xGWi-40" parent="1" style="line;strokeWidth=2;direction=south;html=1;" value="" vertex="1">
+          <mxGeometry height="588" width="10" x="2179" y="503" as="geometry" />
+        </mxCell>
+        <mxCell id="Yh5u4aRIclWnTqb4xGWi-41" parent="1" style="line;strokeWidth=2;direction=south;html=1;" value="" vertex="1">
+          <mxGeometry height="588" width="10" x="2475" y="503" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
