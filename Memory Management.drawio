@@ -783,7 +783,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="R3RajqSZWAp9AMWC7a3E" name="内存分配与回收">
-    <mxGraphModel dx="4235" dy="1344" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="2588" dy="888" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1061,7 +1061,22 @@
           <mxGeometry height="90" width="880.5" x="1078.5" y="664" as="geometry" />
         </mxCell>
         <mxCell id="apy4sgpF_2Qr1pRwPkBV-1" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=30;" value="&lt;p style=&quot;margin: 0in;&quot;&gt;&lt;span style=&quot;font-weight:bold;font-family:&amp;quot;Google Sans&amp;quot;&quot;&gt;·多线程内存分配器&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="88" width="350" x="-986" y="732" as="geometry" />
+          <mxGeometry height="53" width="297" x="-986" y="732" as="geometry" />
+        </mxCell>
+        <mxCell id="apy4sgpF_2Qr1pRwPkBV-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=27;fontColor=#0000FF;fontStyle=1" value="多线程内存分配器" vertex="1">
+          <mxGeometry height="30" width="225" x="3002" y="3" as="geometry" />
+        </mxCell>
+        <mxCell id="apy4sgpF_2Qr1pRwPkBV-3" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Microsoft YaHei&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;采用线程安全的设计，如&lt;b&gt;锁、原子操作&lt;/b&gt;或&lt;b&gt;无锁容器&lt;/b&gt;，并利用&lt;b&gt;线程局部存储&lt;/b&gt;优化性能，&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Microsoft YaHei&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;确保在多线程环境下的内存操作安全有效&lt;/p&gt;" vertex="1">
+          <mxGeometry height="54" width="957" x="3005" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="apy4sgpF_2Qr1pRwPkBV-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontColor=#FF0000;" value="详细解答(考虑问题)" vertex="1">
+          <mxGeometry height="38" width="178" x="3002" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="apy4sgpF_2Qr1pRwPkBV-5" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;锁竞争 (Lock Contention)&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="26" width="285" x="3005" y="109" as="geometry" />
+        </mxCell>
+        <mxCell id="apy4sgpF_2Qr1pRwPkBV-6" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:14.0pt&quot;&gt;·&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;所有线程都从同一个全局堆（GlobalHeap）申请和释放内存，每次操作都需要加互斥锁（Mutex）。&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:14.0pt&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;当线程数量增加时，锁争用会导致严重的上下文切换和性能下降。&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:14.0pt&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="112" width="922" x="3055" y="129" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
