@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.5">
   <diagram name="Day 33 TileMap Archticture" id="4bVYzg3TMoGRZVy-_ZUI">
-    <mxGraphModel dx="2283" dy="1276" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1588" dy="888" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -886,11 +886,11 @@
             <mxPoint x="1010.5" y="3301" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yh5u4aRIclWnTqb4xGWi-134" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="X" vertex="1">
-          <mxGeometry height="26" width="37" x="1425.5" y="3615" as="geometry" />
+        <mxCell id="Yh5u4aRIclWnTqb4xGWi-134" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="RelColumn" vertex="1">
+          <mxGeometry height="26" width="111.5" x="1425.5" y="3615" as="geometry" />
         </mxCell>
-        <mxCell id="Yh5u4aRIclWnTqb4xGWi-135" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="Y" vertex="1">
-          <mxGeometry height="26" width="37" x="963.5" y="3270" as="geometry" />
+        <mxCell id="Yh5u4aRIclWnTqb4xGWi-135" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="RelRow" vertex="1">
+          <mxGeometry height="26" width="78.5" x="963.5" y="3270" as="geometry" />
         </mxCell>
         <mxCell id="Yh5u4aRIclWnTqb4xGWi-136" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;endFill=0;" value="">
           <mxGeometry relative="1" width="100" as="geometry">
