@@ -1069,8 +1069,8 @@
         <mxCell id="Yh5u4aRIclWnTqb4xGWi-176" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=22;" value="Height/2" vertex="1">
           <mxGeometry height="37" width="101" x="400.80999999999995" y="3691" as="geometry" />
         </mxCell>
-        <mxCell id="Yh5u4aRIclWnTqb4xGWi-177" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=34;" value="初始状态，此时P不在屏幕中间" vertex="1">
-          <mxGeometry height="30" width="488" x="274" y="3836" as="geometry" />
+        <mxCell id="Yh5u4aRIclWnTqb4xGWi-177" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=34;" value="将P的位置调整为在P1的位置，相当于屏幕中央" vertex="1">
+          <mxGeometry height="30" width="763" x="140.5" y="3840" as="geometry" />
         </mxCell>
         <mxCell id="Yh5u4aRIclWnTqb4xGWi-178" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" value="P1" vertex="1">
           <mxGeometry height="47" width="39" x="527.5" y="3551" as="geometry" />
