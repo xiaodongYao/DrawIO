@@ -1112,7 +1112,16 @@
           <mxGeometry height="83" width="896" x="3055" y="785" as="geometry" />
         </mxCell>
         <mxCell id="apy4sgpF_2Qr1pRwPkBV-23" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;·解决方案：&lt;/span&gt;设定合理的本地缓存上限；引入垃圾回收或定期清理机制，&lt;span style=&quot;font-size: 15pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;将线程本地缓存中&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-size: 15pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;长期不用&lt;/span&gt;&lt;span style=&quot;font-size: 15pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;的空闲内存交还给中央堆或操作系统&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="118" width="897" x="3056" y="868" as="geometry" />
+          <mxGeometry height="58" width="897" x="3056" y="868" as="geometry" />
+        </mxCell>
+        <mxCell id="apy4sgpF_2Qr1pRwPkBV-24" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;NUMA 架构感知 (NUMA Awareness)&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="39" width="384" x="2997" y="925" as="geometry" />
+        </mxCell>
+        <mxCell id="apy4sgpF_2Qr1pRwPkBV-25" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;现代多路服务器（NUMA架构）中，CPU 访问自己节点上的本地内存速度远远快于访问其他节点的远程内存&lt;/p&gt;" vertex="1">
+          <mxGeometry height="59" width="880" x="3055" y="964" as="geometry" />
+        </mxCell>
+        <mxCell id="apy4sgpF_2Qr1pRwPkBV-26" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;解决方案：&lt;/span&gt; 高级内存分配器应当尽量保证线程分配到的内存物理上位于执行该线程的 NUMA节点上，避免跨节点内存访问带来的高延迟&lt;/p&gt;" vertex="1">
+          <mxGeometry height="61" width="888" x="3056" y="1020" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
