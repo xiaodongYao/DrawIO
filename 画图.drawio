@@ -1114,10 +1114,10 @@
         <mxCell id="Yh5u4aRIclWnTqb4xGWi-201" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="(PlayerLeft,PlayerTop)" vertex="1">
           <mxGeometry height="19" width="161" x="1710" y="3683" as="geometry" />
         </mxCell>
-        <mxCell id="Yh5u4aRIclWnTqb4xGWi-202" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;font&gt;PlayerLeft = XOffset + P.TileX *&amp;nbsp;TileSideInPixels + P.RelTileX - P.Width * 0.5&lt;/font&gt;" vertex="1">
+        <mxCell id="Yh5u4aRIclWnTqb4xGWi-202" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;font&gt;PlayerLeft = XCenter&amp;nbsp; + P.RelTileX - P.Width * 0.5&lt;/font&gt;" vertex="1">
           <mxGeometry height="19" width="560" x="1477" y="3835" as="geometry" />
         </mxCell>
-        <mxCell id="Yh5u4aRIclWnTqb4xGWi-203" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=16;fontStyle=1" value="PlayerTop = YOffset - P.TileY *&amp;nbsp; TileSideInPixels - P.RelTileY - P.Height" vertex="1">
+        <mxCell id="Yh5u4aRIclWnTqb4xGWi-203" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=16;fontStyle=1" value="PlayerTop = YCneter + P.RelTileY - P.Height" vertex="1">
           <mxGeometry height="19" width="574" x="1477" y="3857" as="geometry" />
         </mxCell>
         <mxCell id="Yh5u4aRIclWnTqb4xGWi-204" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
