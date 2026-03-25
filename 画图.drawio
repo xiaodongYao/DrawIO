@@ -1395,6 +1395,30 @@
         <mxCell id="TmPXezpPPhmWlCF-yU32-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF00FF;fontSize=30;" value="玩家原本往右，实际相对于屏幕来说，玩家不动，屏幕往左" vertex="1">
           <mxGeometry height="30" width="787.25" x="851" y="933" as="geometry" />
         </mxCell>
+        <mxCell id="TmPXezpPPhmWlCF-yU32-3" parent="1" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="226" width="39" x="480" y="867" as="geometry" />
+        </mxCell>
+        <mxCell id="TmPXezpPPhmWlCF-yU32-4" parent="1" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="226" width="39" x="1939" y="795" as="geometry" />
+        </mxCell>
+        <mxCell id="TmPXezpPPhmWlCF-yU32-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=19;fontStyle=1" value="MinX = XCenter&amp;nbsp;&lt;span&gt;&amp;nbsp;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;- P.RelTileX&amp;nbsp;&lt;/font&gt;&lt;/span&gt;+ RelColumn * TileSideInPixels;" vertex="1">
+          <mxGeometry height="21" width="555" x="332" y="1124" as="geometry" />
+        </mxCell>
+        <mxCell id="TmPXezpPPhmWlCF-yU32-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=18;fontStyle=1" value="MinY = MaxY - TileSideInPixels;&amp;nbsp;" vertex="1">
+          <mxGeometry height="17" width="426" x="332" y="1148" as="geometry" />
+        </mxCell>
+        <mxCell id="TmPXezpPPhmWlCF-yU32-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=18;fontStyle=1" value="MaxX = MinX + TileSideInPixels;" vertex="1">
+          <mxGeometry height="21" width="368" x="332" y="1169" as="geometry" />
+        </mxCell>
+        <mxCell id="TmPXezpPPhmWlCF-yU32-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=18;fontStyle=1" value="MaxY = YCenter - RelRow * TileSideInPixels;" vertex="1">
+          <mxGeometry height="21" width="413" x="332" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="TmPXezpPPhmWlCF-yU32-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=16;fontStyle=1" value="&lt;font&gt;PlayerLeft = XCenter&amp;nbsp; - P.Width * 0.5&lt;/font&gt;" vertex="1">
+          <mxGeometry height="19" width="413" x="1717" y="1128" as="geometry" />
+        </mxCell>
+        <mxCell id="TmPXezpPPhmWlCF-yU32-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=16;fontStyle=1" value="PlayerTop = YCneter&amp;nbsp; &amp;nbsp;- P.RelTileY - P.Height" vertex="1">
+          <mxGeometry height="19" width="412" x="1717" y="1150" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
