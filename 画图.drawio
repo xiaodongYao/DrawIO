@@ -1416,7 +1416,7 @@
         <mxCell id="TmPXezpPPhmWlCF-yU32-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=16;fontStyle=1" value="&lt;font&gt;PlayerLeft = XCenter&amp;nbsp; - P.Width * 0.5&lt;/font&gt;" vertex="1">
           <mxGeometry height="19" width="413" x="1717" y="1128" as="geometry" />
         </mxCell>
-        <mxCell id="TmPXezpPPhmWlCF-yU32-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=16;fontStyle=1" value="PlayerTop = YCneter&amp;nbsp; &amp;nbsp;- P.Height" vertex="1">
+        <mxCell id="TmPXezpPPhmWlCF-yU32-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=16;fontStyle=1" value="PlayerTop = YCneter&amp;nbsp; - P.Height" vertex="1">
           <mxGeometry height="19" width="412" x="1717" y="1150" as="geometry" />
         </mxCell>
       </root>
