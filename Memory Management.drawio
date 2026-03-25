@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.4" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.5" pages="3">
   <diagram name="缓存一致性" id="79gSdEwwKMWHRwFeuU2-">
     <mxGraphModel dx="4509" dy="896" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -783,7 +783,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="R3RajqSZWAp9AMWC7a3E" name="内存分配与回收">
-    <mxGraphModel dx="2588" dy="888" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="5565" dy="2553" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1122,6 +1122,9 @@
         </mxCell>
         <mxCell id="apy4sgpF_2Qr1pRwPkBV-26" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;解决方案：&lt;/span&gt; 高级内存分配器应当尽量保证线程分配到的内存物理上位于执行该线程的 NUMA节点上，避免跨节点内存访问带来的高延迟&lt;/p&gt;" vertex="1">
           <mxGeometry height="61" width="888" x="3056" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="hRPNMzgz6iIrzxY8L_uR-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=40;fontColor=#CC00CC;fontStyle=1" value="内存分配" vertex="1">
+          <mxGeometry height="45" width="179" x="-624" y="1613" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
