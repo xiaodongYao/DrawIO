@@ -1390,7 +1390,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TmPXezpPPhmWlCF-yU32-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF00FF;fontSize=30;" value="实现平滑滚动" vertex="1">
-          <mxGeometry height="30" width="203" x="325" y="47" as="geometry" />
+          <mxGeometry height="30" width="203" x="222" y="49" as="geometry" />
+        </mxCell>
+        <mxCell id="TmPXezpPPhmWlCF-yU32-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF00FF;fontSize=30;" value="玩家原本往右，实际相对于屏幕来说，玩家不动，屏幕往左" vertex="1">
+          <mxGeometry height="30" width="787.25" x="851" y="933" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
