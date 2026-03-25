@@ -1153,11 +1153,11 @@
         <mxCell id="hRPNMzgz6iIrzxY8L_uR-12" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;明确内存所有权（Ownership）&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="29" width="298" x="-990" y="2060" as="geometry" />
         </mxCell>
-        <mxCell id="hRPNMzgz6iIrzxY8L_uR-13" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:14.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;独占所有权：&lt;/span&gt; 只有拥有该内存的模块或对象才能释放它。其他地方只是“借用”指针，绝不调用free/delete。&lt;/p&gt;" vertex="1">
-          <mxGeometry height="34" width="919" x="-940" y="2089" as="geometry" />
+        <mxCell id="hRPNMzgz6iIrzxY8L_uR-13" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:14.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;·独占所有权：&lt;/span&gt; 只有拥有该内存的模块或对象才能释放它。其他地方只是“借用”指针，绝不调用free/delete。&lt;/p&gt;" vertex="1">
+          <mxGeometry height="34" width="940" x="-940" y="2089" as="geometry" />
         </mxCell>
-        <mxCell id="hRPNMzgz6iIrzxY8L_uR-14" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:14.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;生命周期同步：&lt;/span&gt; 确保“借用”指针的生命周期短于“拥有者”的生命周期&lt;/p&gt;" vertex="1">
-          <mxGeometry height="29.95" width="612.16" x="-940" y="2118" as="geometry" />
+        <mxCell id="hRPNMzgz6iIrzxY8L_uR-14" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:14.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;·生命周期同步：&lt;/span&gt; 确保“借用”指针的生命周期短于“拥有者”的生命周期&lt;/p&gt;" vertex="1">
+          <mxGeometry height="29.95" width="645" x="-940" y="2118" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
