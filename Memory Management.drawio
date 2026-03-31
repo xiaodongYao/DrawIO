@@ -783,7 +783,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="R3RajqSZWAp9AMWC7a3E" name="内存分配与回收">
-    <mxGraphModel dx="1690" dy="508" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="2522" dy="851" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1195,23 +1195,71 @@
         <mxCell id="2MZrD859wyTFsKonMpGS-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontColor=#FF0000;fontStyle=1" value="详细解答" vertex="1">
           <mxGeometry height="38" width="82" x="-1000" y="1876" as="geometry" />
         </mxCell>
-        <mxCell id="2MZrD859wyTFsKonMpGS-5" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:16.0pt&quot;&gt;&lt;b&gt;标记阶段Mark Phase&amp;nbsp;&lt;/b&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="27" width="228.32" x="-950.32" y="1905" as="geometry" />
-        </mxCell>
         <mxCell id="2MZrD859wyTFsKonMpGS-6" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;这个阶段的目标是找出内存中所有“活着”的对象。&lt;/p&gt;" vertex="1">
-          <mxGeometry height="22.2" width="488" x="-948" y="1931.8" as="geometry" />
+          <mxGeometry height="22.2" width="488" x="-906" y="1932" as="geometry" />
         </mxCell>
         <mxCell id="2MZrD859wyTFsKonMpGS-10" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;根集合 (GC Roots)&lt;/span&gt;：垃圾回收器会从一系列被称为“根”的变量开始。这些根通常包括&lt;/p&gt;" vertex="1">
-          <mxGeometry height="21" width="829" x="-948" y="1960" as="geometry" />
+          <mxGeometry height="21" width="829" x="-906" y="1960.2" as="geometry" />
         </mxCell>
         <mxCell id="2MZrD859wyTFsKonMpGS-11" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;1.全局变量/静态变量&lt;/p&gt;" vertex="1">
-          <mxGeometry height="22.2" width="488" x="-892" y="1987" as="geometry" />
+          <mxGeometry height="22.2" width="488" x="-850" y="1987.2" as="geometry" />
         </mxCell>
         <mxCell id="2MZrD859wyTFsKonMpGS-12" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;2.当前函数调用栈上的局部变量&lt;/p&gt;" vertex="1">
-          <mxGeometry height="22.2" width="303" x="-892" y="2011" as="geometry" />
+          <mxGeometry height="22.2" width="303" x="-850" y="2011.2" as="geometry" />
         </mxCell>
         <mxCell id="2MZrD859wyTFsKonMpGS-13" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;3.寄存器中的变量&lt;/p&gt;" vertex="1">
-          <mxGeometry height="18" width="168" x="-892" y="2039" as="geometry" />
+          <mxGeometry height="18" width="168" x="-850" y="2039.2" as="geometry" />
+        </mxCell>
+        <mxCell id="2MZrD859wyTFsKonMpGS-14" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;遍历&lt;/span&gt;：从这些根对象出发，通过引用关系递归地访问堆中的所有对象&lt;/p&gt;" vertex="1">
+          <mxGeometry height="24" width="607" x="-903" y="2060.2" as="geometry" />
+        </mxCell>
+        <mxCell id="2MZrD859wyTFsKonMpGS-15" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;打标签&lt;/span&gt;：每访问到一个对象，就在该对象的头部或一个外部位图（Bitmap）中打上一个&lt;span style=&quot;font-weight:bold&quot;&gt;标记&lt;/span&gt;，表示该对象是“可达的”（Reachable）&lt;/p&gt;" vertex="1">
+          <mxGeometry height="94" width="838" x="-903" y="2060.2" as="geometry" />
+        </mxCell>
+        <mxCell id="2MZrD859wyTFsKonMpGS-16" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:20.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;清除阶段 (Sweep Phase)&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="35.56" width="334" x="-942" y="2128" as="geometry" />
+        </mxCell>
+        <mxCell id="2MZrD859wyTFsKonMpGS-17" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:20.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;标记阶段 (Mark Phase)&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="29" width="312" x="-942" y="1903" as="geometry" />
+        </mxCell>
+        <mxCell id="2MZrD859wyTFsKonMpGS-18" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;当标记阶段完成后，内存中未被标记的对象就被认为是“垃圾”，即程序再也无法访问到的内存&lt;/p&gt;" vertex="1">
+          <mxGeometry height="31" width="855" x="-906" y="2157" as="geometry" />
+        </mxCell>
+        <mxCell id="2MZrD859wyTFsKonMpGS-19" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;线性扫描&lt;/span&gt;：垃圾回收器会从头到尾扫描整个堆内存&lt;/p&gt;" vertex="1">
+          <mxGeometry height="21.46" width="463" x="-906" y="2188" as="geometry" />
+        </mxCell>
+        <mxCell id="2MZrD859wyTFsKonMpGS-20" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;回收空间&lt;/span&gt;：如果发现某个对象没有标记，就将其占用的内存空间释放，放回“空闲链表”（Free&#xa;List）中，以便后续重新分配&lt;/p&gt;" vertex="1">
+          <mxGeometry height="54" width="869" x="-906" y="2212" as="geometry" />
+        </mxCell>
+        <mxCell id="2MZrD859wyTFsKonMpGS-21" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;清除标记&lt;/span&gt;：同时，将存活对象的标记擦除，为下一次 GC 循环做准备&lt;/p&gt;" vertex="1">
+          <mxGeometry height="27" width="761" x="-906" y="2262" as="geometry" />
+        </mxCell>
+        <mxCell id="2MZrD859wyTFsKonMpGS-22" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:20.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;标记-清除的优缺点&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="42" width="244" x="-941" y="2295" as="geometry" />
+        </mxCell>
+        <mxCell id="2MZrD859wyTFsKonMpGS-23" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;虽然这个算法逻辑直观，但在实际工业级应用中，它存在一些明显的挑战&lt;/p&gt;" vertex="1">
+          <mxGeometry height="25" width="708" x="-903" y="2331" as="geometry" />
+        </mxCell>
+        <mxCell id="2MZrD859wyTFsKonMpGS-24" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;优点&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="37" width="57" x="-903" y="2358" as="geometry" />
+        </mxCell>
+        <mxCell id="2MZrD859wyTFsKonMpGS-25" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:16.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;缺点&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="38.6" width="57.4" x="-906" y="2476.93" as="geometry" />
+        </mxCell>
+        <mxCell id="2MZrD859wyTFsKonMpGS-26" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;解决循环引用&lt;/span&gt;：与引用计数（Reference Counting）不同，标记-清除只关心“是否从根部可达”，因此可以轻松处理 A 引用 B、B 引用 A 的相互引用问题&lt;/p&gt;" vertex="1">
+          <mxGeometry height="64" width="825" x="-862" y="2385" as="geometry" />
+        </mxCell>
+        <mxCell id="2MZrD859wyTFsKonMpGS-27" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;实现相对简单&lt;/span&gt;：不需要在每次赋值时更新计数器&lt;/p&gt;" vertex="1">
+          <mxGeometry height="36" width="448" x="-862" y="2449" as="geometry" />
+        </mxCell>
+        <mxCell id="2MZrD859wyTFsKonMpGS-28" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;内存碎片化 (Fragmentation)&lt;/span&gt;：这是它最大的短板。清除阶段回收的内存是不连续的。长时间运行后，内存中会充斥着大量细小的碎片，导致虽然总剩余空间很大，却无法分配一个较大的连续对象&lt;/p&gt;" vertex="1">
+          <mxGeometry height="76" width="842" x="-865" y="2512" as="geometry" />
+        </mxCell>
+        <mxCell id="2MZrD859wyTFsKonMpGS-29" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;分配效率较低&lt;/span&gt;：由于内存不连续，分配新对象时需要遍历“空闲链表”找到合适大小的空隙（通常采用First Fit 或 Best Fit 策略）&lt;/p&gt;" vertex="1">
+          <mxGeometry height="62" width="845" x="-865" y="2588" as="geometry" />
+        </mxCell>
+        <mxCell id="zzpTYa7CpNIFa-xcuDih-1" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;STW (Stop The World)&lt;/span&gt;：在传统的标记-清除过程中，为了保证对象引用关系不发生变化，通常需要暂停整个程序的运行，这会导致明显的延迟&lt;/p&gt;" vertex="1">
+          <mxGeometry height="49" width="857" x="-865" y="2656" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
