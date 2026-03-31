@@ -783,7 +783,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="R3RajqSZWAp9AMWC7a3E" name="内存分配与回收">
-    <mxGraphModel dx="2522" dy="851" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="3609" dy="1459" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1260,6 +1260,18 @@
         </mxCell>
         <mxCell id="zzpTYa7CpNIFa-xcuDih-1" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;STW (Stop The World)&lt;/span&gt;：在传统的标记-清除过程中，为了保证对象引用关系不发生变化，通常需要暂停整个程序的运行，这会导致明显的延迟&lt;/p&gt;" vertex="1">
           <mxGeometry height="49" width="857" x="-865" y="2656" as="geometry" />
+        </mxCell>
+        <mxCell id="zzpTYa7CpNIFa-xcuDih-2" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans&amp;quot;;font-size:20.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;常见的进化版本&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="54" width="215" x="-941.9979308064778" y="2711.0049647013348" as="geometry" />
+        </mxCell>
+        <mxCell id="zzpTYa7CpNIFa-xcuDih-3" parent="1" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;标记-整理 (Mark-Compact)&lt;/span&gt;：在清除后将存活对象向一端移动，彻底解决碎片问题&lt;/p&gt;" vertex="1">
+          <mxGeometry height="33" width="779" x="-881" y="2750" as="geometry" />
+        </mxCell>
+        <mxCell id="zzpTYa7CpNIFa-xcuDih-4" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;标记-复制 (Copying GC)&lt;/span&gt;：将内存分为两块，直接将活对象拷贝到另一块，效率更高但空间利用率减半&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="870" x="-881" y="2778" as="geometry" />
+        </mxCell>
+        <mxCell id="zzpTYa7CpNIFa-xcuDih-5" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;三色标记法 (Tri-color Marking)&lt;/span&gt;：允许标记过程与程序运行并发执行，减少停顿时间（Go&#xa;语言主要使用此方案）&lt;/p&gt;" vertex="1">
+          <mxGeometry height="64" width="867" x="-881" y="2835" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
