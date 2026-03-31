@@ -1183,6 +1183,9 @@
         <mxCell id="hRPNMzgz6iIrzxY8L_uR-22" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin:0in;font-family:&amp;quot;Google Sans Text&amp;quot;;font-size:15.0pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;·静态代码分析工具：&lt;/span&gt; 如 Cppcheck、Clang Static Analyzer&lt;/p&gt;" vertex="1">
           <mxGeometry height="46" width="550" x="44.49840236497971" y="2619.996529063349" as="geometry" />
         </mxCell>
+        <mxCell id="2MZrD859wyTFsKonMpGS-1" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=30;" value="&lt;p style=&quot;margin: 0in;&quot;&gt;&lt;span style=&quot;font-weight:bold;font-family:&amp;quot;Google Sans&amp;quot;&quot;&gt;·回收原理&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in;&quot;&gt;&lt;span style=&quot;font-weight:bold;font-family:&amp;quot;Google Sans&amp;quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1.标记-清除回收机制&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="103" width="606" x="-996" y="1662" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
