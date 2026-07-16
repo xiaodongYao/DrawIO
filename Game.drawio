@@ -5,22 +5,22 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="hd2uDo9v_fq9Y_XCfNg1-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=49;" value="" vertex="1">
-          <mxGeometry height="1125" width="1762" x="-2825" y="-872" as="geometry" />
+          <mxGeometry height="1125" width="1953" x="-3016" y="-872" as="geometry" />
         </mxCell>
         <mxCell id="hd2uDo9v_fq9Y_XCfNg1-8" edge="1" parent="1" source="hd2uDo9v_fq9Y_XCfNg1-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontStyle=1;fontSize=49;" target="hd2uDo9v_fq9Y_XCfNg1-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hd2uDo9v_fq9Y_XCfNg1-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=49;fontStyle=1" value="BattleRoom" vertex="1">
-          <mxGeometry height="326" width="326" x="-2813" y="-702" as="geometry" />
+          <mxGeometry height="326" width="326" x="-2953" y="-700.5" as="geometry" />
         </mxCell>
         <mxCell id="hd2uDo9v_fq9Y_XCfNg1-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=11;fontSize=49;" value="" vertex="1">
           <mxGeometry height="581" width="581" x="-2190" y="-828" as="geometry" />
         </mxCell>
         <mxCell id="hd2uDo9v_fq9Y_XCfNg1-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=49;fontStyle=1" value="StartBattle" vertex="1">
-          <mxGeometry height="49" width="134" x="-2420" y="-611" as="geometry" />
+          <mxGeometry height="49" width="134" x="-2475" y="-634" as="geometry" />
         </mxCell>
         <mxCell id="hd2uDo9v_fq9Y_XCfNg1-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=49;fontStyle=1" value="CreateWinCombat" vertex="1">
-          <mxGeometry height="50" width="237" x="-2473" y="-512.5" as="geometry" />
+          <mxGeometry height="50" width="237" x="-2503" y="-514" as="geometry" />
         </mxCell>
         <mxCell id="hd2uDo9v_fq9Y_XCfNg1-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=49;fontStyle=1" value="Start" vertex="1">
           <mxGeometry height="49.5" width="110" x="-2161" y="-562" as="geometry" />
@@ -107,7 +107,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hd2uDo9v_fq9Y_XCfNg1-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=49;fontStyle=1;fontColor=#0000CC;labelBackgroundColor=default;" value="BattleRoomJson" vertex="1">
-          <mxGeometry height="154" width="134" x="-2655" y="-285" as="geometry" />
+          <mxGeometry height="154" width="134" x="-2814" y="-392" as="geometry" />
         </mxCell>
         <mxCell id="hd2uDo9v_fq9Y_XCfNg1-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=49;fontStyle=1;fontColor=#0000CC;labelBackgroundColor=default;" value="&lt;br&gt;&lt;div&gt;RandomSeed&lt;/div&gt;" vertex="1">
           <mxGeometry height="87" width="236" x="-2469" y="-452" as="geometry" />
