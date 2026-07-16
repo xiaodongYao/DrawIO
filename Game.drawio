@@ -106,13 +106,13 @@
             <mxPoint x="-1836" y="25.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hd2uDo9v_fq9Y_XCfNg1-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=49;fontStyle=1;fontColor=#FF3333;" value="BattleRoomJson" vertex="1">
+        <mxCell id="hd2uDo9v_fq9Y_XCfNg1-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=49;fontStyle=1;fontColor=#0000CC;labelBackgroundColor=default;" value="BattleRoomJson" vertex="1">
           <mxGeometry height="154" width="134" x="-2655" y="-285" as="geometry" />
         </mxCell>
-        <mxCell id="hd2uDo9v_fq9Y_XCfNg1-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=49;fontStyle=1;fontColor=#FF3333;" value="&lt;br&gt;&lt;div&gt;RandomSeed&lt;/div&gt;" vertex="1">
+        <mxCell id="hd2uDo9v_fq9Y_XCfNg1-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=49;fontStyle=1;fontColor=#0000CC;labelBackgroundColor=default;" value="&lt;br&gt;&lt;div&gt;RandomSeed&lt;/div&gt;" vertex="1">
           <mxGeometry height="87" width="236" x="-2469" y="-452" as="geometry" />
         </mxCell>
-        <mxCell id="hd2uDo9v_fq9Y_XCfNg1-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=49;fontStyle=1;fontColor=#FF3333;" value="CombatCommand" vertex="1">
+        <mxCell id="hd2uDo9v_fq9Y_XCfNg1-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=49;fontStyle=1;fontColor=#0000CC;labelBackgroundColor=default;" value="CombatCommand" vertex="1">
           <mxGeometry height="62.5" width="326" x="-1604" y="-227.5" as="geometry" />
         </mxCell>
         <mxCell id="hd2uDo9v_fq9Y_XCfNg1-45" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=12.857142857142858;endSize=6.614285714285715;fontSize=49;" value="">
@@ -121,7 +121,7 @@
             <mxPoint x="-1994" y="1" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hd2uDo9v_fq9Y_XCfNg1-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=49;fontStyle=1;fontColor=#FF3333;" value="OtherData" vertex="1">
+        <mxCell id="hd2uDo9v_fq9Y_XCfNg1-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=49;fontStyle=1;fontColor=#0000CC;labelBackgroundColor=default;" value="OtherData" vertex="1">
           <mxGeometry height="41.5" width="179" x="-2107" y="-222" as="geometry" />
         </mxCell>
         <mxCell id="hd2uDo9v_fq9Y_XCfNg1-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=49;" value="" vertex="1">
@@ -209,6 +209,12 @@
         </mxCell>
         <mxCell id="hd2uDo9v_fq9Y_XCfNg1-74" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=49;fontStyle=1" value="import" vertex="1">
           <mxGeometry height="49" width="134" x="-591" y="502" as="geometry" />
+        </mxCell>
+        <mxCell id="hd2uDo9v_fq9Y_XCfNg1-79" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
+          <mxGeometry height="30" width="60" x="-1119" y="-207" as="geometry" />
+        </mxCell>
+        <mxCell id="hd2uDo9v_fq9Y_XCfNg1-81" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=49;fontStyle=1;fontColor=#FF0000;" value="确保战斗过程只使用Wincombat下的random" vertex="1">
+          <mxGeometry height="163" width="766" x="-2953" y="-1101" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
