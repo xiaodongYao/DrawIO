@@ -59,7 +59,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hd2uDo9v_fq9Y_XCfNg1-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=49;fontStyle=1" value="Client" vertex="1">
-          <mxGeometry height="60" width="120" x="-1372" y="-807.5" as="geometry" />
+          <mxGeometry height="75.5" width="156" x="-1372" y="-807.5" as="geometry" />
         </mxCell>
         <mxCell id="hd2uDo9v_fq9Y_XCfNg1-29" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=49;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -80,10 +80,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hd2uDo9v_fq9Y_XCfNg1-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=49;fontStyle=1" value="Client" vertex="1">
-          <mxGeometry height="60" width="120" x="-1369" y="-627.5" as="geometry" />
+          <mxGeometry height="69.5" width="161" x="-1369" y="-627.5" as="geometry" />
         </mxCell>
         <mxCell id="hd2uDo9v_fq9Y_XCfNg1-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=49;fontStyle=1" value="Client" vertex="1">
-          <mxGeometry height="60" width="120" x="-1361" y="-447.5" as="geometry" />
+          <mxGeometry height="69.5" width="159" x="-1361" y="-447.5" as="geometry" />
         </mxCell>
         <mxCell id="hd2uDo9v_fq9Y_XCfNg1-35" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=49;" value="Redis" vertex="1">
           <mxGeometry height="101" width="154" x="-2021" y="29.5" as="geometry" />
@@ -190,10 +190,10 @@
           <mxGeometry height="102" width="533" x="-1232" y="-1220" as="geometry" />
         </mxCell>
         <mxCell id="hd2uDo9v_fq9Y_XCfNg1-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=49;fontStyle=1" value="CreateWinCombat" vertex="1">
-          <mxGeometry height="50" width="237" x="-473" y="-70" as="geometry" />
+          <mxGeometry height="50" width="237" x="-564" y="-104" as="geometry" />
         </mxCell>
         <mxCell id="hd2uDo9v_fq9Y_XCfNg1-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=49;fontStyle=1" value="LoadData" vertex="1">
-          <mxGeometry height="50" width="237" x="-164" y="-78" as="geometry" />
+          <mxGeometry height="50" width="237" x="-94.5" y="-78" as="geometry" />
         </mxCell>
         <mxCell id="hd2uDo9v_fq9Y_XCfNg1-70" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=49;" value="CombatData" vertex="1">
           <mxGeometry height="260" width="276" x="-1160" y="459" as="geometry" />
