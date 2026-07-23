@@ -348,7 +348,7 @@
         <mxCell id="phQLokh0PmW1VsFhpuLp-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=19;" value="MemoryBlock" vertex="1">
           <mxGeometry height="26" width="120" x="1986" y="1447" as="geometry" />
         </mxCell>
-        <mxCell id="phQLokh0PmW1VsFhpuLp-29" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.724;entryY=0.982;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;dashed=1;" target="phQLokh0PmW1VsFhpuLp-8">
+        <mxCell id="phQLokh0PmW1VsFhpuLp-29" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.724;entryY=0.982;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;dashed=1;startArrow=classic;startFill=1;" target="phQLokh0PmW1VsFhpuLp-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
