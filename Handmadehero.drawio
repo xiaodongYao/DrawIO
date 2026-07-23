@@ -354,14 +354,14 @@
         <mxCell id="phQLokh0PmW1VsFhpuLp-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=19;" value="将文件映射到虚拟地址空间，当对地址进行读写操作，操作系统会在后台将更改同步到文件" vertex="1">
           <mxGeometry height="26" width="426" x="2242" y="1453" as="geometry" />
         </mxCell>
-        <mxCell id="phQLokh0PmW1VsFhpuLp-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=21;" value="DebugReadFile" vertex="1">
-          <mxGeometry height="30" width="181" x="3297" y="1123" as="geometry" />
+        <mxCell id="phQLokh0PmW1VsFhpuLp-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=21;labelBorderColor=default;" value="DebugReadFile" vertex="1">
+          <mxGeometry height="40" width="192" x="3297" y="1123" as="geometry" />
         </mxCell>
-        <mxCell id="phQLokh0PmW1VsFhpuLp-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=21;" value="DebugWriteFile" vertex="1">
-          <mxGeometry height="30" width="181" x="3295" y="1180" as="geometry" />
+        <mxCell id="phQLokh0PmW1VsFhpuLp-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=21;labelBorderColor=default;" value="DebugWriteFile" vertex="1">
+          <mxGeometry height="30" width="181" x="3299.75" y="1180" as="geometry" />
         </mxCell>
-        <mxCell id="phQLokh0PmW1VsFhpuLp-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=21;" value="DebugFreeFile" vertex="1">
-          <mxGeometry height="30" width="181" x="3295" y="1241" as="geometry" />
+        <mxCell id="phQLokh0PmW1VsFhpuLp-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=21;labelBorderColor=default;" value="DebugFreeFile" vertex="1">
+          <mxGeometry height="30" width="181" x="3302.5" y="1235" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
