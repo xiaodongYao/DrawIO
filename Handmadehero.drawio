@@ -281,7 +281,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0OEZkTqAdniD9-xHZgMc" name="Win32 Layer">
-    <mxGraphModel dx="2146" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8000" pageHeight="4600" math="0" shadow="0">
+    <mxGraphModel dx="2606" dy="1459" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8000" pageHeight="4600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -427,7 +427,7 @@
         <mxCell id="phQLokh0PmW1VsFhpuLp-75" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="phQLokh0PmW1VsFhpuLp-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="phQLokh0PmW1VsFhpuLp-85" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="phQLokh0PmW1VsFhpuLp-84">
+        <mxCell id="phQLokh0PmW1VsFhpuLp-85" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#FF0000);strokeWidth=2;" target="phQLokh0PmW1VsFhpuLp-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-68" parent="1" style="triangle;whiteSpace=wrap;html=1;direction=east;fontSize=26;" value="4" vertex="1">
@@ -441,6 +441,9 @@
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-84" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="5.Set Window scheduler 1ms" vertex="1">
           <mxGeometry height="159" width="382" x="481.5" y="794" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-86" parent="1" style="text;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=21;" value="初始化时间频率" vertex="1">
+          <mxGeometry height="31" width="161" x="856" y="1608" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
