@@ -281,7 +281,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0OEZkTqAdniD9-xHZgMc" name="Win32 Layer">
-    <mxGraphModel dx="2432" dy="1361" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8000" pageHeight="4600" math="0" shadow="0">
+    <mxGraphModel dx="6080" dy="3403" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8000" pageHeight="4600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -289,22 +289,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-48" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=44.800654484675306;" value="" vertex="1">
-          <mxGeometry height="234" width="295" x="1291" y="1420" as="geometry" />
+          <mxGeometry height="376" width="440" x="2731" y="1752" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="1436" width="1870" x="6053" y="147" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
-          <mxGeometry height="277" width="277" x="3305.5" y="424.5" as="geometry" />
+          <mxGeometry height="277" width="277" x="2788.5" y="642.5" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-6" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" target="phQLokh0PmW1VsFhpuLp-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-3" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=18;fontSize=13;" value="loop_edit_0_state.hmi&lt;div&gt;loop_edit_1_state.hmi&lt;br&gt;&lt;div&gt;loop_edit_2_state.hmi&lt;/div&gt;&lt;/div&gt;&lt;div&gt;loop_edit_3_state.hmi&lt;/div&gt;" vertex="1">
-          <mxGeometry height="94" width="147" x="3127" y="350" as="geometry" />
+          <mxGeometry height="94" width="147" x="2610" y="568" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-4" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=16;" value="BuildEXEFile" vertex="1">
-          <mxGeometry height="60" width="120" x="3376" y="210" as="geometry" />
+          <mxGeometry height="60" width="120" x="2859" y="428" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-12" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="phQLokh0PmW1VsFhpuLp-2">
           <mxGeometry relative="1" as="geometry" />
@@ -313,7 +313,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-8" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=18;fontSize=15;" value="w:\\handmade\\build\\loop_edit_0_state.hmi&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;w:\\handmade\\build\\&lt;/span&gt;loop_edit_1_state.hmi&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;w:\\handmade\\build\\&lt;/span&gt;loop_edit_2_state.hmi&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;w:\\handmade\\build\\&lt;/span&gt;loop_edit_3_state.hmi&lt;/div&gt;" vertex="1">
-          <mxGeometry height="94" width="303" x="3547" y="350" as="geometry" />
+          <mxGeometry height="94" width="303" x="3030" y="568" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-10" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.484;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" target="phQLokh0PmW1VsFhpuLp-8">
           <mxGeometry relative="1" as="geometry" />
@@ -322,52 +322,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="ReplayBuffers[4]" vertex="1">
-          <mxGeometry height="56" width="152.5" x="3364" y="444" as="geometry" />
+          <mxGeometry height="56" width="152.5" x="2847" y="662" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-26" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="phQLokh0PmW1VsFhpuLp-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=19;" value="FileHandle" vertex="1">
-          <mxGeometry height="26" width="88" x="3425" y="509" as="geometry" />
-        </mxCell>
-        <mxCell id="phQLokh0PmW1VsFhpuLp-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="638" width="291" x="5597" y="796.5" as="geometry" />
+          <mxGeometry height="26" width="88" x="2908" y="727" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="Win32State" vertex="1">
-          <mxGeometry height="42.5" width="118" x="1360.5" y="1446" as="geometry" />
-        </mxCell>
-        <mxCell id="phQLokh0PmW1VsFhpuLp-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="GameMemory" vertex="1">
-          <mxGeometry height="56" width="152.5" x="5666.25" y="796.5" as="geometry" />
-        </mxCell>
-        <mxCell id="phQLokh0PmW1VsFhpuLp-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" value="PermanentStorage(64M)" vertex="1">
-          <mxGeometry height="60" width="263.25" x="5610.88" y="852.5" as="geometry" />
-        </mxCell>
-        <mxCell id="phQLokh0PmW1VsFhpuLp-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;" value="TransientStorage&lt;div&gt;(1G)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="300" width="238" x="5628.25" y="942.5" as="geometry" />
+          <mxGeometry height="42.5" width="118" x="2878" y="1776" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-28" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="phQLokh0PmW1VsFhpuLp-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=19;" value="MemoryMap" vertex="1">
-          <mxGeometry height="26" width="88" x="3425" y="567" as="geometry" />
+          <mxGeometry height="26" width="88" x="2908" y="785" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=19;" value="MemoryBlock" vertex="1">
-          <mxGeometry height="26" width="120" x="3409" y="617" as="geometry" />
+          <mxGeometry height="26" width="120" x="2892" y="835" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-29" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.724;entryY=0.982;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;dashed=1;startArrow=classic;startFill=1;" target="phQLokh0PmW1VsFhpuLp-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=19;" value="将文件映射到虚拟地址空间，当对地址进行读写操作，操作系统会在后台将更改同步到文件" vertex="1">
-          <mxGeometry height="26" width="426" x="3665" y="623" as="geometry" />
-        </mxCell>
-        <mxCell id="phQLokh0PmW1VsFhpuLp-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=21;labelBorderColor=default;" value="DebugReadFile" vertex="1">
-          <mxGeometry height="40" width="192" x="5654" y="1264.5" as="geometry" />
-        </mxCell>
-        <mxCell id="phQLokh0PmW1VsFhpuLp-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=21;labelBorderColor=default;" value="DebugWriteFile" vertex="1">
-          <mxGeometry height="30" width="181" x="5656.75" y="1321.5" as="geometry" />
-        </mxCell>
-        <mxCell id="phQLokh0PmW1VsFhpuLp-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=21;labelBorderColor=default;" value="DebugFreeFile" vertex="1">
-          <mxGeometry height="30" width="181" x="5659.5" y="1376.5" as="geometry" />
+          <mxGeometry height="26" width="426" x="3148" y="841" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=46;" value="WIN32" vertex="1">
           <mxGeometry height="69" width="252" x="129" y="1579.5" as="geometry" />
@@ -379,31 +358,36 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-43" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=29;" value="Start" vertex="1">
-          <mxGeometry height="114" width="209" x="568" y="1854.5" as="geometry" />
+          <mxGeometry height="114" width="209" x="568" y="2699" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-45" parent="1" style="text;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=30;" value="GlobalPerfCountFrequency" vertex="1">
-          <mxGeometry height="35" width="380" x="1300" y="1845" as="geometry" />
+          <mxGeometry height="35" width="380" x="2316" y="2889" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-47" parent="1" style="text;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=21;" value="EXEFileName" vertex="1">
-          <mxGeometry height="36" width="150" x="1344.5" y="1526" as="geometry" />
+          <mxGeometry height="36" width="150" x="2876" y="1917" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-58" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#FF0000);strokeWidth=2;" target="phQLokh0PmW1VsFhpuLp-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-49" parent="1" style="triangle;whiteSpace=wrap;html=1;direction=east;fontSize=26;" value="1" vertex="1">
-          <mxGeometry height="80" width="60" x="642.5" y="1666.5" as="geometry" />
+          <mxGeometry height="80" width="60" x="642.5" y="2111" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-63" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#FF0000);strokeWidth=2;" target="phQLokh0PmW1VsFhpuLp-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-54" parent="1" style="triangle;whiteSpace=wrap;html=1;direction=east;fontSize=26;" value="2" vertex="1">
-          <mxGeometry height="80" width="60" x="642.5" y="1459.5" as="geometry" />
+          <mxGeometry height="80" width="60" x="642.5" y="1945" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-59" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=29;" value="End" vertex="1">
-          <mxGeometry height="114" width="209" x="568" y="2095.5" as="geometry" />
+          <mxGeometry height="114" width="209" x="568" y="2934" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-71" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="phQLokh0PmW1VsFhpuLp-47">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1419.27" y="1614" />
+              <mxPoint x="1419.27" y="1935.09" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-72" connectable="0" parent="phQLokh0PmW1VsFhpuLp-71" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" value="生成EXE 文件名及&lt;div&gt;对应的绝对路径&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.0075" y="-1" as="geometry">
@@ -414,7 +398,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-60" parent="1" style="triangle;whiteSpace=wrap;html=1;direction=east;fontSize=26;" value="3" vertex="1">
-          <mxGeometry height="80" width="60" x="642.5" y="1271.5" as="geometry" />
+          <mxGeometry height="80" width="60" x="642.5" y="1574" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-66" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="phQLokh0PmW1VsFhpuLp-48">
           <mxGeometry relative="1" as="geometry" />
@@ -433,11 +417,18 @@
         <mxCell id="phQLokh0PmW1VsFhpuLp-68" parent="1" style="triangle;whiteSpace=wrap;html=1;direction=east;fontSize=26;" value="4" vertex="1">
           <mxGeometry height="80" width="60" x="642.5" y="1099.5" as="geometry" />
         </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-130" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="phQLokh0PmW1VsFhpuLp-129">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1671.83" y="1139.5" />
+              <mxPoint x="1671.83" y="1379.5" />
+              <mxPoint x="4402" y="1379.5" />
+            </Array>
+            <mxPoint x="3691.53" y="359.84" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-73" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="生成handmade.dll绝对路径&lt;div&gt;生成handmade_temp.dll绝对路径&lt;/div&gt;" vertex="1">
           <mxGeometry height="161" width="333" x="1272" y="1059" as="geometry" />
-        </mxCell>
-        <mxCell id="phQLokh0PmW1VsFhpuLp-82" parent="1" style="shape=singleArrow;whiteSpace=wrap;html=1;rotation=30;" value="" vertex="1">
-          <mxGeometry height="27" width="672" x="668.5" y="1658" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-88" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=light-dark(#000000,#FF0000);" target="phQLokh0PmW1VsFhpuLp-87" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -446,7 +437,7 @@
           <mxGeometry height="124" width="304.5" x="520.25" y="826" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-86" parent="1" style="text;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=21;" value="初始化时间频率" vertex="1">
-          <mxGeometry height="31" width="161" x="856" y="1608" as="geometry" />
+          <mxGeometry height="31" width="161" x="1309" y="2311" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-90" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=light-dark(#000000,#FF0000);" target="phQLokh0PmW1VsFhpuLp-89" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -472,6 +463,9 @@
         <mxCell id="phQLokh0PmW1VsFhpuLp-101" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="phQLokh0PmW1VsFhpuLp-99">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-125" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=light-dark(#000000,#FF0000);" target="phQLokh0PmW1VsFhpuLp-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-93" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="9.初始化win32_sound_output&lt;div&gt;设置每秒采样数&lt;/div&gt;&lt;div&gt;每次采样多少字节&lt;/div&gt;&lt;div&gt;声音缓冲区大小&lt;/div&gt;&lt;div&gt;每帧声音的安全余量&lt;/div&gt;" vertex="1">
           <mxGeometry height="172" width="380" x="1070" y="139.5" as="geometry" />
         </mxCell>
@@ -489,6 +483,84 @@
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-103" parent="1" style="text;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=21;" value="初始化声音缓冲区" vertex="1">
           <mxGeometry height="40.93" width="172" x="1044" y="749.07" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-104" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="638" width="291" x="1889" y="642.5" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-105" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="GameMemory" vertex="1">
+          <mxGeometry height="56" width="152.5" x="1958.25" y="642.5" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-106" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" value="PermanentStorage(64M)" vertex="1">
+          <mxGeometry height="60" width="263.25" x="1902.88" y="698.5" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-107" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;" value="TransientStorage&lt;div&gt;(1G)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="300" width="238" x="1920.25" y="788.5" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-108" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=21;labelBorderColor=default;" value="DebugReadFile" vertex="1">
+          <mxGeometry height="40" width="192" x="1946" y="1110.5" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-109" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=21;labelBorderColor=default;" value="DebugWriteFile" vertex="1">
+          <mxGeometry height="30" width="181" x="1948.75" y="1167.5" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-110" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=21;labelBorderColor=default;" value="DebugFreeFile" vertex="1">
+          <mxGeometry height="30" width="181" x="1951.5" y="1222.5" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-122" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="phQLokh0PmW1VsFhpuLp-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-126" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=light-dark(#000000,#FF0000);strokeWidth=2;" target="phQLokh0PmW1VsFhpuLp-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-114" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="10.初始化game_memory" vertex="1">
+          <mxGeometry height="172" width="380" x="1844.51" y="139.5" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-128" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=light-dark(#000000,#FF0000);" target="phQLokh0PmW1VsFhpuLp-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-115" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="11.初始化replayBuffer文件&lt;br&gt;&lt;div&gt;与每个replay buffer 形成映射&lt;/div&gt;" vertex="1">
+          <mxGeometry height="172" width="380" x="2717" y="139.5" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-116" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-108" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2142" y="1121.5" as="sourcePoint" />
+            <mxPoint x="2395.13" y="1003.81" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-117" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2123" y="1184.5" as="sourcePoint" />
+            <mxPoint x="2389.83" y="1103.81" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-118" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2123.89" y="1250.11" as="sourcePoint" />
+            <mxPoint x="2371.81" y="1198.62" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-119" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;DebugReadFile&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="366" x="2401" y="976.5" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-120" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;DebugWriteFile&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="366" x="2401" y="1071.5" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-121" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;DebugFreeFile&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="366" x="2398" y="1181.5" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-131" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=light-dark(#000000,#FF0000);" target="phQLokh0PmW1VsFhpuLp-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-127" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="12.初始化game_input&lt;div&gt;NewInput&lt;/div&gt;&lt;div&gt;OldInput&lt;/div&gt;" vertex="1">
+          <mxGeometry height="172" width="380" x="3646" y="139.5" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-129" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="12.LoadGameCode" vertex="1">
+          <mxGeometry height="172" width="380" x="4218" y="139.5" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-135" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="710.14" y="1998.24" as="sourcePoint" />
+            <mxPoint x="2280.93" y="2912.87" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
