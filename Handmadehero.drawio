@@ -318,6 +318,18 @@
         <mxCell id="phQLokh0PmW1VsFhpuLp-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=19;" value="FileHandle" vertex="1">
           <mxGeometry height="26" width="88" x="1425" y="977" as="geometry" />
         </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="235" width="387" x="918.5" y="331" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="Win32State" vertex="1">
+          <mxGeometry height="56" width="152.5" x="1038" y="331" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="264" width="311" x="382" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="GameMemory" vertex="1">
+          <mxGeometry height="56" width="152.5" x="449" y="318" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
