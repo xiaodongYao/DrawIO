@@ -281,7 +281,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0OEZkTqAdniD9-xHZgMc" name="Win32 Layer">
-    <mxGraphModel dx="2606" dy="1459" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8000" pageHeight="4600" math="0" shadow="0">
+    <mxGraphModel dx="2432" dy="1361" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8000" pageHeight="4600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -381,8 +381,8 @@
         <mxCell id="phQLokh0PmW1VsFhpuLp-43" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=29;" value="Start" vertex="1">
           <mxGeometry height="114" width="209" x="568" y="1854.5" as="geometry" />
         </mxCell>
-        <mxCell id="phQLokh0PmW1VsFhpuLp-45" parent="1" style="text;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=21;" value="GlobalPerfCountFrequency" vertex="1">
-          <mxGeometry height="35" width="277" x="1300" y="1845" as="geometry" />
+        <mxCell id="phQLokh0PmW1VsFhpuLp-45" parent="1" style="text;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=30;" value="GlobalPerfCountFrequency" vertex="1">
+          <mxGeometry height="35" width="380" x="1300" y="1845" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-47" parent="1" style="text;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=21;" value="EXEFileName" vertex="1">
           <mxGeometry height="36" width="150" x="1344.5" y="1526" as="geometry" />
@@ -454,8 +454,41 @@
         <mxCell id="phQLokh0PmW1VsFhpuLp-87" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="6.初始化XInput" vertex="1">
           <mxGeometry height="97" width="244.5" x="550.25" y="627" as="geometry" />
         </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-92" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=light-dark(#000000,#FF0000);" target="phQLokh0PmW1VsFhpuLp-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-89" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="7.注册窗口类&lt;div&gt;创建窗口&lt;/div&gt;" vertex="1">
           <mxGeometry height="97" width="244.5" x="550.25" y="428" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-97" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=light-dark(#000000,#FF0000);" target="phQLokh0PmW1VsFhpuLp-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-91" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="8.获取显示器刷新率&lt;div&gt;默认60Hz&lt;/div&gt;&lt;div&gt;计算每帧多少s&lt;/div&gt;" vertex="1">
+          <mxGeometry height="97" width="244.5" x="550.25" y="177" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-100" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="phQLokh0PmW1VsFhpuLp-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-101" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="phQLokh0PmW1VsFhpuLp-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-93" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="9.初始化win32_sound_output&lt;div&gt;设置每秒采样数&lt;/div&gt;&lt;div&gt;每次采样多少字节&lt;/div&gt;&lt;div&gt;声音缓冲区大小&lt;/div&gt;&lt;div&gt;每帧声音的安全余量&lt;/div&gt;" vertex="1">
+          <mxGeometry height="172" width="380" x="1070" y="139.5" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-94" parent="1" style="text;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=30;" value="GlobalSecondaryBuffer" vertex="1">
+          <mxGeometry height="35" width="277" x="1418" y="889" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-98" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" value="Win32InitSound" vertex="1">
+          <mxGeometry height="60" width="366" x="868" y="486" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-99" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" value="Win32ClearSound" vertex="1">
+          <mxGeometry height="60" width="366" x="1297" y="486" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-102" parent="1" style="shape=singleArrow;whiteSpace=wrap;html=1;rotation=45;" value="" vertex="1">
+          <mxGeometry height="32.07" width="449.62" x="997.9999999999999" y="717" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-103" parent="1" style="text;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=21;" value="初始化声音缓冲区" vertex="1">
+          <mxGeometry height="40.93" width="172" x="1044" y="749.07" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
