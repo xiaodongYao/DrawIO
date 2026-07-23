@@ -281,7 +281,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0OEZkTqAdniD9-xHZgMc" name="Win32 Layer">
-    <mxGraphModel dx="5211" dy="2917" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8000" pageHeight="4600" math="0" shadow="0">
+    <mxGraphModel dx="6080" dy="3403" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8000" pageHeight="4600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -289,7 +289,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-48" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=44.800654484675306;" value="" vertex="1">
-          <mxGeometry height="376" width="440" x="3351" y="2265" as="geometry" />
+          <mxGeometry height="376" width="440" x="3354.5" y="2265" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="1436" width="1870" x="6053" y="147" as="geometry" />
