@@ -439,7 +439,7 @@
         <mxCell id="phQLokh0PmW1VsFhpuLp-82" parent="1" style="shape=singleArrow;whiteSpace=wrap;html=1;rotation=30;" value="" vertex="1">
           <mxGeometry height="27" width="672" x="668.5" y="1658" as="geometry" />
         </mxCell>
-        <mxCell id="phQLokh0PmW1VsFhpuLp-84" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="5.Set Window scheduler" vertex="1">
+        <mxCell id="phQLokh0PmW1VsFhpuLp-84" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="5.Set Window scheduler 1ms" vertex="1">
           <mxGeometry height="159" width="382" x="481.5" y="794" as="geometry" />
         </mxCell>
       </root>
