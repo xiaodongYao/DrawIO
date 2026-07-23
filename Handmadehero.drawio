@@ -281,10 +281,16 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0OEZkTqAdniD9-xHZgMc" name="Win32 Layer">
-    <mxGraphModel dx="1920" dy="1075" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="2600" math="0" shadow="0">
+    <mxGraphModel dx="5211" dy="2917" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="6000" pageHeight="4600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="phQLokh0PmW1VsFhpuLp-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1436" width="1870" x="3753" y="247" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="2174" width="2756" x="396" y="251" as="geometry" />
+        </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
           <mxGeometry height="277" width="277" x="1882.5" y="1254.5" as="geometry" />
         </mxCell>
@@ -328,16 +334,16 @@
           <mxGeometry height="56" width="152.5" x="2546.5" y="760" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="638" width="291" x="3240" y="655" as="geometry" />
+          <mxGeometry height="638" width="291" x="3279" y="251" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="GameMemory" vertex="1">
-          <mxGeometry height="56" width="152.5" x="3309.25" y="655" as="geometry" />
+          <mxGeometry height="56" width="152.5" x="3348.25" y="251" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" value="PermanentStorage(64M)" vertex="1">
-          <mxGeometry height="60" width="263.25" x="3253.88" y="711" as="geometry" />
+          <mxGeometry height="60" width="263.25" x="3292.88" y="307" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;" value="TransientStorage&lt;div&gt;(1G)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="300" width="238" x="3271.25" y="801" as="geometry" />
+          <mxGeometry height="300" width="238" x="3310.25" y="397" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-28" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="phQLokh0PmW1VsFhpuLp-27">
           <mxGeometry relative="1" as="geometry" />
@@ -355,13 +361,19 @@
           <mxGeometry height="26" width="426" x="2242" y="1453" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=21;labelBorderColor=default;" value="DebugReadFile" vertex="1">
-          <mxGeometry height="40" width="192" x="3297" y="1123" as="geometry" />
+          <mxGeometry height="40" width="192" x="3336" y="719" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=21;labelBorderColor=default;" value="DebugWriteFile" vertex="1">
-          <mxGeometry height="30" width="181" x="3299.75" y="1180" as="geometry" />
+          <mxGeometry height="30" width="181" x="3338.75" y="776" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=21;labelBorderColor=default;" value="DebugFreeFile" vertex="1">
-          <mxGeometry height="30" width="181" x="3302.5" y="1235" as="geometry" />
+          <mxGeometry height="30" width="181" x="3341.5" y="831" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=46;" value="WIN32" vertex="1">
+          <mxGeometry height="69" width="252" x="1750" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=46;" value="GameCode" vertex="1">
+          <mxGeometry height="69" width="252" x="4570" y="173" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
