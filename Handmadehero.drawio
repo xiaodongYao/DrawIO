@@ -281,7 +281,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0OEZkTqAdniD9-xHZgMc" name="Win32 Layer">
-    <mxGraphModel dx="3316" dy="1856" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="2600" math="0" shadow="0">
+    <mxGraphModel dx="1586" dy="888" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="2600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -315,6 +315,9 @@
         <mxCell id="phQLokh0PmW1VsFhpuLp-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="ReplayBuffers[4]" vertex="1">
           <mxGeometry height="56" width="152.5" x="1941" y="1274" as="geometry" />
         </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-26" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="phQLokh0PmW1VsFhpuLp-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=19;" value="FileHandle" vertex="1">
           <mxGeometry height="26" width="88" x="2002" y="1339" as="geometry" />
         </mxCell>
@@ -325,7 +328,7 @@
           <mxGeometry height="56" width="152.5" x="1615" y="693" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="469" width="291" x="956.75" y="680" as="geometry" />
+          <mxGeometry height="638" width="291" x="956.75" y="680" as="geometry" />
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="GameMemory" vertex="1">
           <mxGeometry height="56" width="152.5" x="1026" y="680" as="geometry" />
@@ -335,6 +338,18 @@
         </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;" value="TransientStorage" vertex="1">
           <mxGeometry height="300" width="238" x="988" y="826" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-28" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="phQLokh0PmW1VsFhpuLp-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=19;" value="MemoryMap" vertex="1">
+          <mxGeometry height="26" width="88" x="2002" y="1397" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=19;" value="MemoryBlock" vertex="1">
+          <mxGeometry height="26" width="120" x="1986" y="1447" as="geometry" />
+        </mxCell>
+        <mxCell id="phQLokh0PmW1VsFhpuLp-29" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.724;entryY=0.982;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;dashed=1;" target="phQLokh0PmW1VsFhpuLp-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
