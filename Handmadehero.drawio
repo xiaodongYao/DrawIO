@@ -281,10 +281,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0OEZkTqAdniD9-xHZgMc" name="Win32 Layer">
-    <mxGraphModel dx="7697" dy="4191" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8000" pageHeight="4000" math="0" shadow="0">
+    <mxGraphModel dx="3648" dy="2042" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8000" pageHeight="4000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MfYu7bqQhVXMlIFx7i5C-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1518" width="1035" x="5291" y="1094" as="geometry" />
+        </mxCell>
         <mxCell id="phQLokh0PmW1VsFhpuLp-77" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="phQLokh0PmW1VsFhpuLp-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -421,6 +424,14 @@
             <Array as="points">
               <mxPoint x="3574.43" y="552.71" />
               <mxPoint x="5063" y="552.71" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MfYu7bqQhVXMlIFx7i5C-46" edge="1" parent="1" source="phQLokh0PmW1VsFhpuLp-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;strokeWidth=4;strokeColor=light-dark(#000000,#A680B8);" target="MfYu7bqQhVXMlIFx7i5C-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4868.41" y="1675.53" />
+              <mxPoint x="4868.41" y="1249.53" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -576,9 +587,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MfYu7bqQhVXMlIFx7i5C-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="1518" width="1035" x="5291" y="1094" as="geometry" />
-        </mxCell>
         <mxCell id="MfYu7bqQhVXMlIFx7i5C-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="开始游戏循环" vertex="1">
           <mxGeometry height="26" width="161" x="5363" y="1094" as="geometry" />
         </mxCell>
@@ -620,8 +628,8 @@
         </mxCell>
         <mxCell id="MfYu7bqQhVXMlIFx7i5C-24" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;endFill=0;strokeColor=light-dark(#000000,#FF0000);strokeWidth=7;" value="">
           <mxGeometry relative="1" width="100" as="geometry">
-            <mxPoint x="5276" y="1762.8200000000002" as="sourcePoint" />
-            <mxPoint x="6295.99" y="1762" as="targetPoint" />
+            <mxPoint x="5298.5" y="1763.8200000000002" as="sourcePoint" />
+            <mxPoint x="6318.49" y="1763" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MfYu7bqQhVXMlIFx7i5C-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;计算当前帧的音频采样需求&lt;/span&gt;" vertex="1">
@@ -641,8 +649,8 @@
         </mxCell>
         <mxCell id="MfYu7bqQhVXMlIFx7i5C-34" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;endFill=0;strokeColor=light-dark(#000000,#FF0000);strokeWidth=7;" value="">
           <mxGeometry relative="1" width="100" as="geometry">
-            <mxPoint x="5272" y="2053.82" as="sourcePoint" />
-            <mxPoint x="6341.43" y="2053" as="targetPoint" />
+            <mxPoint x="5315.42" y="2053" as="sourcePoint" />
+            <mxPoint x="6311.01" y="2053" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MfYu7bqQhVXMlIFx7i5C-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;进入帧Sleep&lt;/span&gt;" vertex="1">
@@ -650,8 +658,8 @@
         </mxCell>
         <mxCell id="MfYu7bqQhVXMlIFx7i5C-37" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;endFill=0;strokeColor=light-dark(#000000,#FF0000);strokeWidth=7;" value="">
           <mxGeometry relative="1" width="100" as="geometry">
-            <mxPoint x="5245" y="2214.82" as="sourcePoint" />
-            <mxPoint x="6366.37" y="2214" as="targetPoint" />
+            <mxPoint x="5349.24" y="2214" as="sourcePoint" />
+            <mxPoint x="6271.3" y="2214" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MfYu7bqQhVXMlIFx7i5C-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="Frame Flip" vertex="1">
@@ -659,8 +667,8 @@
         </mxCell>
         <mxCell id="MfYu7bqQhVXMlIFx7i5C-39" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;endFill=0;strokeColor=light-dark(#000000,#FF0000);strokeWidth=7;" value="">
           <mxGeometry relative="1" width="100" as="geometry">
-            <mxPoint x="5253" y="2372" as="sourcePoint" />
-            <mxPoint x="6402.74" y="2374.37" as="targetPoint" />
+            <mxPoint x="5449.24" y="2380.5" as="sourcePoint" />
+            <mxPoint x="6178.66" y="2374.37" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MfYu7bqQhVXMlIFx7i5C-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="交换game_input" vertex="1">
