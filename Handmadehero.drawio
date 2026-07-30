@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" pages="3">
   <diagram id="UrWvoCSN2cO_QEoS_E0F" name="Day 28-50">
-    <mxGraphModel dx="2606" dy="1459" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="8000" math="0" shadow="0">
+    <mxGraphModel dx="2146" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="8000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5463,68 +5463,50 @@
         <mxCell id="NukzRt1tmUBWDkihiazI-728" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="CenterX,CenterY" vertex="1">
           <mxGeometry height="36" width="190" x="3661" y="6710" as="geometry" />
         </mxCell>
-        <mxCell id="NukzRt1tmUBWDkihiazI-729" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000000,#FFFF66);" value="" vertex="1">
-          <mxGeometry height="80" width="60" x="2921" y="7238" as="geometry" />
-        </mxCell>
-        <mxCell id="NukzRt1tmUBWDkihiazI-730" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="AbsTileX&amp;nbsp; &amp;nbsp; 6" vertex="1">
-          <mxGeometry height="36" width="174" x="3044" y="7185.5" as="geometry" />
-        </mxCell>
-        <mxCell id="NukzRt1tmUBWDkihiazI-731" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="AbsTileY&amp;nbsp; &amp;nbsp; 6" vertex="1">
-          <mxGeometry height="36" width="172" x="3044" y="7234.5" as="geometry" />
-        </mxCell>
-        <mxCell id="NukzRt1tmUBWDkihiazI-732" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="TileRelX&amp;nbsp; &amp;nbsp; &amp;nbsp;0.8f" vertex="1">
-          <mxGeometry height="36" width="188" x="3044" y="7284.5" as="geometry" />
-        </mxCell>
-        <mxCell id="NukzRt1tmUBWDkihiazI-733" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="TileRelY&amp;nbsp; &amp;nbsp; &amp;nbsp;0.8f" vertex="1">
-          <mxGeometry height="36" width="216" x="3044" y="7334.5" as="geometry" />
-        </mxCell>
-        <mxCell id="NukzRt1tmUBWDkihiazI-734" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="PlayerP" vertex="1">
-          <mxGeometry height="36" width="96" x="2894" y="7337" as="geometry" />
-        </mxCell>
         <mxCell id="NukzRt1tmUBWDkihiazI-735" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
-          <mxGeometry height="160.5" width="160.5" x="3499" y="7324" as="geometry" />
+          <mxGeometry height="160.5" width="160.5" x="3029" y="7309" as="geometry" />
         </mxCell>
         <mxCell id="NukzRt1tmUBWDkihiazI-736" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="将玩家的位置固定在中心点，上下10行，左右20列，进行渲染" vertex="1">
-          <mxGeometry height="36" width="685" x="3384.75" y="7200" as="geometry" />
+          <mxGeometry height="36" width="685" x="2914.75" y="7185" as="geometry" />
         </mxCell>
         <mxCell id="NukzRt1tmUBWDkihiazI-737" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="MinX，MinY" vertex="1">
-          <mxGeometry height="36" width="149" x="3366.5" y="7269" as="geometry" />
+          <mxGeometry height="36" width="149" x="2896.5" y="7254" as="geometry" />
         </mxCell>
         <mxCell id="NukzRt1tmUBWDkihiazI-739" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="MaxX，MaxY" vertex="1">
-          <mxGeometry height="36" width="171" x="3676.5" y="7503" as="geometry" />
+          <mxGeometry height="36" width="171" x="3206.5" y="7488" as="geometry" />
         </mxCell>
         <mxCell id="NukzRt1tmUBWDkihiazI-740" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="3498.82" y="7509" as="sourcePoint" />
-            <mxPoint x="3665.5" y="7509" as="targetPoint" />
+            <mxPoint x="3028.82" y="7494" as="sourcePoint" />
+            <mxPoint x="3195.5" y="7494" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NukzRt1tmUBWDkihiazI-741" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="3463.16" y="7508" as="sourcePoint" />
-            <mxPoint x="3463.16" y="7317.22" as="targetPoint" />
+            <mxPoint x="2993.16" y="7493" as="sourcePoint" />
+            <mxPoint x="2993.16" y="7302.22" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NukzRt1tmUBWDkihiazI-742" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="MinX = CenterX + RelColumn * TileSideInPixels&lt;div&gt;MinY =&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MaxY -&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TileSideInPixels&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="78" width="593.5" x="3748.5" y="7269" as="geometry" />
+          <mxGeometry height="78" width="593.5" x="2853" y="7532" as="geometry" />
         </mxCell>
         <mxCell id="NukzRt1tmUBWDkihiazI-743" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="MaxX = MinX +&amp;nbsp; TileSideInPixels&lt;div&gt;MaxY = CenterY - RelRow *&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TileSideInPixels&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="64" width="648.5" x="3393.5" y="7563" as="geometry" />
+          <mxGeometry height="64" width="648.5" x="2853" y="7645" as="geometry" />
         </mxCell>
         <mxCell id="NukzRt1tmUBWDkihiazI-744" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="RelColumn = -20 ~ 20&amp;nbsp;" vertex="1">
-          <mxGeometry height="36" width="298.75" x="3571.25" y="7092" as="geometry" />
+          <mxGeometry height="36" width="298.75" x="3101.25" y="7077" as="geometry" />
         </mxCell>
         <mxCell id="NukzRt1tmUBWDkihiazI-746" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="RelRow = -10 ~ 10&amp;nbsp;" vertex="1">
-          <mxGeometry height="36" width="298.75" x="3571.25" y="7138" as="geometry" />
+          <mxGeometry height="36" width="298.75" x="3101.25" y="7123" as="geometry" />
         </mxCell>
         <mxCell id="NukzRt1tmUBWDkihiazI-747" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;fontColor=light-dark(#000000,#FF0000);" value="这里说明下MaxY 为什么是 CenterY - RelRow * &lt;span style=&quot;background-color: transparent;&quot;&gt;TileSideInPixels？&lt;/span&gt;" vertex="1">
-          <mxGeometry height="36" width="789" x="3331" y="7659" as="geometry" />
+          <mxGeometry height="36" width="789" x="2829" y="7776" as="geometry" />
         </mxCell>
         <mxCell id="NukzRt1tmUBWDkihiazI-751" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;fontColor=light-dark(#000000,#0000FF);" value="我们的坐标系原点现在是在左下角(Y轴向上)，我们遍历的RelRow 是从-10 ~ 10，&lt;span style=&quot;&quot;&gt;MaxY是屏幕像素坐标&lt;/span&gt;" vertex="1">
-          <mxGeometry height="65" width="739" x="3331" y="7697" as="geometry" />
+          <mxGeometry height="65" width="739" x="2829" y="7814" as="geometry" />
         </mxCell>
         <mxCell id="NukzRt1tmUBWDkihiazI-752" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;fontColor=light-dark(#000000,#0000FF);" value="相当于是从下往上遍历的，相当于RelRow越小，MaxY越大，RelRow越大，MaxY越小，所以要用这么计算" vertex="1">
-          <mxGeometry height="71" width="705.25" x="3331" y="7766" as="geometry" />
+          <mxGeometry height="71" width="705.25" x="2829" y="7883" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
