@@ -5505,7 +5505,7 @@
             <mxPoint x="3463.16" y="7317.22" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NukzRt1tmUBWDkihiazI-742" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="MinX = CenterX + RelColumn * TileSideInPixels&lt;div&gt;MinY&lt;/div&gt;" vertex="1">
+        <mxCell id="NukzRt1tmUBWDkihiazI-742" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="MinX = CenterX + RelColumn * TileSideInPixels&lt;div&gt;MinY =&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MaxY -&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TileSideInPixels&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="78" width="593.5" x="3748.5" y="7269" as="geometry" />
         </mxCell>
         <mxCell id="NukzRt1tmUBWDkihiazI-743" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="MaxX = MinX +&amp;nbsp; TileSideInPixels&lt;div&gt;MaxY = CenterY - RelRow *&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TileSideInPixels&lt;/span&gt;&lt;/div&gt;" vertex="1">
