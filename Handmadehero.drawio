@@ -5367,6 +5367,9 @@
         <mxCell id="NukzRt1tmUBWDkihiazI-676" edge="1" parent="1" source="NukzRt1tmUBWDkihiazI-655" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=6;" target="NukzRt1tmUBWDkihiazI-672">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="NukzRt1tmUBWDkihiazI-677" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000000,#FFFF66);" value="" vertex="1">
+          <mxGeometry height="80" width="60" x="2989" y="6129" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
