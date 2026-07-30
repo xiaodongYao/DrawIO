@@ -5209,17 +5209,17 @@
         <mxCell id="NukzRt1tmUBWDkihiazI-611" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="world_position" vertex="1">
           <mxGeometry height="36" width="171" x="4349" y="5642" as="geometry" />
         </mxCell>
-        <mxCell id="NukzRt1tmUBWDkihiazI-612" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="AbsTileX&amp;nbsp; &amp;nbsp;&amp;nbsp;" vertex="1">
+        <mxCell id="NukzRt1tmUBWDkihiazI-612" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="AbsTileX&amp;nbsp; &amp;nbsp; 整个世界的TileX坐标" vertex="1">
           <mxGeometry height="36" width="364" x="3955" y="5572" as="geometry" />
         </mxCell>
-        <mxCell id="NukzRt1tmUBWDkihiazI-613" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="AbsTileY" vertex="1">
-          <mxGeometry height="36" width="359" x="3955" y="5621" as="geometry" />
+        <mxCell id="NukzRt1tmUBWDkihiazI-613" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="AbsTileY&amp;nbsp; &amp;nbsp; 整个世界的TileY坐标" vertex="1">
+          <mxGeometry height="36" width="371" x="3955" y="5621" as="geometry" />
         </mxCell>
-        <mxCell id="NukzRt1tmUBWDkihiazI-614" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="AbsTileY" vertex="1">
-          <mxGeometry height="36" width="360" x="3958" y="5671" as="geometry" />
+        <mxCell id="NukzRt1tmUBWDkihiazI-614" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="TileRelX" vertex="1">
+          <mxGeometry height="36" width="360" x="3955" y="5671" as="geometry" />
         </mxCell>
-        <mxCell id="NukzRt1tmUBWDkihiazI-615" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="AbsTileX&amp;nbsp; &amp;nbsp;&amp;nbsp;" vertex="1">
-          <mxGeometry height="36" width="361" x="3960" y="5721" as="geometry" />
+        <mxCell id="NukzRt1tmUBWDkihiazI-615" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="TileRelY&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="36" width="361" x="3955" y="5721" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
