@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" pages="3">
   <diagram id="UrWvoCSN2cO_QEoS_E0F" name="Day 28-50">
-    <mxGraphModel dx="4560" dy="2553" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="8000" math="0" shadow="0">
+    <mxGraphModel dx="2606" dy="1459" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="8000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5356,10 +5356,16 @@
           <mxGeometry height="100" width="49" x="3448" y="5912" as="geometry" />
         </mxCell>
         <mxCell id="NukzRt1tmUBWDkihiazI-673" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;" value="" vertex="1">
-          <mxGeometry height="1092" width="50" x="5749" y="4610" as="geometry" />
+          <mxGeometry height="992" width="50" x="5699" y="4660" as="geometry" />
         </mxCell>
         <mxCell id="NukzRt1tmUBWDkihiazI-674" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="World" vertex="1">
           <mxGeometry height="36" width="190" x="5687" y="5229.5" as="geometry" />
+        </mxCell>
+        <mxCell id="NukzRt1tmUBWDkihiazI-675" edge="1" parent="1" source="NukzRt1tmUBWDkihiazI-631" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;" target="NukzRt1tmUBWDkihiazI-671">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NukzRt1tmUBWDkihiazI-676" edge="1" parent="1" source="NukzRt1tmUBWDkihiazI-655" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=6;" target="NukzRt1tmUBWDkihiazI-672">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
