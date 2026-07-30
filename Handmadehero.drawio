@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" pages="3">
   <diagram id="UrWvoCSN2cO_QEoS_E0F" name="Day 28-50">
-    <mxGraphModel dx="2606" dy="1459" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="8000" math="0" shadow="0">
+    <mxGraphModel dx="6080" dy="3403" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="8000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5368,7 +5368,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NukzRt1tmUBWDkihiazI-677" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000000,#FFFF66);" value="" vertex="1">
-          <mxGeometry height="80" width="60" x="2989" y="6129" as="geometry" />
+          <mxGeometry height="80" width="60" x="4968" y="5374" as="geometry" />
+        </mxCell>
+        <mxCell id="NukzRt1tmUBWDkihiazI-683" edge="1" parent="1" source="NukzRt1tmUBWDkihiazI-679" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NukzRt1tmUBWDkihiazI-680">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NukzRt1tmUBWDkihiazI-679" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="Player 玩家是world_position" vertex="1">
+          <mxGeometry height="36" width="332" x="5086" y="5399" as="geometry" />
+        </mxCell>
+        <mxCell id="NukzRt1tmUBWDkihiazI-684" edge="1" parent="1" source="NukzRt1tmUBWDkihiazI-680" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NukzRt1tmUBWDkihiazI-682">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NukzRt1tmUBWDkihiazI-680" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="Move" vertex="1">
+          <mxGeometry height="36" width="99" x="5635" y="5399" as="geometry" />
+        </mxCell>
+        <mxCell id="NukzRt1tmUBWDkihiazI-686" edge="1" parent="1" source="NukzRt1tmUBWDkihiazI-682" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="NukzRt1tmUBWDkihiazI-679">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NukzRt1tmUBWDkihiazI-682" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="RecanonicalizePosition" vertex="1">
+          <mxGeometry height="36" width="271" x="5879" y="5399" as="geometry" />
+        </mxCell>
+        <mxCell id="NukzRt1tmUBWDkihiazI-690" edge="1" parent="1" source="NukzRt1tmUBWDkihiazI-687" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NukzRt1tmUBWDkihiazI-688">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NukzRt1tmUBWDkihiazI-687" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;" value="&lt;div&gt;Move之后根据world_position 算出&lt;/div&gt;&lt;div&gt;世界中的Tile_chunk_position&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="229" x="5451" y="5530" as="geometry" />
+        </mxCell>
+        <mxCell id="NukzRt1tmUBWDkihiazI-691" edge="1" parent="1" source="NukzRt1tmUBWDkihiazI-688" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NukzRt1tmUBWDkihiazI-689">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NukzRt1tmUBWDkihiazI-688" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;" value="根据tile_chunk_position得到对应的tile_chunk,再根据tile_chunk_position中的RelTileX，Y得到对应的TileValue" vertex="1">
+          <mxGeometry height="140" width="229" x="5451" y="5749" as="geometry" />
+        </mxCell>
+        <mxCell id="NukzRt1tmUBWDkihiazI-689" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;" value="根据TileValue判断是否可移动" vertex="1">
+          <mxGeometry height="140" width="229" x="5451" y="5975" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
