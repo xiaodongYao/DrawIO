@@ -5195,16 +5195,16 @@
           <mxGeometry height="36" width="183" x="3005" y="5655" as="geometry" />
         </mxCell>
         <mxCell id="NukzRt1tmUBWDkihiazI-603" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="TileChunkX&amp;nbsp; (对应的chunkX)&amp;nbsp;&amp;nbsp;" vertex="1">
-          <mxGeometry height="36" width="441" x="3270" y="5569" as="geometry" />
+          <mxGeometry height="36" width="335" x="3270" y="5569" as="geometry" />
         </mxCell>
         <mxCell id="NukzRt1tmUBWDkihiazI-604" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="TileChunkY&amp;nbsp; &amp;nbsp;(对应的chunkY)&amp;nbsp;&amp;nbsp;" vertex="1">
-          <mxGeometry height="36" width="469" x="3270" y="5622" as="geometry" />
+          <mxGeometry height="36" width="345" x="3270" y="5622" as="geometry" />
         </mxCell>
         <mxCell id="NukzRt1tmUBWDkihiazI-605" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="RelTileX&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(chunk内部 X)&amp;nbsp;" vertex="1">
-          <mxGeometry height="36" width="496" x="3270" y="5680" as="geometry" />
+          <mxGeometry height="36" width="328" x="3270" y="5680" as="geometry" />
         </mxCell>
         <mxCell id="NukzRt1tmUBWDkihiazI-606" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="RelTileY&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(chunk内部 Y)&amp;nbsp;" vertex="1">
-          <mxGeometry height="36" width="521" x="3270" y="5732" as="geometry" />
+          <mxGeometry height="36" width="327" x="3270" y="5732" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
