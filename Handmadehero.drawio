@@ -5482,28 +5482,40 @@
           <mxGeometry height="36" width="96" x="2894" y="7337" as="geometry" />
         </mxCell>
         <mxCell id="NukzRt1tmUBWDkihiazI-735" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
-          <mxGeometry height="160.5" width="160.5" x="3521.5" y="7267" as="geometry" />
+          <mxGeometry height="160.5" width="160.5" x="3499" y="7324" as="geometry" />
         </mxCell>
         <mxCell id="NukzRt1tmUBWDkihiazI-736" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="将玩家的位置固定在中心点，上下10行，左右20列，进行渲染" vertex="1">
-          <mxGeometry height="36" width="685" x="3407.25" y="7143" as="geometry" />
+          <mxGeometry height="36" width="685" x="3384.75" y="7200" as="geometry" />
         </mxCell>
         <mxCell id="NukzRt1tmUBWDkihiazI-737" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="MinX，MinY" vertex="1">
-          <mxGeometry height="36" width="149" x="3389" y="7212" as="geometry" />
+          <mxGeometry height="36" width="149" x="3366.5" y="7269" as="geometry" />
         </mxCell>
         <mxCell id="NukzRt1tmUBWDkihiazI-739" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="MaxX，MaxY" vertex="1">
-          <mxGeometry height="36" width="171" x="3699" y="7446" as="geometry" />
+          <mxGeometry height="36" width="171" x="3676.5" y="7503" as="geometry" />
         </mxCell>
         <mxCell id="NukzRt1tmUBWDkihiazI-740" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="3521.32" y="7452" as="sourcePoint" />
-            <mxPoint x="3688" y="7452" as="targetPoint" />
+            <mxPoint x="3498.82" y="7509" as="sourcePoint" />
+            <mxPoint x="3665.5" y="7509" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NukzRt1tmUBWDkihiazI-741" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="3485.66" y="7451" as="sourcePoint" />
-            <mxPoint x="3485.66" y="7260.22" as="targetPoint" />
+            <mxPoint x="3463.16" y="7508" as="sourcePoint" />
+            <mxPoint x="3463.16" y="7317.22" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="NukzRt1tmUBWDkihiazI-742" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="MinX = CenterX + RelColumn&lt;div&gt;MinY&lt;/div&gt;" vertex="1">
+          <mxGeometry height="78" width="409" x="3748.5" y="7269" as="geometry" />
+        </mxCell>
+        <mxCell id="NukzRt1tmUBWDkihiazI-743" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="MaxX，MaxY" vertex="1">
+          <mxGeometry height="36" width="171" x="3393.5" y="7563" as="geometry" />
+        </mxCell>
+        <mxCell id="NukzRt1tmUBWDkihiazI-744" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="RelColumn = -20 ~ 20&amp;nbsp;" vertex="1">
+          <mxGeometry height="36" width="298.75" x="3571.25" y="7092" as="geometry" />
+        </mxCell>
+        <mxCell id="NukzRt1tmUBWDkihiazI-746" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="RelRow = -10 ~ 10&amp;nbsp;" vertex="1">
+          <mxGeometry height="36" width="298.75" x="3571.25" y="7138" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
