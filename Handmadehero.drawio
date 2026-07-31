@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" pages="3">
   <diagram id="UrWvoCSN2cO_QEoS_E0F" name="Day 28-50">
-    <mxGraphModel dx="2606" dy="1459" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="15000" math="0" shadow="0">
+    <mxGraphModel dx="7296" dy="4084" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="15000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6600,8 +6600,8 @@
         <mxCell id="wMB3RVRVKf3t6KqI4Tu0-350" parent="1" style="shape=singleArrow;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="60" width="336" x="3522.5" y="10912" as="geometry" />
         </mxCell>
-        <mxCell id="wMB3RVRVKf3t6KqI4Tu0-351" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="归一化之后" vertex="1">
-          <mxGeometry height="36" width="188" x="3618.75" y="10876" as="geometry" />
+        <mxCell id="wMB3RVRVKf3t6KqI4Tu0-351" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="归一化之后四舍五入" vertex="1">
+          <mxGeometry height="36" width="249" x="3558" y="10854" as="geometry" />
         </mxCell>
         <mxCell id="wMB3RVRVKf3t6KqI4Tu0-352" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
           <mxGeometry height="558" width="558" x="3977" y="10670" as="geometry" />
@@ -6629,6 +6629,15 @@
         </mxCell>
         <mxCell id="wMB3RVRVKf3t6KqI4Tu0-360" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="Offset = TileRel / 1.4f" vertex="1">
           <mxGeometry height="36" width="317" x="3541.5" y="11018" as="geometry" />
+        </mxCell>
+        <mxCell id="wMB3RVRVKf3t6KqI4Tu0-362" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="Offset&amp;nbsp; &amp;lt; -0.5&amp;nbsp; &amp;nbsp;表示前一个" vertex="1">
+          <mxGeometry height="36" width="317" x="4756" y="10778" as="geometry" />
+        </mxCell>
+        <mxCell id="wMB3RVRVKf3t6KqI4Tu0-363" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="-0.5 &amp;lt;&amp;nbsp; Offset&amp;nbsp; &amp;lt; 0.5&amp;nbsp; &amp;nbsp;表示当前" vertex="1">
+          <mxGeometry height="36" width="364" x="4756" y="10876" as="geometry" />
+        </mxCell>
+        <mxCell id="wMB3RVRVKf3t6KqI4Tu0-364" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="Offset&amp;nbsp; &amp;gt;=&amp;nbsp; 0.5&amp;nbsp; &amp;nbsp;表示后一块" vertex="1">
+          <mxGeometry height="36" width="364" x="4756" y="10974" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
