@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" pages="3">
   <diagram id="UrWvoCSN2cO_QEoS_E0F" name="Day 28-50">
-    <mxGraphModel dx="3648" dy="2042" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="15000" math="0" shadow="0">
+    <mxGraphModel dx="2606" dy="1459" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="15000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6568,10 +6568,40 @@
           <mxGeometry height="36" width="323.5" x="2347" y="9244" as="geometry" />
         </mxCell>
         <mxCell id="wMB3RVRVKf3t6KqI4Tu0-341" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="蓝色区域是屏幕范围" vertex="1">
-          <mxGeometry height="36" width="323.5" x="3310" y="10428" as="geometry" />
+          <mxGeometry height="36" width="323.5" x="3535" y="10396" as="geometry" />
         </mxCell>
         <mxCell id="wMB3RVRVKf3t6KqI4Tu0-342" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
-          <mxGeometry height="558" width="558" x="2832.5" y="10673" as="geometry" />
+          <mxGeometry height="558" width="558" x="2839" y="10675" as="geometry" />
+        </mxCell>
+        <mxCell id="wMB3RVRVKf3t6KqI4Tu0-344" edge="1" parent="1" source="wMB3RVRVKf3t6KqI4Tu0-342" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="wMB3RVRVKf3t6KqI4Tu0-342" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2895" y="10982" as="sourcePoint" />
+            <mxPoint x="2945" y="10932" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wMB3RVRVKf3t6KqI4Tu0-345" edge="1" parent="1" source="wMB3RVRVKf3t6KqI4Tu0-342" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="wMB3RVRVKf3t6KqI4Tu0-342" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3086" y="10860" as="sourcePoint" />
+            <mxPoint x="3136" y="10810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wMB3RVRVKf3t6KqI4Tu0-346" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="-0.7" vertex="1">
+          <mxGeometry height="36" width="73" x="2732" y="10936" as="geometry" />
+        </mxCell>
+        <mxCell id="wMB3RVRVKf3t6KqI4Tu0-347" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="0" vertex="1">
+          <mxGeometry height="36" width="26" x="3076" y="10959" as="geometry" />
+        </mxCell>
+        <mxCell id="wMB3RVRVKf3t6KqI4Tu0-348" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="将坐标原点从左下角移到中心点，单个Tile块" vertex="1">
+          <mxGeometry height="36" width="515" x="2875" y="10580" as="geometry" />
+        </mxCell>
+        <mxCell id="wMB3RVRVKf3t6KqI4Tu0-349" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="0.7" vertex="1">
+          <mxGeometry height="36" width="73" x="3424" y="10943" as="geometry" />
+        </mxCell>
+        <mxCell id="wMB3RVRVKf3t6KqI4Tu0-350" parent="1" style="shape=singleArrow;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="336" x="3528.75" y="10931" as="geometry" />
+        </mxCell>
+        <mxCell id="wMB3RVRVKf3t6KqI4Tu0-351" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="归一化之后" vertex="1">
+          <mxGeometry height="36" width="188" x="3625" y="10895" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
