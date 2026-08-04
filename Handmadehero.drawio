@@ -8079,7 +8079,13 @@
           <mxGeometry height="36" width="139" x="5753" y="1358" as="geometry" />
         </mxCell>
         <mxCell id="p8pPku43m1b92p_QuSgi-234" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="C = (1-t) A + tB" vertex="1">
-          <mxGeometry height="36" width="183" x="5679" y="1442" as="geometry" />
+          <mxGeometry height="36" width="183" x="5731" y="1442" as="geometry" />
+        </mxCell>
+        <mxCell id="p8pPku43m1b92p_QuSgi-235" parent="1" style="shape=singleArrow;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="239" x="5976" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="p8pPku43m1b92p_QuSgi-236" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=36;fontColor=light-dark(#000000,#FF0000);" value="C = (1- SourceAlpha) Dest+ SourceAlpha * Source" vertex="1">
+          <mxGeometry height="36" width="889" x="6315" y="1442" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
