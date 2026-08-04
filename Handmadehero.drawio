@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" pages="3">
   <diagram id="UrWvoCSN2cO_QEoS_E0F" name="Day 28-50">
-    <mxGraphModel dx="3040" dy="1702" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="15000" math="0" shadow="0">
+    <mxGraphModel dx="1824" dy="1021" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="15000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7881,6 +7881,43 @@
         </mxCell>
         <mxCell id="p8pPku43m1b92p_QuSgi-159" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;fontColor=light-dark(#000000,#33FF99);" value="然后SourceRow 一行行的往下减，直到最后一行 SourceRow&amp;nbsp; -= Bitmap.width" vertex="1">
           <mxGeometry height="36" width="999" x="4408" y="13207" as="geometry" />
+        </mxCell>
+        <mxCell id="p8pPku43m1b92p_QuSgi-161" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="4181" y="12798" as="sourcePoint" />
+            <mxPoint x="4359.73" y="13428.82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p8pPku43m1b92p_QuSgi-162" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="235" width="235" x="4299.5" y="13446" as="geometry" />
+        </mxCell>
+        <mxCell id="p8pPku43m1b92p_QuSgi-163" parent="1" style="text;whiteSpace=wrap;fontSize=35;" value="Byte order in memory is AA BB GG RR, In little endian -&gt; 0xRRGGBBAA" vertex="1">
+          <mxGeometry height="57" width="1275" x="4566" y="13515" as="geometry" />
+        </mxCell>
+        <mxCell id="p8pPku43m1b92p_QuSgi-165" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=28;fontColor=light-dark(#000000,#CC0000);" value="RR" vertex="1">
+          <mxGeometry height="120" width="120" x="4708" y="13647" as="geometry" />
+        </mxCell>
+        <mxCell id="p8pPku43m1b92p_QuSgi-166" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=28;fontColor=light-dark(#000000,#00CC00);" value="GG" vertex="1">
+          <mxGeometry height="120" width="120" x="4828" y="13647" as="geometry" />
+        </mxCell>
+        <mxCell id="p8pPku43m1b92p_QuSgi-167" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=28;fontColor=light-dark(#000000,#0000CC);" value="BB" vertex="1">
+          <mxGeometry height="120" width="120" x="4948" y="13647" as="geometry" />
+        </mxCell>
+        <mxCell id="p8pPku43m1b92p_QuSgi-168" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=28;fontColor=light-dark(#000000,#FF99CC);" value="AA" vertex="1">
+          <mxGeometry height="120" width="120" x="5068" y="13647" as="geometry" />
+        </mxCell>
+        <mxCell id="p8pPku43m1b92p_QuSgi-171" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="5105" y="13890.07" />
+              <mxPoint x="4645" y="13890.07" />
+            </Array>
+            <mxPoint x="5105.03" y="13771" as="sourcePoint" />
+            <mxPoint x="4645.03" y="13771" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p8pPku43m1b92p_QuSgi-172" parent="1" style="text;whiteSpace=wrap;fontSize=35;fontColor=light-dark(#000000,#00FFFF);" value="Pixel &lt;&lt; 24 | Pixel &gt;&gt; 8" vertex="1">
+          <mxGeometry height="57" width="364" x="4708" y="13904" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
