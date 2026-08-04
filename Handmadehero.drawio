@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" pages="3">
   <diagram id="UrWvoCSN2cO_QEoS_E0F" name="Day 28-50">
-    <mxGraphModel dx="2606" dy="1459" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="15000" math="0" shadow="0">
+    <mxGraphModel dx="1824" dy="1021" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="15000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7411,16 +7411,22 @@
           <mxGeometry height="36" width="272" x="5847" y="10548" as="geometry" />
         </mxCell>
         <mxCell id="p8pPku43m1b92p_QuSgi-1" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=25;fontColor=light-dark(#000000,#CC6600);labelBackgroundColor=none;" value="&lt;h1 class=&quot;style-scope ytd-watch-metadata&quot; style=&quot;margin: 0px; padding: 0px; border: 0px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; word-break: break-word; font-family: Roboto, Arial, sans-serif; font-size: 2rem; line-height: 2.8rem; overflow: hidden; max-height: 5.6rem; display: -webkit-box; -webkit-box-orient: vertical; text-overflow: ellipsis; -webkit-line-clamp: 2;&quot;&gt;Handmade Hero Day 036 - Loading BMPs&lt;/h1&gt;" vertex="1">
-          <mxGeometry height="53" width="619" x="4747" y="11109" as="geometry" />
+          <mxGeometry height="53" width="619" x="4437" y="11045" as="geometry" />
         </mxCell>
         <mxCell id="p8pPku43m1b92p_QuSgi-2" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeWidth=7;fontSize=30;" value="BMP" vertex="1">
-          <mxGeometry height="245" width="442" x="4156" y="11427" as="geometry" />
+          <mxGeometry height="245" width="442" x="4156" y="11363" as="geometry" />
+        </mxCell>
+        <mxCell id="p8pPku43m1b92p_QuSgi-11" edge="1" parent="1" source="p8pPku43m1b92p_QuSgi-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="p8pPku43m1b92p_QuSgi-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p8pPku43m1b92p_QuSgi-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="FileHeader" vertex="1">
-          <mxGeometry height="36" width="206" x="4975" y="11427" as="geometry" />
+          <mxGeometry height="36" width="145" x="4975" y="11363" as="geometry" />
+        </mxCell>
+        <mxCell id="p8pPku43m1b92p_QuSgi-13" edge="1" parent="1" source="p8pPku43m1b92p_QuSgi-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="p8pPku43m1b92p_QuSgi-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p8pPku43m1b92p_QuSgi-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="bitmapHeader" vertex="1">
-          <mxGeometry height="36" width="206" x="4975" y="11511" as="geometry" />
+          <mxGeometry height="36" width="164" x="4975" y="11447" as="geometry" />
         </mxCell>
         <mxCell id="p8pPku43m1b92p_QuSgi-7" edge="1" parent="1" source="p8pPku43m1b92p_QuSgi-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="p8pPku43m1b92p_QuSgi-3">
           <mxGeometry relative="1" as="geometry" />
@@ -7429,7 +7435,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p8pPku43m1b92p_QuSgi-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="Header" vertex="1">
-          <mxGeometry height="36" width="97" x="4766" y="11475" as="geometry" />
+          <mxGeometry height="36" width="97" x="4766" y="11411" as="geometry" />
+        </mxCell>
+        <mxCell id="p8pPku43m1b92p_QuSgi-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="bitmap_header" vertex="1">
+          <mxGeometry height="36" width="206" x="5212" y="11411" as="geometry" />
+        </mxCell>
+        <mxCell id="p8pPku43m1b92p_QuSgi-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;fontColor=light-dark(#000000,#FF0000);" value="#pragma pack(push,1)" vertex="1">
+          <mxGeometry height="36" width="287" x="5215" y="11375" as="geometry" />
+        </mxCell>
+        <mxCell id="p8pPku43m1b92p_QuSgi-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;fontColor=light-dark(#000000,#FF0000);" value="#pragma pack(pop)" vertex="1">
+          <mxGeometry height="36" width="233" x="5215" y="11455" as="geometry" />
+        </mxCell>
+        <mxCell id="p8pPku43m1b92p_QuSgi-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;fontColor=light-dark(#000000,#FF0000);" value="按照1字节对齐" vertex="1">
+          <mxGeometry height="36" width="287" x="5215" y="11297" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
