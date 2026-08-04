@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" pages="3">
   <diagram id="UrWvoCSN2cO_QEoS_E0F" name="Day 28-50">
-    <mxGraphModel dx="3648" dy="2042" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="15000" math="0" shadow="0">
+    <mxGraphModel dx="2146" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="15000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7922,14 +7922,29 @@
         <mxCell id="p8pPku43m1b92p_QuSgi-173" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=25;fontColor=light-dark(#000000,#CC6600);labelBackgroundColor=none;" value="&lt;h1 class=&quot;style-scope ytd-watch-metadata&quot; style=&quot;margin: 0px; padding: 0px; border: 0px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; word-break: break-word; font-family: Roboto, Arial, sans-serif; font-size: 2rem; line-height: 2.8rem; overflow: hidden; max-height: 5.6rem; display: -webkit-box; -webkit-box-orient: vertical; text-overflow: ellipsis; -webkit-line-clamp: 2;&quot;&gt;Handmade Hero Day 038 - Basic linear Bitmap Blending&lt;/h1&gt;" vertex="1">
           <mxGeometry height="53" width="802" x="6215" y="39" as="geometry" />
         </mxCell>
-        <mxCell id="p8pPku43m1b92p_QuSgi-174" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="Mask" vertex="1">
-          <mxGeometry height="36" width="107" x="5931" y="197" as="geometry" />
-        </mxCell>
         <mxCell id="p8pPku43m1b92p_QuSgi-175" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="BitScanForward" vertex="1">
-          <mxGeometry height="36" width="107" x="5924" y="631" as="geometry" />
+          <mxGeometry height="36" width="227" x="5922.5" y="949" as="geometry" />
         </mxCell>
         <mxCell id="p8pPku43m1b92p_QuSgi-176" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="Linear Blending&amp;nbsp;" vertex="1">
           <mxGeometry height="36" width="284" x="5931" y="1082" as="geometry" />
+        </mxCell>
+        <mxCell id="p8pPku43m1b92p_QuSgi-178" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeWidth=7;fontSize=30;" value="BMP" vertex="1">
+          <mxGeometry height="245" width="442" x="5348" y="137" as="geometry" />
+        </mxCell>
+        <mxCell id="p8pPku43m1b92p_QuSgi-181" parent="1" style="shape=singleArrow;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="100" x="5848" y="201" as="geometry" />
+        </mxCell>
+        <mxCell id="p8pPku43m1b92p_QuSgi-183" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="RedMask" vertex="1">
+          <mxGeometry height="36" width="171" x="5993" y="157" as="geometry" />
+        </mxCell>
+        <mxCell id="p8pPku43m1b92p_QuSgi-184" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="GreenMask" vertex="1">
+          <mxGeometry height="36" width="183" x="5993" y="206" as="geometry" />
+        </mxCell>
+        <mxCell id="p8pPku43m1b92p_QuSgi-185" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="BlueMask" vertex="1">
+          <mxGeometry height="36" width="157" x="5993" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="p8pPku43m1b92p_QuSgi-186" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="AlphaMask = ~(RedMask | GreenMask&amp;nbsp;| BlueMask)" vertex="1">
+          <mxGeometry height="36" width="590.5" x="5993" y="325" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
