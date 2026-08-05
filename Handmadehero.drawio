@@ -1,9 +1,15 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" pages="3">
   <diagram id="UrWvoCSN2cO_QEoS_E0F" name="Day 28-50">
-    <mxGraphModel dx="1073" dy="874" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="15000" math="0" shadow="0">
+    <mxGraphModel dx="1824" dy="1021" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="15000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="484" width="859" x="6759" y="3269" as="geometry" />
+        </mxCell>
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="442" width="308" x="6583.5" y="3002" as="geometry" />
+        </mxCell>
         <mxCell id="wMB3RVRVKf3t6KqI4Tu0-388" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="742" width="1218" x="262" y="11383" as="geometry" />
         </mxCell>
@@ -8088,7 +8094,43 @@
           <mxGeometry height="36" width="889" x="6315" y="1442" as="geometry" />
         </mxCell>
         <mxCell id="wmqy7SNwuj5vt_DRDE-G-1" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=25;fontColor=light-dark(#000000,#CC6600);labelBackgroundColor=none;" value="&lt;h1 class=&quot;style-scope ytd-watch-metadata&quot; style=&quot;margin: 0px; padding: 0px; border: 0px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; word-break: break-word; font-family: Roboto, Arial, sans-serif; font-size: 2rem; line-height: 2.8rem; overflow: hidden; max-height: 5.6rem; display: -webkit-box; -webkit-box-orient: vertical; text-overflow: ellipsis; -webkit-line-clamp: 2;&quot;&gt;Handmade Hero Day 039 - Basic Bitmap Rendering Cleanup&lt;/h1&gt;" vertex="1">
-          <mxGeometry height="53" width="874" x="7660" y="1903" as="geometry" />
+          <mxGeometry height="53" width="874" x="6760.5" y="1933" as="geometry" />
+        </mxCell>
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=4;" value="" vertex="1">
+          <mxGeometry height="524" width="331" x="6636.5" y="2169" as="geometry" />
+        </mxCell>
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="A" vertex="1">
+          <mxGeometry height="36" width="29" x="6583.5" y="2118" as="geometry" />
+        </mxCell>
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=light-dark(#000000,#CC6600);" value="" vertex="1">
+          <mxGeometry height="29" width="29" x="6620.5" y="2154" as="geometry" />
+        </mxCell>
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=light-dark(#000000,#CC6600);" value="" vertex="1">
+          <mxGeometry height="32" width="32" x="6796.5" y="2592" as="geometry" />
+        </mxCell>
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="B" vertex="1">
+          <mxGeometry height="36" width="29" x="6828.5" y="2602" as="geometry" />
+        </mxCell>
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="6779.41" y="2576.19" as="sourcePoint" />
+            <mxPoint x="6658.5" y="2186.19" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="B (AlignX,AlignY)" vertex="1">
+          <mxGeometry height="36" width="227" x="7220.5" y="2288" as="geometry" />
+        </mxCell>
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="要将点B移动到A的位置,左上角的坐标应该是" vertex="1">
+          <mxGeometry height="36" width="510.5" x="7083" y="2365" as="geometry" />
+        </mxCell>
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;fontColor=light-dark(#000000,#FF9933);" value="&amp;nbsp;(A.X- AlignX,A.Y-AlignY)" vertex="1">
+          <mxGeometry height="36" width="311" x="7188.5" y="2432" as="geometry" />
+        </mxCell>
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#00FF80);" value="" vertex="1">
+          <mxGeometry height="175" width="132.5" x="6759" y="3269" as="geometry" />
+        </mxCell>
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="B (AlignX,AlignY)" vertex="1">
+          <mxGeometry height="36" width="227" x="6422.5" y="2830" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
