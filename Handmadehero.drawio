@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" pages="3">
   <diagram id="UrWvoCSN2cO_QEoS_E0F" name="Day 28-50">
-    <mxGraphModel dx="1824" dy="1021" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="15000" math="0" shadow="0">
+    <mxGraphModel dx="2146" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="15000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8129,8 +8129,56 @@
         <mxCell id="wmqy7SNwuj5vt_DRDE-G-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#00FF80);" value="" vertex="1">
           <mxGeometry height="175" width="132.5" x="6759" y="3269" as="geometry" />
         </mxCell>
-        <mxCell id="wmqy7SNwuj5vt_DRDE-G-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="B (AlignX,AlignY)" vertex="1">
-          <mxGeometry height="36" width="227" x="6422.5" y="2830" as="geometry" />
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="BMP" vertex="1">
+          <mxGeometry height="36" width="86" x="6698" y="2942" as="geometry" />
+        </mxCell>
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="Screen" vertex="1">
+          <mxGeometry height="36" width="86" x="7154.5" y="3700" as="geometry" />
+        </mxCell>
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="实际只需渲染阴影部分的面积" vertex="1">
+          <mxGeometry height="36" width="344" x="6962" y="3832" as="geometry" />
+        </mxCell>
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-20" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;legacyAnchorPoints=0;strokeWidth=3;strokeColor=light-dark(#000000,#80FF00);" value="" vertex="1">
+          <mxGeometry height="267" width="20" x="6927" y="3002" as="geometry" />
+        </mxCell>
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-21" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;legacyAnchorPoints=0;rotation=90;size=0.5;strokeWidth=3;strokeColor=light-dark(#000000,#80FF00);" value="" vertex="1">
+          <mxGeometry height="175" width="20" x="6661" y="3372.5" as="geometry" />
+        </mxCell>
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="MinY &amp;lt; 0" vertex="1">
+          <mxGeometry height="36" width="116" x="6959" y="3121" as="geometry" />
+        </mxCell>
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="MinX &amp;lt; 0" vertex="1">
+          <mxGeometry height="36" width="116" x="6620" y="3484" as="geometry" />
+        </mxCell>
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-25" parent="1" style="line;strokeWidth=2;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="308" x="6584" y="3020" as="geometry" />
+        </mxCell>
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-26" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="23" width="23" x="6583.5" y="3002" as="geometry" />
+        </mxCell>
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-27" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="6593.18" y="3013.17" as="sourcePoint" />
+            <mxPoint x="6517.95" y="3035.14" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="SourceRow" vertex="1">
+          <mxGeometry height="36" width="116" x="6429" y="3043" as="geometry" />
+        </mxCell>
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="RealSourceRow = SourceRow - SourceOffsetY&amp;nbsp;* BitMapWidth + SourceOffsetX" vertex="1">
+          <mxGeometry height="36" width="936" x="6709" y="3970" as="geometry" />
+        </mxCell>
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-30" parent="1" style="shape=singleArrow;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="32" width="205" x="7086" y="3125" as="geometry" />
+        </mxCell>
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="SourceOffsetY = -MinY" vertex="1">
+          <mxGeometry height="36" width="279" x="7323" y="3124" as="geometry" />
+        </mxCell>
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-32" parent="1" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="219" width="39" x="6645" y="3523" as="geometry" />
+        </mxCell>
+        <mxCell id="wmqy7SNwuj5vt_DRDE-G-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="SourceOffsetX = -MinX" vertex="1">
+          <mxGeometry height="36" width="279" x="6445" y="3757" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
