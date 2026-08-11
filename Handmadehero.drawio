@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" pages="3">
   <diagram id="UrWvoCSN2cO_QEoS_E0F" name="Day 28-50">
-    <mxGraphModel dx="2937" dy="1629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="15000" math="0" shadow="0">
+    <mxGraphModel dx="3427" dy="1900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="15000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10204,6 +10204,27 @@
         </mxCell>
         <mxCell id="zLoS-NaMk99UCATR6Ad4-188" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=25;" value="&lt;span style=&quot;font-size: 20.8333px;&quot;&gt;v&#39;= at + v&lt;/span&gt;" vertex="1">
           <mxGeometry height="31" width="110" x="8057" y="8698" as="geometry" />
+        </mxCell>
+        <mxCell id="zLoS-NaMk99UCATR6Ad4-189" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=25;fontColor=light-dark(#000000,#CC6600);labelBackgroundColor=none;" value="&lt;h1 class=&quot;style-scope ytd-watch-metadata&quot; style=&quot;margin: 0px; padding: 0px; border: 0px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; word-break: break-word; font-family: Roboto, Arial, sans-serif; font-size: 2rem; line-height: 2.8rem; overflow: hidden; max-height: 5.6rem; display: -webkit-box; -webkit-box-orient: vertical; text-overflow: ellipsis; -webkit-line-clamp: 2;&quot;&gt;Handmade Hero Day 045 - Geometric vs. Temporal Movement Search&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="53" width="1314.5" x="7465.5" y="9139" as="geometry" />
+        </mxCell>
+        <mxCell id="zLoS-NaMk99UCATR6Ad4-190" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=25;fontColor=light-dark(#000000,#CC6600);labelBackgroundColor=none;" value="&lt;h1 class=&quot;style-scope ytd-watch-metadata&quot; style=&quot;margin: 0px; padding: 0px; border: 0px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; word-break: break-word; font-family: Roboto, Arial, sans-serif; font-size: 2rem; line-height: 2.8rem; overflow: hidden; max-height: 5.6rem; display: -webkit-box; -webkit-box-orient: vertical; text-overflow: ellipsis; -webkit-line-clamp: 2;&quot;&gt;Handmade Hero Day 046 - Basic Multiplayer Support&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="53" width="798" x="7310" y="11523" as="geometry" />
+        </mxCell>
+        <mxCell id="zLoS-NaMk99UCATR6Ad4-191" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="157" width="157" x="6961" y="11757" as="geometry" />
+        </mxCell>
+        <mxCell id="zLoS-NaMk99UCATR6Ad4-192" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="157" width="157" x="6961" y="11914" as="geometry" />
+        </mxCell>
+        <mxCell id="zLoS-NaMk99UCATR6Ad4-193" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="157" width="157" x="6961" y="12071" as="geometry" />
+        </mxCell>
+        <mxCell id="zLoS-NaMk99UCATR6Ad4-194" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="157" width="157" x="6961" y="12228" as="geometry" />
+        </mxCell>
+        <mxCell id="zLoS-NaMk99UCATR6Ad4-195" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="157" width="157" x="6961" y="12385" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
