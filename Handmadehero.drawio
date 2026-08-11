@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" pages="3">
   <diagram id="UrWvoCSN2cO_QEoS_E0F" name="Day 28-50">
-    <mxGraphModel dx="1175" dy="651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="15000" math="0" shadow="0">
+    <mxGraphModel dx="1418" dy="786" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="15000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10093,8 +10093,19 @@
             <mxPoint x="8187.86" y="7542.71" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zLoS-NaMk99UCATR6Ad4-155" connectable="0" parent="zLoS-NaMk99UCATR6Ad4-154" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(v dot r )" vertex="1">
+        <mxCell id="zLoS-NaMk99UCATR6Ad4-155" connectable="0" parent="zLoS-NaMk99UCATR6Ad4-154" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="-(v dot r ) * r" vertex="1">
           <mxGeometry relative="1" x="0.2453" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zLoS-NaMk99UCATR6Ad4-156" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#FF66B3);strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="8073" y="7600" as="sourcePoint" />
+            <mxPoint x="8181.57" y="7533.57" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zLoS-NaMk99UCATR6Ad4-157" connectable="0" parent="zLoS-NaMk99UCATR6Ad4-156" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="m" vertex="1">
+          <mxGeometry relative="1" x="0.35" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
