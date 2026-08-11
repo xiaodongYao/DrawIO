@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" pages="3">
   <diagram id="UrWvoCSN2cO_QEoS_E0F" name="Day 28-50">
-    <mxGraphModel dx="2194" dy="1437" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="15000" math="0" shadow="0">
+    <mxGraphModel dx="2937" dy="1629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="15000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9628,6 +9628,39 @@
         </mxCell>
         <mxCell id="wmqy7SNwuj5vt_DRDE-G-977" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=29;" value="相机位置3 的时候，移动超过位置D，相差 大于 5 个 Tiles 的距离，相机位置切换为 1" vertex="1">
           <mxGeometry height="36" width="1322" x="7242" y="3943" as="geometry" />
+        </mxCell>
+        <mxCell id="zLoS-NaMk99UCATR6Ad4-1" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=25;fontColor=light-dark(#000000,#CC6600);labelBackgroundColor=none;" value="&lt;h1 class=&quot;style-scope ytd-watch-metadata&quot; style=&quot;margin: 0px; padding: 0px; border: 0px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; word-break: break-word; font-family: Roboto, Arial, sans-serif; font-size: 2rem; line-height: 2.8rem; overflow: hidden; max-height: 5.6rem; display: -webkit-box; -webkit-box-orient: vertical; text-overflow: ellipsis; -webkit-line-clamp: 2;&quot;&gt;Handmade Hero Day 042 - Basic 2D Vectors&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="53" width="655" x="7229" y="4218" as="geometry" />
+        </mxCell>
+        <mxCell id="zLoS-NaMk99UCATR6Ad4-2" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.orthogonal_triangle;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="178" width="229" x="6993" y="4396" as="geometry" />
+        </mxCell>
+        <mxCell id="zLoS-NaMk99UCATR6Ad4-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="a" vertex="1">
+          <mxGeometry height="36" width="23" x="6949" y="4474" as="geometry" />
+        </mxCell>
+        <mxCell id="zLoS-NaMk99UCATR6Ad4-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="b" vertex="1">
+          <mxGeometry height="36" width="23" x="7091" y="4577" as="geometry" />
+        </mxCell>
+        <mxCell id="zLoS-NaMk99UCATR6Ad4-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="c" vertex="1">
+          <mxGeometry height="36" width="23" x="7125" y="4452" as="geometry" />
+        </mxCell>
+        <mxCell id="zLoS-NaMk99UCATR6Ad4-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="Pythagorean Theorem 毕达哥拉斯定理" vertex="1">
+          <mxGeometry height="36" width="440" x="7242" y="4416" as="geometry" />
+        </mxCell>
+        <mxCell id="zLoS-NaMk99UCATR6Ad4-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="a&lt;span style=&quot;font-size: 20.8333px;&quot;&gt;&lt;sup&gt;2&lt;/sup&gt;+b&lt;sup&gt;2&lt;/sup&gt;=c&lt;sup&gt;2&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="36" width="229" x="7246" y="4481" as="geometry" />
+        </mxCell>
+        <mxCell id="zLoS-NaMk99UCATR6Ad4-9" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.orthogonal_triangle;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="178" width="229" x="6993" y="4696" as="geometry" />
+        </mxCell>
+        <mxCell id="zLoS-NaMk99UCATR6Ad4-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="d" vertex="1">
+          <mxGeometry height="36" width="23" x="7096" y="4883" as="geometry" />
+        </mxCell>
+        <mxCell id="zLoS-NaMk99UCATR6Ad4-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="d" vertex="1">
+          <mxGeometry height="36" width="23" x="6949" y="4772" as="geometry" />
+        </mxCell>
+        <mxCell id="zLoS-NaMk99UCATR6Ad4-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="m" vertex="1">
+          <mxGeometry height="36" width="23" x="7145" y="4758" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
