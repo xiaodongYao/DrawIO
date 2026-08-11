@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" pages="3">
   <diagram id="UrWvoCSN2cO_QEoS_E0F" name="Day 28-50">
-    <mxGraphModel dx="2056" dy="1140" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="15000" math="0" shadow="0">
+    <mxGraphModel dx="10280" dy="5700" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="15000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9823,6 +9823,33 @@
         </mxCell>
         <mxCell id="zLoS-NaMk99UCATR6Ad4-76" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;" value="a-b" vertex="1">
           <mxGeometry height="36" width="43" x="7612" y="5450" as="geometry" />
+        </mxCell>
+        <mxCell id="zLoS-NaMk99UCATR6Ad4-77" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=25;fontColor=light-dark(#000000,#CC6600);labelBackgroundColor=none;" value="&lt;h1 class=&quot;style-scope ytd-watch-metadata&quot; style=&quot;margin: 0px; padding: 0px; border: 0px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; word-break: break-word; font-family: Roboto, Arial, sans-serif; font-size: 2rem; line-height: 2.8rem; overflow: hidden; max-height: 5.6rem; display: -webkit-box; -webkit-box-orient: vertical; text-overflow: ellipsis; -webkit-line-clamp: 2;&quot;&gt;Handmade Hero Day 042 - The Equations of Motion&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="53" width="752" x="7222" y="5713" as="geometry" />
+        </mxCell>
+        <mxCell id="zLoS-NaMk99UCATR6Ad4-78" edge="1" parent="1" style="shape=link;html=1;rounded=0;strokeWidth=6;strokeColor=light-dark(#000000,#EA6B66);dashed=1;dashPattern=8 4 1 4;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <mxPoint x="5100" y="30" as="sourcePoint" />
+            <mxPoint x="5083.67" y="2566.67" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zLoS-NaMk99UCATR6Ad4-83" edge="1" parent="1" style="shape=link;html=1;rounded=0;dashed=1;dashPattern=8 4 1 4;strokeWidth=6;strokeColor=light-dark(#000000,#EA6B66);" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <mxPoint x="6604" y="3952" as="sourcePoint" />
+            <mxPoint x="6604" y="6108" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zLoS-NaMk99UCATR6Ad4-84" edge="1" parent="1" style="shape=link;html=1;rounded=0;strokeWidth=6;dashed=1;dashPattern=8 4 1 4;strokeColor=light-dark(#000000,#EA6B66);" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <mxPoint x="5235" y="2570" as="sourcePoint" />
+            <mxPoint x="5235" y="3911.57" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zLoS-NaMk99UCATR6Ad4-85" edge="1" parent="1" style="shape=link;html=1;rounded=0;strokeWidth=6;dashed=1;dashPattern=8 4 1 4;strokeColor=light-dark(#000000,#EA6B66);" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <mxPoint x="5237.5" y="3927" as="sourcePoint" />
+            <mxPoint x="6586" y="3927" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
