@@ -10818,7 +10818,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jJtx-42G6IY4DRil5565" name="Day 51-100">
-    <mxGraphModel dx="2419" dy="1341" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="15000" math="0" shadow="0">
+    <mxGraphModel dx="3427" dy="1900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="15000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11193,23 +11193,70 @@
         <mxCell id="pDB-nz6GQu4aJ_q1cFFm-135" edge="1" parent="1" source="pDB-nz6GQu4aJ_q1cFFm-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pDB-nz6GQu4aJ_q1cFFm-124" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pDB-nz6GQu4aJ_q1cFFm-140" edge="1" parent="1" source="pDB-nz6GQu4aJ_q1cFFm-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="pDB-nz6GQu4aJ_q1cFFm-138">
+        <mxCell id="pDB-nz6GQu4aJ_q1cFFm-157" edge="1" parent="1" source="pDB-nz6GQu4aJ_q1cFFm-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="pDB-nz6GQu4aJ_q1cFFm-142">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pDB-nz6GQu4aJ_q1cFFm-134" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;" value="Sword" vertex="1">
-          <mxGeometry height="104" width="204" x="2813" y="2505" as="geometry" />
+          <mxGeometry height="104" width="204" x="2813" y="2629" as="geometry" />
         </mxCell>
         <mxCell id="pDB-nz6GQu4aJ_q1cFFm-137" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=30;" value="ptr = SimRegion 中 对应Sword entitiy 的引用" vertex="1">
           <mxGeometry height="30" width="661" x="3110" y="2733" as="geometry" />
         </mxCell>
-        <mxCell id="pDB-nz6GQu4aJ_q1cFFm-141" edge="1" parent="1" source="pDB-nz6GQu4aJ_q1cFFm-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pDB-nz6GQu4aJ_q1cFFm-137" value="">
+        <mxCell id="pDB-nz6GQu4aJ_q1cFFm-141" edge="1" parent="1" source="pDB-nz6GQu4aJ_q1cFFm-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pDB-nz6GQu4aJ_q1cFFm-137" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pDB-nz6GQu4aJ_q1cFFm-138" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=30;" value="Index = GameState 中Sword 对应的entityIndex" vertex="1">
           <mxGeometry height="30" width="673" x="3104" y="2590" as="geometry" />
         </mxCell>
+        <mxCell id="pDB-nz6GQu4aJ_q1cFFm-143" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=30;" value="Hash 存储的是sim_region 中的entity 以及该entity在GameState中entity的Index" vertex="1">
+          <mxGeometry height="30" width="661" x="3865" y="1870.27" as="geometry" />
+        </mxCell>
+        <mxCell id="pDB-nz6GQu4aJ_q1cFFm-144" edge="1" parent="1" style="shape=flexArrow;endArrow=none;html=1;rounded=0;strokeWidth=5;startArrow=classic;startFill=1;endFill=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1075" y="3287" as="sourcePoint" />
+            <mxPoint x="3008" y="3287" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pDB-nz6GQu4aJ_q1cFFm-145" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;" value="sim_entity" vertex="1">
+          <mxGeometry height="104" width="204" x="1098" y="3101" as="geometry" />
+        </mxCell>
+        <mxCell id="pDB-nz6GQu4aJ_q1cFFm-155" edge="1" parent="1" source="pDB-nz6GQu4aJ_q1cFFm-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="pDB-nz6GQu4aJ_q1cFFm-151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pDB-nz6GQu4aJ_q1cFFm-146" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;" value="sim_entity" vertex="1">
+          <mxGeometry height="104" width="204" x="2790" y="3101" as="geometry" />
+        </mxCell>
+        <mxCell id="pDB-nz6GQu4aJ_q1cFFm-147" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=9;strokeColor=light-dark(#000000,#00CC66);startArrow=classic;startFill=1;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1302" y="3152.17" as="sourcePoint" />
+            <mxPoint x="2790" y="3152.17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pDB-nz6GQu4aJ_q1cFFm-148" connectable="0" parent="pDB-nz6GQu4aJ_q1cFFm-147" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=38;fontColor=light-dark(#000000,#00994D);" value="Copy back" vertex="1">
+          <mxGeometry relative="1" x="-0.0148" y="-5" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pDB-nz6GQu4aJ_q1cFFm-149" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=30;" value="ptr = SimRegion 中 对应Sword entitiy 的引用" vertex="1">
+          <mxGeometry height="30" width="661" x="3123" y="3209.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pDB-nz6GQu4aJ_q1cFFm-154" edge="1" parent="1" source="pDB-nz6GQu4aJ_q1cFFm-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pDB-nz6GQu4aJ_q1cFFm-149" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pDB-nz6GQu4aJ_q1cFFm-150" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=30;" value="Index = GameState 中Sword 对应的entityIndex" vertex="1">
+          <mxGeometry height="30" width="673" x="3117" y="3066.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pDB-nz6GQu4aJ_q1cFFm-151" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=30;fontColor=light-dark(#000000,#FFFF33);" value="Change Ptr to Index" vertex="1">
+          <mxGeometry height="30" width="369" x="3262" y="3138" as="geometry" />
+        </mxCell>
+        <mxCell id="pDB-nz6GQu4aJ_q1cFFm-156" edge="1" parent="1" source="pDB-nz6GQu4aJ_q1cFFm-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pDB-nz6GQu4aJ_q1cFFm-142" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3441" y="2620" as="sourcePoint" />
+            <mxPoint x="3441" y="2733" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="pDB-nz6GQu4aJ_q1cFFm-142" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=30;fontColor=light-dark(#000000,#FFFF33);" value="Change Index to Ptr" vertex="1">
-          <mxGeometry height="30" width="369" x="3276" y="2662" as="geometry" />
+          <mxGeometry height="30" width="369" x="3256" y="2666" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
