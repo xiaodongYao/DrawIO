@@ -435,6 +435,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tGFkZKhRUTvUkpQih1fv-5" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" value="" vertex="1">
+          <mxGeometry height="344" width="344" x="190" y="757" as="geometry" />
+        </mxCell>
         <mxCell id="fKPXE6uTd7UjrexOYN6P-8" edge="1" parent="1" source="fKPXE6uTd7UjrexOYN6P-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="fKPXE6uTd7UjrexOYN6P-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -506,8 +509,17 @@
         <mxCell id="ECXPus5f3CpMDyPR92B1-2" edge="1" parent="1" source="ECXPus5f3CpMDyPR92B1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.315;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" target="fKPXE6uTd7UjrexOYN6P-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="tGFkZKhRUTvUkpQih1fv-6" edge="1" parent="1" source="tGFkZKhRUTvUkpQih1fv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tGFkZKhRUTvUkpQih1fv-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="tGFkZKhRUTvUkpQih1fv-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="Render_Group" vertex="1">
           <mxGeometry height="54" width="280" x="222" y="849" as="geometry" />
+        </mxCell>
+        <mxCell id="tGFkZKhRUTvUkpQih1fv-4" edge="1" parent="1" source="tGFkZKhRUTvUkpQih1fv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fKPXE6uTd7UjrexOYN6P-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tGFkZKhRUTvUkpQih1fv-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="OutputTarget(DrawBuffer)" vertex="1">
+          <mxGeometry height="54" width="280" x="222" y="955" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
