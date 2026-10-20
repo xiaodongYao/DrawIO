@@ -497,11 +497,11 @@
         <mxCell id="yFBnot4wCxi3JJUDySjt-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="Simulation Region" vertex="1">
           <mxGeometry height="54" width="280" x="373" y="520" as="geometry" />
         </mxCell>
-        <mxCell id="yFBnot4wCxi3JJUDySjt-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="BeginSim" vertex="1">
-          <mxGeometry height="21.5" width="60" x="381" y="591" as="geometry" />
+        <mxCell id="yFBnot4wCxi3JJUDySjt-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=22;" value="BeginSim" vertex="1">
+          <mxGeometry height="21.5" width="60" x="358" y="591" as="geometry" />
         </mxCell>
-        <mxCell id="yFBnot4wCxi3JJUDySjt-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="EndSim" vertex="1">
-          <mxGeometry height="21.5" width="45" x="588" y="591" as="geometry" />
+        <mxCell id="yFBnot4wCxi3JJUDySjt-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=22;" value="EndSim" vertex="1">
+          <mxGeometry height="21.5" width="45" x="602" y="591" as="geometry" />
         </mxCell>
         <mxCell id="ECXPus5f3CpMDyPR92B1-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="Entity" vertex="1">
           <mxGeometry height="54" width="280" x="373" y="410" as="geometry" />
