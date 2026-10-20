@@ -501,7 +501,7 @@
           <mxGeometry height="21.5" width="60" x="358" y="591" as="geometry" />
         </mxCell>
         <mxCell id="yFBnot4wCxi3JJUDySjt-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=22;" value="EndSim" vertex="1">
-          <mxGeometry height="21.5" width="45" x="602" y="591" as="geometry" />
+          <mxGeometry height="21.5" width="45" x="618" y="591" as="geometry" />
         </mxCell>
         <mxCell id="ECXPus5f3CpMDyPR92B1-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="Entity" vertex="1">
           <mxGeometry height="54" width="280" x="373" y="410" as="geometry" />
@@ -520,6 +520,9 @@
         </mxCell>
         <mxCell id="tGFkZKhRUTvUkpQih1fv-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="OutputTarget(DrawBuffer)" vertex="1">
           <mxGeometry height="54" width="280" x="222" y="955" as="geometry" />
+        </mxCell>
+        <mxCell id="tGFkZKhRUTvUkpQih1fv-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=22;" value="Renderer" vertex="1">
+          <mxGeometry height="37" width="130" x="297" y="762" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
